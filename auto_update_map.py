@@ -8,9 +8,10 @@ AIRTABLE_TABLE_ID = os.environ["AIRTABLE_TABLE_ID"]
 AIRTABLE_VIEW_NAME = os.environ["AIRTABLE_VIEW_NAME"]
 MAPBOX_SK_TOKEN = os.environ["MAPBOX_SK_TOKEN"]
 
-# Optional: ID (or name) of the table that "Network Membership" links to.
-# If set, network names are resolved from record IDs. If blank, networks are skipped.
+# Optional: ID of the table that "Network Membership" links to.
 AIRTABLE_NETWORKS_TABLE_ID = os.environ.get("AIRTABLE_NETWORKS_TABLE_ID", "")
+# Optional: ID of the table that "Category of Work" links to.
+AIRTABLE_CATEGORIES_TABLE_ID = os.environ.get("AIRTABLE_CATEGORIES_TABLE_ID", "")
 
 MAPBOX_USERNAME = "annacorn"
 MAPBOX_TILESET_SOURCE_ID = "healthy-democracy-orgs"
@@ -65,30 +66,50 @@ def build_network_lookup():
     return lookup
 
 
-def resolve_networks(field_value, network_lookup):
+def build_category_lookup():
+    """Return a dict mapping Airtable record ID -> category name."""
+    if not AIRTABLE_CATEGORIES_TABLE_ID:
+        print("AIRTABLE_CATEGORIES_TABLE_ID not set — category names will be omitted.")
+        return {}
+
+    print(f"Fetching category records from table '{AIRTABLE_CATEGORIES_TABLE_ID}'...")
+    records = fetch_all_records(AIRTABLE_CATEGORIES_TABLE_ID)
+    lookup = {}
+    for rec in records:
+        name = rec.get("fields", {}).get("Name", "").strip()
+        if name:
+            lookup[rec["id"]] = name
+    print(f"  Loaded {len(lookup)} category names.")
+    return lookup
+
+
+def resolve_linked_field(field_value, lookup):
     """
-    Convert a Network Membership field value to a list of names.
-    Airtable returns a list of record IDs for linked fields.
-    Falls back gracefully if the value is already strings or is missing.
+    Resolve a linked field value (record ID or list of IDs) to names using a lookup dict.
+    Returns a list of resolved name strings.
     """
     if not field_value:
         return []
     if isinstance(field_value, str):
-        # Already a plain string (e.g. from a formula/lookup field)
-        return [s.strip() for s in field_value.split(",") if s.strip()]
+        if field_value.startswith("rec") and field_value in lookup:
+            return [lookup[field_value]]
+        elif not field_value.startswith("rec"):
+            return [s.strip() for s in field_value.split(",") if s.strip()]
     if isinstance(field_value, list):
         names = []
         for item in field_value:
             if isinstance(item, str):
-                if item.startswith("rec") and item in network_lookup:
-                    # It's a record ID — resolve to name
-                    names.append(network_lookup[item])
+                if item.startswith("rec") and item in lookup:
+                    names.append(lookup[item])
                 elif not item.startswith("rec"):
-                    # Already a plain name
                     names.append(item.strip())
-                # Record ID with no match in lookup: silently skip
         return names
     return []
+
+
+def resolve_networks(field_value, network_lookup):
+    """Resolve Network Membership linked field to a list of network name strings."""
+    return resolve_linked_field(field_value, network_lookup)
 
 
 # ---------------------------------------------------------------------------
@@ -107,7 +128,7 @@ def parse_coords(fields):
         return None, None
 
 
-def record_to_feature(record, network_lookup):
+def record_to_feature(record, network_lookup, category_lookup):
     """Convert an Airtable record to a GeoJSON Feature. Returns None if lat/lng missing."""
     fields = record.get("fields", {})
     lat, lng = parse_coords(fields)
@@ -115,18 +136,20 @@ def record_to_feature(record, network_lookup):
         return None
 
     networks = resolve_networks(fields.get("Network Membership"), network_lookup)
+    categories = resolve_linked_field(fields.get("Category of Work"), category_lookup)
 
     # Start with ALL Airtable fields so nothing is accidentally dropped from the tileset.
-    # Skip internal/geo fields that don't belong in map properties.
-    SKIP_FIELDS = {"Latitude", "Longitude", "Network Membership"}
+    # Skip linked fields that we'll overwrite with resolved names below.
+    SKIP_FIELDS = {"Latitude", "Longitude", "Network Membership", "Category of Work"}
     properties = {
         k: (v if not isinstance(v, list) else ", ".join(str(i) for i in v))
         for k, v in fields.items()
         if k not in SKIP_FIELDS
     }
 
-    # Overwrite Network Membership with resolved names (comma-joined string)
+    # Write resolved human-readable values
     properties["Network Membership"] = ", ".join(networks) if networks else None
+    properties["Category of Work"] = ", ".join(categories) if categories else None
 
     return {
         "type": "Feature",
@@ -135,7 +158,7 @@ def record_to_feature(record, network_lookup):
     }
 
 
-def record_to_index_entry(record, network_lookup):
+def record_to_index_entry(record, network_lookup, category_lookup):
     """Convert an Airtable record to an orgs_index entry. Returns None if lat/lng missing."""
     fields = record.get("fields", {})
     lat, lng = parse_coords(fields)
@@ -143,12 +166,13 @@ def record_to_index_entry(record, network_lookup):
         return None
 
     networks = resolve_networks(fields.get("Network Membership"), network_lookup)
+    categories = resolve_linked_field(fields.get("Category of Work"), category_lookup)
 
     return {
         "name": fields.get("Name"),
         "city": fields.get("City"),
         "state": fields.get("State"),
-        "category": fields.get("Category of Work"),
+        "category": ", ".join(categories) if categories else None,
         "mission": fields.get("Mission/Description"),
         "website": fields.get("Website"),
         "networks": networks,          # Array<string> — what the JS expects
@@ -197,8 +221,9 @@ def publish_tileset():
 # ---------------------------------------------------------------------------
 
 def main():
-    # 1. Resolve network names from linked table (needed before processing orgs)
+    # 1. Resolve linked field lookups before processing orgs
     network_lookup = build_network_lookup()
+    category_lookup = build_category_lookup()
 
     # 2. Fetch org records filtered by the live view
     print(f"Fetching org records from view '{AIRTABLE_VIEW_NAME}'...")
@@ -209,11 +234,11 @@ def main():
     features = []
     index_entries = []
     for record in records:
-        feature = record_to_feature(record, network_lookup)
+        feature = record_to_feature(record, network_lookup, category_lookup)
         if feature:
             features.append(feature)
 
-        entry = record_to_index_entry(record, network_lookup)
+        entry = record_to_index_entry(record, network_lookup, category_lookup)
         if entry:
             index_entries.append(entry)
 
