@@ -58,7 +58,7 @@ def build_network_lookup():
     records = fetch_all_records(AIRTABLE_NETWORKS_TABLE_ID)
     lookup = {}
     for rec in records:
-        name = rec.get("fields", {}).get("Name", "").strip()
+        name = rec.get("fields", {}).get("Network/Coalition", "").strip()
         if name:
             lookup[rec["id"]] = name
     print(f"  Loaded {len(lookup)} network names.")
