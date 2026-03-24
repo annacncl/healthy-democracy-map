@@ -116,19 +116,22 @@ def record_to_feature(record, network_lookup):
 
     networks = resolve_networks(fields.get("Network Membership"), network_lookup)
 
+    # Start with ALL Airtable fields so nothing is accidentally dropped from the tileset.
+    # Skip internal/geo fields that don't belong in map properties.
+    SKIP_FIELDS = {"Latitude", "Longitude", "Network Membership"}
+    properties = {
+        k: (v if not isinstance(v, list) else ", ".join(str(i) for i in v))
+        for k, v in fields.items()
+        if k not in SKIP_FIELDS
+    }
+
+    # Overwrite Network Membership with resolved names (comma-joined string)
+    properties["Network Membership"] = ", ".join(networks) if networks else None
+
     return {
         "type": "Feature",
         "geometry": {"type": "Point", "coordinates": [lng, lat]},
-        "properties": {
-            "Name": fields.get("Name"),
-            "City": fields.get("City"),
-            "State": fields.get("State"),
-            "Category of Work": fields.get("Category of Work"),
-            "Mission": fields.get("Mission"),
-            "Website": fields.get("Website"),
-            "Network Membership": ", ".join(networks) if networks else None,
-            "General Contact Email": fields.get("General Contact Email"),
-        },
+        "properties": properties,
     }
 
 
@@ -146,7 +149,7 @@ def record_to_index_entry(record, network_lookup):
         "city": fields.get("City"),
         "state": fields.get("State"),
         "category": fields.get("Category of Work"),
-        "mission": fields.get("Mission"),
+        "mission": fields.get("Mission/Description"),
         "website": fields.get("Website"),
         "networks": networks,          # Array<string> — what the JS expects
         "email": fields.get("General Contact Email"),
