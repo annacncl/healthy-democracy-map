@@ -31,6 +31,7 @@ jobs:
           AIRTABLE_TABLE_ID: ${{ secrets.AIRTABLE_TABLE_ID }}
           AIRTABLE_VIEW_NAME: ${{ secrets.AIRTABLE_VIEW_NAME }}
           AIRTABLE_NETWORKS_TABLE_ID: ${{ secrets.AIRTABLE_NETWORKS_TABLE_ID }}
+          AIRTABLE_CATEGORIES_TABLE_ID: ${{ secrets.AIRTABLE_CATEGORIES_TABLE_ID }}
           MAPBOX_SK_TOKEN: ${{ secrets.MAPBOX_SK_TOKEN }}
         run: python auto_update_map.py
 
