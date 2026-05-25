@@ -1,5 +1,5 @@
 {
-  "total": 11274,
+  "total": 11265,
   "records": [
     {
       "name": "Proud Ground",
@@ -1862,20 +1862,6 @@
       "email": "kaza@arkansaspolicyfoundation.org",
       "latitude": 34.7478754,
       "longitude": -92.2723491
-    },
-    {
-      "name": "Arthur W. Page Society",
-      "city": "New York",
-      "state": [
-        "NY"
-      ],
-      "category": null,
-      "mission": "The Page mission is to strengthen the impact of chief communication officers and their teams and to lead the profession into the future.",
-      "website": "https://page.org/",
-      "networks": [],
-      "email": "contactus@page.org",
-      "latitude": 40.754634,
-      "longitude": -73.9760841
     },
     {
       "name": "Ascentria Care Alliance",
@@ -8284,22 +8270,6 @@
       "longitude": -76.995282
     },
     {
-      "name": "Council on Foreign Relations",
-      "city": "New York",
-      "state": [
-        "NY"
-      ],
-      "category": null,
-      "mission": "The mission of the Council on Foreign Relations is to inform U.S. engagement with the world.",
-      "website": "https://www.cfr.org/",
-      "networks": [
-        "iCivics/CivxNow Coalition"
-      ],
-      "email": "communications@cfr.org",
-      "latitude": 40.7684925,
-      "longitude": -73.9661591
-    },
-    {
       "name": "Council on Foreign Relations Education",
       "city": "New York",
       "state": [
@@ -14644,7 +14614,7 @@
       "state": [
         "NY"
       ],
-      "category": null,
+      "category": "Funder",
       "mission": "At Just Food, we work passionately to shift the power, health, and wealth of historically marginalized communities that have been purposely divested from by developing community-driven solutions to inequities within the New York regional food system. We catalyze action and create change through our learner-centered trainings, annual conferences, and vibrant network of small- to mid-scale regional farmers. We have made racial, economic, and environmental equity our north star.",
       "website": "https://www.justfood.org/",
       "networks": [
@@ -20206,22 +20176,6 @@
       "longitude": -71.1110406
     },
     {
-      "name": "Nazareth University",
-      "city": "Rochester",
-      "state": [
-        "NY"
-      ],
-      "category": null,
-      "mission": null,
-      "website": "https://www2.naz.edu/",
-      "networks": [
-        "SLSV"
-      ],
-      "email": "info@naz.edu",
-      "latitude": 43.1019755,
-      "longitude": -77.5154577
-    },
-    {
       "name": "NCPIRG Education Fund",
       "city": "Raleigh",
       "state": [
@@ -21120,22 +21074,6 @@
       "email": "info@nyssba.org",
       "latitude": 42.7702915,
       "longitude": -73.7594305
-    },
-    {
-      "name": "New York State Unified Court System",
-      "city": "New York",
-      "state": [
-        "NY"
-      ],
-      "category": null,
-      "mission": "The New York Department of State’s core mission is to provide a better quality of life and expand opportunities for all New Yorkers by fostering community revitalization, catalyzing economic growth through business formation, protecting consumers, helping new Americans, supporting local governments, assisting individuals and families to achieve upward economic mobility, and ensuring safety and integrity through the regulation of licensed occupations and the development of building standards and codes.",
-      "website": "https://www.nycourts.gov/",
-      "networks": [
-        "Democracy Ready NY"
-      ],
-      "email": "question@nycourts.gov",
-      "latitude": 40.7051719,
-      "longitude": -74.0122435
     },
     {
       "name": "New_Public",
@@ -25882,22 +25820,6 @@
       "longitude": -70.2599305
     },
     {
-      "name": "School Library Systems Association of New York",
-      "city": null,
-      "state": [
-        "NY"
-      ],
-      "category": null,
-      "mission": "Established in 1984, the School Library Systems (SLS) program provides support for public and nonpublic school library media centers across the state. School library systems are city school districts (New York City, Buffalo, Rochester, Syracuse, and Yonkers) or organizations of school districts and nonpublic schools that work with a board of cooperative educational services (BOCES). Main functions of the program are outlined in Commissioner's Regulations 90.18.",
-      "website": "https://www.nysl.nysed.gov/libdev/slssap/",
-      "networks": [
-        "Democracy Ready NY"
-      ],
-      "email": "libraries@schools.nyc.gov",
-      "latitude": 40.7127753,
-      "longitude": -74.0059728
-    },
-    {
       "name": "Schumacher Center for a New Economics",
       "city": "Great Barrington",
       "state": [
@@ -26622,23 +26544,6 @@
       "email": "info@solidarityresearch.org",
       "latitude": 34.1060608,
       "longitude": -118.2871422
-    },
-    {
-      "name": "SolidarityNYC",
-      "city": "New York",
-      "state": [
-        "NY"
-      ],
-      "category": null,
-      "mission": "We’re a collective of organizers and researchers who promote, connect, and support New York City’s solidarity economy. Solidarity economy practices utilize values of justice, democracy, cooperation, and mutualism to meet community needs. Our collective renders these practices visible, through mapping and filmmaking, and brings the sectors of the solidarity economy into greater cooperation with each other for enhanced economic and political power through education, organizing, and research. \n\nOur vision is a vibrant and growing movement to provide greater economic security, improved health, and increased democracy for our communities. \n",
-      "website": "http://solidaritynyc.org/#/",
-      "networks": [
-        "Cooperative Economics Alliance of NYC",
-        "New Economy Coalition"
-      ],
-      "email": "info@solidaritynyc.org",
-      "latitude": 40.7507189,
-      "longitude": -73.9855703
     },
     {
       "name": "Solutions Journalism Network",
@@ -96412,7 +96317,7 @@
       "state": [
         "NY"
       ],
-      "category": null,
+      "category": "Funder",
       "mission": "A community foundation dedicated to connecting people, ideas, and resources to improve lives and expand opportunities in the Adirondack region.\n",
       "website": "www.AdirondackFoundation.org",
       "networks": [
@@ -96444,7 +96349,7 @@
       "state": [
         "NY"
       ],
-      "category": null,
+      "category": "Funder",
       "mission": "Use music and transformational education, to ease the pain of Dementia and create meaning for all involved.",
       "website": "https://AliveInside.org",
       "networks": [
@@ -96929,7 +96834,7 @@
       "state": [
         "NY"
       ],
-      "category": null,
+      "category": "Funder",
       "mission": "In the halls of power, the Campaign for a Family Friendly Economy, a project of Family Friendly Action Fund, builds grassroots support for solutions that would transform the lives of American families, like paid family and medical leave, lower cost prescription drugs and affordable elder and childcare. At the ballot box, CFFE PAC helps elect candidates who fight for working families and who support policies including paid leave, affordable child care, earned sick days, and livable wages.",
       "website": "https://familyfriendlyeconomy.org/",
       "networks": [
@@ -96991,7 +96896,7 @@
       "state": [
         "NY"
       ],
-      "category": null,
+      "category": "Funder",
       "mission": "The Community Foundation is committed to fostering a community of belonging where people of all backgrounds, races and identities feel safe, respected, and valued. Equity is embedded in everything we do—it is central to ensuring that all people have a fair opportunity to thrive.\n",
       "website": "https://cnycf.org/",
       "networks": [
@@ -97087,7 +96992,7 @@
       "state": [
         "NY"
       ],
-      "category": null,
+      "category": "Funder",
       "mission": "The Chautauqua Region Community Foundation's mission is to ignite positive change and create a legacy of impact, in partnership with our community.",
       "website": "https://www.crcfonline.org/",
       "networks": [
@@ -97354,7 +97259,7 @@
       "state": [
         "NY"
       ],
-      "category": null,
+      "category": "Funder",
       "mission": "Welcome to the Community Foundation of Herkimer and Oneida Counties! Our experienced and dedicated staff and trustees are committed to matching donor support with community and nonprofit organization needs through innovative, solution-based community investments aimed at positive impact. Our community project funding and initiatives have allowed us to move our region forward.\n\nFor 70 years, we have grown and stewarded community resources to ensure greater capacity for future needs and unexpected challenges. On top of creating endowed funds and setting up planned charitable giving options, we've also created many scholarship and community grant opportunities.",
       "website": "https://www.foundationhoc.org/",
       "networks": [
@@ -97370,7 +97275,7 @@
       "state": [
         "NY"
       ],
-      "category": null,
+      "category": "Funder",
       "mission": "To strengthen our communities by offering donors the means to establish charitable legacies, by making grants, and by providing leadership to address community needs in a manner that is responsible, responsive and lasting.",
       "website": "https://communityfoundationshv.org/",
       "networks": [
@@ -97478,7 +97383,7 @@
       "state": [
         "NY"
       ],
-      "category": null,
+      "category": "Funder",
       "mission": "CSH works to advance affordable housing aligned with services as an approach to help people thrive. We do this by advocating for effective policies and funding, equitably investing in communities, and strengthening the supportive housing field.",
       "website": "https://www.csh.org/",
       "networks": [
@@ -97637,7 +97542,7 @@
       "state": [
         "NY"
       ],
-      "category": null,
+      "category": "Funder",
       "mission": "The mission of the Doris Duke Foundation (DDF) is to build a more creative, equitable and sustainable future by investing in artists and the performing arts, environmental conservation, medical research, child well-being and greater mutual understanding among diverse communities.",
       "website": "https://www.dorisduke.org/",
       "networks": [],
@@ -97681,7 +97586,7 @@
       "state": [
         "NY"
       ],
-      "category": null,
+      "category": "Funder",
       "mission": "Einhorn Collaborative works with a wide range of cultural influencers, researchers, community leaders, and funders to help Americans build stronger relationships, embrace our differences, and rediscover our shared humanity — so we can solve our most urgent challenges together.",
       "website": "https://einhorncollaborative.org/",
       "networks": [
@@ -97771,7 +97676,7 @@
       "state": [
         "NY"
       ],
-      "category": null,
+      "category": "Funder",
       "mission": "The Foundation Against Intolerance & Racism (\"FAIR\")is a nonprofit, nonpartisan organization committed to challenging threats to civil liberties from identity-based practices.\nFAIRadvocates for all individuals denied equal protection, free expression, and other fundamental rights, regardless of their personal background or immutable characteristics.\nFAIR's work,from legal advocacy to grassroots organization, promotes a pro-human culture based on our shared values of universal equality, fairness, understanding, and common humanity.",
       "website": "https://www.fairforall.org/",
       "networks": [
@@ -97868,7 +97773,7 @@
       "state": [
         "NY"
       ],
-      "category": null,
+      "category": "Funder",
       "mission": "Four Freedoms Fund (FFF) strengthens the capacity of the immigrant justice movement to ensure all immigrants, regardless of immigration status, have dignity, power to shape change, and agency to determine the quality of their life, community, and future. FFF is a project of NEO Philanthropy.",
       "website": "https://fourfreedomsfund.org/",
       "networks": [
@@ -97884,7 +97789,7 @@
       "state": [
         "NY"
       ],
-      "category": null,
+      "category": "Funder",
       "mission": "For more than a decade, we have worked in partnership with our grantees to always meet the moment. Now, we are entering a new era. At the Freedom Together Foundation, we believe the struggle to defend and expand multiracial democracy is the defining challenge of our time. Philanthropy has a crucial role to play.",
       "website": "https://www.freedomtogether.org/",
       "networks": [
@@ -97944,7 +97849,7 @@
       "state": [
         "NY"
       ],
-      "category": null,
+      "category": "Funder",
       "mission": "The Funders’ Committee for Civic Participation (FCCP) is an innovative and thought-provoking network that shares an underlying conviction that all people deserve a voice in the democratic process. We serve leaders in the philanthropic community working to further this vision with heightened attention to sociopolitical inequity and the systemic disenfranchisement of underrepresented communities. FCCP values transparency, encourages a diversity of opinion, bases our work on sound research, and encourages experimentation to improve impact. ",
       "website": "https://funderscommittee.org/",
       "networks": [],
@@ -98252,7 +98157,7 @@
       "state": [
         "NY"
       ],
-      "category": null,
+      "category": "Funder",
       "mission": "Through 5,800 grants totaling more than $1 billion, the Henry Luce Foundation has played a critical role in strengthening the field of Asia studies, encouraging interfaith understanding, raising the visibility of American art in museums and universities, and closing the gender gap in STEM research and teaching.",
       "website": "https://www.hluce.org/",
       "networks": [
@@ -98401,7 +98306,7 @@
       "state": [
         "NY"
       ],
-      "category": null,
+      "category": "Funder",
       "mission": "ioby's mission is to mobilize neighbors who have good ideas to become powerful civic leaders who plan, fund, and make positive change in their own neighborhoods.",
       "website": "https://www.ioby.org/",
       "networks": [],
@@ -98803,7 +98708,7 @@
       "state": [
         "NY"
       ],
-      "category": null,
+      "category": "Funder",
       "mission": "Living Cities is a collaborative of philanthropic and financial institutions committed to a vision where all people in US cities are economically secure, building wealth, and living abundant, dignified and connected lives. Living Cities' mission is to close the racial wealth gap using the collective power of philanthropy, financial institutions and local governments and its strategy is to advance inclusive capital in key wealth building pathways for Black, indigenous, Latine, Asian Americans and other people of color. ",
       "website": "www.livingcities.org",
       "networks": [],
@@ -98968,7 +98873,7 @@
       "state": [
         "NY"
       ],
-      "category": null,
+      "category": "Funder",
       "mission": "The Foundation uses a variety of philanthropic strategies to strengthen civic and cultural institutions in underserved communities of New York City, address the climate crisis and build a democracy that works for all. ",
       "website": "https://www.mertzgilmore.org/",
       "networks": [
@@ -99065,7 +98970,7 @@
       "state": [
         "NY"
       ],
-      "category": null,
+      "category": "Funder",
       "mission": "As an intermediary, we bridge the gap that often exists between funders and organizations doing the work, through collaborative funds, fiscal sponsorships, donor services and capacity building.",
       "website": "https://neophilanthropy.org/",
       "networks": [
@@ -99179,7 +99084,7 @@
       "state": [
         "NY"
       ],
-      "category": null,
+      "category": "Funder",
       "mission": "The organization’s accomplishments include advocacy that resulted in the NYS Executive Branch mandating over 340,000 state employees to receive Gender Expression Non-Discrimination Act (GENDA) cultural competency training—a first in the nation; ensuring the repeal of the “Walking While Trans” ban was included in 2021 Executive Budget; state funding for LGBTQ health and human services; securing insurance coverage for PrEP access, and more.",
       "website": "https://www.newprideagenda.org/",
       "networks": [],
@@ -99221,7 +99126,7 @@
       "state": [
         "NY"
       ],
-      "category": null,
+      "category": "Funder",
       "mission": null,
       "website": "https://normanfdn.org/",
       "networks": [
@@ -99283,7 +99188,7 @@
       "state": [
         "NY"
       ],
-      "category": null,
+      "category": "Funder",
       "mission": "THE OPED PROJECT PUBLIC KNOWLEDGE FUND, INC. TARGETS AND TRAINS WOMEN EXPERTS IN ALL FIELDS, THROUGH SEMINARS, WORKSHOPS AND OTHER FORUMS, TO WRITE FOR THE OP-ED PAGES OF MAJOR PRINT AND ONLINE FORUMS OF PUBLIC DISCOURSE. THE OPED PROJECT OFFERS SEMINARS THAT FOCUS SPECIFICALLY ON LOW-INCOME WOMEN AND OTHER UNDER REPRESENTED GROUPS. THE SEMINARS TEACH PARTICIPANTS TO HOW TO WRITE, EDIT, AND SUBMIT OP-ED COLUMNS FOR PUBLICATION WITH THE GOAL OF ENCOURAGING WOMEN AND OTHER UNDER REPRESENTED GROUPS TO ENGAGE IN PUBLIC DISCOURSE AND INCREASING THE LEVELS OF PARTICIPATION IN PUBLIC AFFAIRS. THE OPED PROJECT OFFERS SEMINARS WHICH ADDRESS THE CONCEPTS OF EXPERTISE, CREDITABILITY, EVIDENCE, AND FRAMING. THESE SEMINARS ARE OFFERED REGULARLY IN MAJOR CITIES THROUGHOUT THE UNITED STATES. THE OPED PROJECT WAIVES SEMINAR FEES FOR PARTICIPANTS WHO CANNOT AFFORD TO PAY.THE OPED PROJECT ALSO OFFERS A MENTOR-EDITOR PROGRAM, A NATIONAL, VOLUNTEER-BASED MENTORING PROGRAM WHICH WAS ESTABLISHED TO HARNESS",
       "website": "https://www.theopedproject.org/",
       "networks": [],
@@ -99407,7 +99312,7 @@
       "state": [
         "NY"
       ],
-      "category": null,
+      "category": "Funder",
       "mission": "The Planned Parenthood Action Fund works to advance access to sexual health care and defend reproductive rights.",
       "website": "https://www.plannedparenthoodaction.org/",
       "networks": [
@@ -99563,7 +99468,7 @@
       "state": [
         "NY"
       ],
-      "category": null,
+      "category": "Funder",
       "mission": "The Rockefeller Brothers Fund (RBF) advances social change that contributes to a more just, sustainable, and peaceful world.\n\nAs a private family foundation rooted in the Rockefeller tradition of philanthropy, we believe we have an obligation to take the long view, to experiment and take risks, to share our learning, and to leverage all our resources for the common good. Through our grantmaking, convening, mission-aligned investing, and leadership, the RBF supports the people and organizations building lasting solutions to the challenges facing today’s increasingly interdependent world.\n\n",
       "website": "https://www.rbf.org/",
       "networks": [
@@ -99581,7 +99486,7 @@
       "state": [
         "NY"
       ],
-      "category": null,
+      "category": "Funder",
       "mission": "The Rockefeller Family Fund's staff of issue experts and strategists work across three program areas to develop and implement initiatives and make grants in partnership with national and state-based organizations, leaders, experts, and other funders.",
       "website": "https://rffund.org/",
       "networks": [
@@ -99772,7 +99677,7 @@
       "state": [
         "NY"
       ],
-      "category": null,
+      "category": "Funder",
       "mission": "Envisioning a Vibrant American Democracy, where all people are empowered to create lasting & positive change.",
       "website": "https://neophilanthropy.org/state-infrastructure-fund/",
       "networks": [
@@ -99802,7 +99707,7 @@
       "state": [
         "NY"
       ],
-      "category": null,
+      "category": "Funder",
       "mission": "The Surdna Foundation was founded in 1917 by John Emory Andrus to pursue a range of philanthropic purposes. To this day, family stewardship of the Foundation is guided by Andrus’ commitment to serving those in need.",
       "website": "https://surdna.org/",
       "networks": [
@@ -99965,7 +99870,7 @@
       "state": [
         "NY"
       ],
-      "category": null,
+      "category": "Funder",
       "mission": "Our mission is to strengthen our community through philanthropy.\nWe do this in collaboration with donors and community partners who share our vision for community transformation through stewardship of charitable endowments, superior donor services, effective grantmaking, and leadership to address community needs.\n\nThe Community Foundation is governed by a Board of Directors and staffed by a team of local experts, representing diverse backgrounds, interests, and professional expertise. Foundation staff members work closely with donors, grantees, community leaders, government agencies, and businesses to ensure the Community Foundation effectively meets community needs.",
       "website": "https://www.cfgcr.org/",
       "networks": [
@@ -100044,7 +99949,7 @@
       "state": [
         "NY"
       ],
-      "category": null,
+      "category": "Funder",
       "mission": "The Fund for Modern Courts is a non-partisan, statewide organization committed to ensuring that the New York State judiciary is independent and that our courts are just and equitable for all. ",
       "website": "https://moderncourts.org/",
       "networks": [],
@@ -100156,7 +100061,7 @@
       "state": [
         "NY"
       ],
-      "category": null,
+      "category": "Funder",
       "mission": "The Jed Foundation (JED) is a nonprofit that protects emotional health and prevents suicide for our nation’s teens and young adults, giving them the skills and support they need to thrive today…and tomorrow.",
       "website": "https://jedfoundation.org/",
       "networks": [
@@ -100251,7 +100156,7 @@
       "state": [
         "NY"
       ],
-      "category": null,
+      "category": "Funder",
       "mission": "The Overbrook Foundation partners with innovative and impactful organizations to address some of the world’s most pressing challenges in the areas of the environment and human rights. From playing a pivotal role in securing marriage equality in the United States to helping organize the first People's Climate March, the Foundation has pursued its mission with a blend of passion, pragmatism, humility, and hope since our founding in 1948.",
       "website": "https://overbrook.org/",
       "networks": [
@@ -100331,7 +100236,7 @@
       "state": [
         "NY"
       ],
-      "category": null,
+      "category": "Funder",
       "mission": "The Scherman Foundation invests in the economic, political, and cultural transformation necessary for Black, Indigenous, and People of Color to reclaim and build power.",
       "website": "https://www.scherman.org/",
       "networks": [
@@ -100364,7 +100269,7 @@
       "state": [
         "NY"
       ],
-      "category": null,
+      "category": "Funder",
       "mission": "SCHOLARSHIPS:  shall be awarded to children of firefighters who attend vocational or parochial school. \n• MEDICAL EMERGENCY GRANTS: IF firefighter oR family becomes ill, disabled or incapacitated the Fund shall GIVE FINANCIAL SUPPORT.\n• EQUIPMENT GRANTS: assist with the purchase of fire service equipment, apparatus, protective clothing or tools.\n• TRAINING GRANTS: The Fund shall supply all training materials and instructors to any fire department .\n• MENTAL HEALTH TRAINING & COUNSELING: the fund will provide licensed mental health professionals to train first responders and will provide confidential one on one counseling .",
       "website": "https://www.terryfund.org/",
       "networks": [],
@@ -100424,7 +100329,7 @@
       "state": [
         "NY"
       ],
-      "category": null,
+      "category": "Funder",
       "mission": "At Unbound Philanthropy, we seek to contribute to a vibrant, welcoming society and an immigration system rooted in justice.",
       "website": "https://unboundphilanthropy.org/",
       "networks": [
@@ -100440,7 +100345,7 @@
       "state": [
         "NY"
       ],
-      "category": null,
+      "category": "Funder",
       "mission": "We’re a vibrant group with many backgrounds and beliefs. We are curious and compassionate thinkers and doers. We’d love to meet you.",
       "website": "https://www.uucsr.org/",
       "networks": [
@@ -100563,7 +100468,7 @@
       "state": [
         "NY"
       ],
-      "category": null,
+      "category": "Funder",
       "mission": "Wellspring Philanthropic Fund supports the realization of human rights and social and economic justice for all people.",
       "website": "https://wpfund.org/",
       "networks": [
@@ -153084,20 +152989,6 @@
       "longitude": -71.0671002
     },
     {
-      "name": "Drag Out the Vote",
-      "city": "NEW YORK",
-      "state": [
-        "NY"
-      ],
-      "category": "Voter Engagement",
-      "mission": "Drag Out The Vote™ is a nonpartisan, nonprofit organization that works with drag performers to promote participation in democracy. We educate and register voters at drag events online and offline, by organizing local and national voter activations. Led by fierce drag kings and queens across the nation, we advocate for increased voter access and engagement in 2020 and beyond.",
-      "website": "https://dragoutthevote.org/",
-      "networks": [],
-      "email": "info@dragoutthevote.org",
-      "latitude": 40.8119822,
-      "longitude": -73.9529099
-    },
-    {
       "name": "East Valley Indivisibles",
       "city": "Sherman Oaks",
       "state": [
@@ -161425,20 +161316,6 @@
       "longitude": -97.5164276
     },
     {
-      "name": "League of Women Voters of Oneonta",
-      "city": "Oneonta",
-      "state": [
-        "NY"
-      ],
-      "category": "Voter Engagement",
-      "mission": "The League of Women Voters is a nonpartisan, grassroots organization working to protect and expand voting rights and ensure everyone is represented in our democracy. We empower voters and defend democracy through advocacy, education, and litigation, at the local, state, and national levels.",
-      "website": "lwvoneonta.org",
-      "networks": [],
-      "email": null,
-      "latitude": 42.4528571,
-      "longitude": -75.0637746
-    },
-    {
       "name": "League of Women Voters of Onslow County",
       "city": "Jacksonville",
       "state": [
@@ -167272,20 +167149,6 @@
       "email": null,
       "latitude": 35.128918,
       "longitude": -89.9457123
-    },
-    {
-      "name": "Show Up Turn Out",
-      "city": "NEW YORK",
-      "state": [
-        "NY"
-      ],
-      "category": "Voter Engagement",
-      "mission": "TO INCREASE VOTER TURNOUT AND PARTICIPATION IN LOCAL ELECTIONS WITHIN HISTORICALLY MARGINALIZED AND UNDERSERVED COMMUNITIES AND TO EDUCATE, MOBILIZE AND TURN OUT VOTERS SO THEIR VOICES ARE HEARD AT THE BALLOT BOX.",
-      "website": "https://showupturnout.com/",
-      "networks": [],
-      "email": "info@showupturnout.com",
-      "latitude": 40.7571519,
-      "longitude": -73.9726033
     },
     {
       "name": "Sister District Action Network",
