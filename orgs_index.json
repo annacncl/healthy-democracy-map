@@ -1,5 +1,5 @@
 {
-  "total": 11265,
+  "total": 11281,
   "records": [
     {
       "name": "Proud Ground",
@@ -5773,11 +5773,11 @@
     },
     {
       "name": "Civics for All, New York City Department of Education",
-      "city": null,
+      "city": "New York",
       "state": [
         "NY"
       ],
-      "category": null,
+      "category": "Civic Education & Leadership",
       "mission": "The DOE believes civics education is an essential part of every student’s core academic experience. We launched the Civics for All initiative to strengthen opportunities for students to develop skills and knowledge related to democracy. The goal is for all our students to be engaged community members who can think critically and are empowered to chart the course that our city and country take. Civics for All helps schools support students in making connections between history, current events, and democratic structures.",
       "website": "https://www.schools.nyc.gov/learning/subjects/civics-for-all",
       "networks": [
@@ -10752,22 +10752,6 @@
       "longitude": -84.3885209
     },
     {
-      "name": "Ganas Community",
-      "city": "Staten Island",
-      "state": [
-        "NY"
-      ],
-      "category": null,
-      "mission": "ganas Community started on Staten Island in 1979. The six original founders came together to form a self-selected extended family based on an intention to care for each other while sharing work, having fun, and addressing whatever problems arise, together. Since then our population has grown to about 65.",
-      "website": "https://ganas.org/",
-      "networks": [
-        "Cooperative Economics Alliance of NYC"
-      ],
-      "email": "info@ganas.org",
-      "latitude": 40.6378197,
-      "longitude": -74.0833198
-    },
-    {
       "name": "Gardening the Community",
       "city": "Springfield",
       "state": [
@@ -14710,7 +14694,7 @@
       "state": [
         "NY"
       ],
-      "category": null,
+      "category": "Organizing & Advocacy",
       "mission": "At Kairos, we run creative and impactful campaigns that allow users to see themselves not just as participants in the digital realm, but as co-creators and constituents who have the ability to move platforms and ultimately win stronger regulation of the internet.   All of our campaigns are designed to ensure that technology and the internet are in service of Black and brown liberation and not used to uphold systemic injustice. Through our campaigns we’re building a world where tech works for everyone.",
       "website": "https://www.kairosfellows.org/",
       "networks": [
@@ -17695,7 +17679,7 @@
       "state": [
         "NY"
       ],
-      "category": null,
+      "category": "Civic Media",
       "mission": "Welcome to MEERKAT MEDIA. We’re a collective of award-winning filmmakers and one of the few worker-owned production companies in the world. Our members’ work has been Emmy-nominated, shortlisted for Oscars, and honored with the Sundance Grand Jury Prize.",
       "website": "https://www.meerkatmedia.org/",
       "networks": [
@@ -30468,7 +30452,7 @@
       "state": [
         "NY"
       ],
-      "category": null,
+      "category": "Civic Technology",
       "mission": "We accelerate the world’s transition to an open, inclusive data economy that puts citizens in control.",
       "website": "https://www.projectliberty.io/labs/",
       "networks": [
@@ -32645,11 +32629,11 @@
     },
     {
       "name": "Women's Hands Establishing Entrepreneurial Leadership Skills (WHEELS Collective)",
-      "city": null,
+      "city": "Brooklyn",
       "state": [
         "NY"
       ],
-      "category": null,
+      "category": "Organizing & Advocacy",
       "mission": "WHEELS Collective (Women's Hands Establishing Entrepreneurial Leadership Skills) is a solidarity economy organization that develops women-owned and operated cooperatives of automotive repair shops.",
       "website": "https://www.wheelscollective.org/",
       "networks": [
@@ -33456,11 +33440,11 @@
       ],
       "category": "Civic Associations",
       "mission": "The 92nd Street Y, New York is a world-class cultural and community center where people all over the world connect through culture, arts, entertainment and conversation. For over 150 years, we have harnessed the power of arts and ideas to enrich, enlighten and change lives, and the power of community to repair the world.\n\nAs a proudly Jewish organization, 92NY enthusiastically welcomes and reaches out to people of all ages, races, faiths and backgrounds while embracing Jewish values like learning and self-improvement, the importance of family, the joy of life, and giving back to our wonderfully diverse and growing community, both locally and around the world.",
-      "website": "https://www.92ny.org/about-us.aspx",
+      "website": "https://www.92ny.org/",
       "networks": [
         "Citizen Connect"
       ],
-      "email": null,
+      "email": "https://www.92ny.org/about-92ny/contact-us",
       "latitude": 40.7829293,
       "longitude": -73.9524223
     },
@@ -35571,7 +35555,7 @@
       ],
       "category": "Civic Associations",
       "mission": "Experience the vibrant culture and rich heritage of Belize right here in New York City! The NYC Belize ParkFest is an immersive celebration bringing together music, food, art, and community. Whether you’re a native Belizean or simply a culture enthusiast, this event offers a unique opportunity to enjoy authentic Belizean experiences.",
-      "website": "https://www.linkedin.com/company/nycbelizeparkfest/",
+      "website": "https://www.nycbzeparkfest.org/",
       "networks": [],
       "email": null,
       "latitude": 40.6825734,
@@ -41775,20 +41759,6 @@
       "longitude": -82.3940104
     },
     {
-      "name": "Haitian-American Pol Action Committee",
-      "city": "Brooklyn",
-      "state": [
-        "NY"
-      ],
-      "category": "Civic Associations",
-      "mission": "The Haitian American Political Action Committee (HAPAC) is dedicated to empowering the Haitian American community and amplifying our voices in the political sphere. We strive to foster civic engagement, promote awareness of issues affecting our community, and advocate for policies that advance our collective interests and uphold our values.\n",
-      "website": "https://www.hapac.org/",
-      "networks": [],
-      "email": "haitianamericanpac@gmail.com",
-      "latitude": 40.6297036,
-      "longitude": -73.9255951
-    },
-    {
       "name": "Hamkae Center",
       "city": "Fairfax",
       "state": [
@@ -44304,20 +44274,6 @@
       "email": "info@supportkind.org",
       "latitude": 38.9071923,
       "longitude": -77.0368707
-    },
-    {
-      "name": "Kincore Incorporated",
-      "city": "Staten Island",
-      "state": [
-        "NY"
-      ],
-      "category": "Civic Associations",
-      "mission": "KinCore Incorporated is committed to building the genetic ancestry community by providing current ancestry technologies to those seeking connections with our family of the past and of the present.",
-      "website": "https://kincore.org/",
-      "networks": [],
-      "email": "kincoreinc@gmail.com",
-      "latitude": 40.6206703,
-      "longitude": -74.0747384
     },
     {
       "name": "Kings Bay YM-YWHA",
@@ -47837,9 +47793,9 @@
       ],
       "category": "Civic Associations",
       "mission": "New York Volunteer Network is a not-for-profit, community-based organization dedicated to showing up",
-      "website": "https://www.facebook.com/nyvolunteers/",
+      "website": "https://nyvolunteers.org/",
       "networks": [],
-      "email": null,
+      "email": "info@nyvolunteers.org",
       "latitude": 42.7158927,
       "longitude": -78.8294768
     },
@@ -48147,20 +48103,6 @@
       "email": "info@niot.org",
       "latitude": 37.8113159,
       "longitude": -122.2682245
-    },
-    {
-      "name": "NY Friends of Haiti 2010",
-      "city": "Elmont",
-      "state": [
-        "NY"
-      ],
-      "category": "Civic Associations",
-      "mission": "NYFOH focuses on advancing five key areas: Economic sustainability, Education, Youth development, and Climate Change. Join us in making a significant impact in these crucial areas and building a brighter future for our community.",
-      "website": "foh2010.org",
-      "networks": [],
-      "email": "info@foh2010.org",
-      "latitude": 40.7080664,
-      "longitude": -73.7106901
     },
     {
       "name": "Oakvalley Baptist Church",
@@ -55215,8 +55157,8 @@
       "state": [
         "NY"
       ],
-      "category": "Civic Associations",
-      "mission": "www.werunthehouse.org is a high tech political platform where you can use the power of our national community to elect someone you know personally to represent you in Congress and to get your own bill passed!",
+      "category": "Electoral Reform",
+      "mission": "werunthehouse is a high tech political platform where you can use the power of our national community to elect someone you know personally to represent you in Congress and to get your own bill passed!",
       "website": "werunthehouse.org",
       "networks": [],
       "email": "feeback@rstreet.org",
@@ -57122,22 +57064,6 @@
       "email": "mail@au-oc.org",
       "latitude": 33.7013244,
       "longitude": -117.9067053
-    },
-    {
-      "name": "Americans United for Separation of Church and State - Rochester Chapter",
-      "city": "Rochester",
-      "state": [
-        "NY"
-      ],
-      "category": "Civic Education & Leadership",
-      "mission": null,
-      "website": "https://www.aurochester.org/",
-      "networks": [
-        "Americans United for Separation of Church and State"
-      ],
-      "email": "aurocny@gmail.com",
-      "latitude": 43.1565779,
-      "longitude": -77.6088465
     },
     {
       "name": "Americans United for Separation of Church and State - Saint Louis Chapter",
@@ -69583,7 +69509,7 @@
       "mission": "PROVIDING ENVIRONMENTAL BASED EDUCATIONAL BICYCLE TOURS.",
       "website": "https://www.socialjusticetours.com/",
       "networks": [],
-      "email": null,
+      "email": "info@socialjusticetours.com",
       "latitude": 40.7189361,
       "longitude": -73.985904
     },
@@ -70558,8 +70484,8 @@
         "NY"
       ],
       "category": "Civic Education & Leadership",
-      "mission": null,
-      "website": null,
+      "mission": "The Future Project's mission is to ensure every young person has the support they need to discover and pursue their purpose. Founded in 2011 on the belief that too many young people were growing up without that sense of purpose, leading to disengagement, lost confidence, and declining mental health, the organization pioneered the \"Dream Director\" role to coach students in building purpose-driven projects that strengthen both their own lives and their communities. Today, that mission continues through Future Readiness, the organization's methodology for building the mindsets and skills needed to live purposefully, now delivered through more accessible offerings like Future Coach to meet young people amid a growing mental health crisis.",
+      "website": "https://www.thefutureproject.org/",
       "networks": [],
       "email": "hello@thefutureproject.org",
       "latitude": 40.7458523,
@@ -73309,8 +73235,8 @@
         "Democracy Ready NY"
       ],
       "email": "hello@yvoteny.org",
-      "latitude": 40.6387196,
-      "longitude": -73.8948295
+      "latitude": 40.63951,
+      "longitude": -73.90098
     },
     {
       "name": "1Hood Media (1Hood)",
@@ -76251,19 +76177,19 @@
     },
     {
       "name": "Tangle",
-      "city": "New York",
+      "city": "Philadelphia",
       "state": [
-        "NY"
+        "PA"
       ],
       "category": "Civic Media",
       "mission": "Tangle is an award-winning media organization that covers the biggest politics stories in the U.S. by summarizing arguments from the right, left, and center (then \"our take\"). \n\nWe are independent, non-partisan, and subscriber-supported, with a newsletter read by over 325,000 people in 55+ countries across the world and a podcast that reaches hundreds of thousands of listeners every month. Our audience is made up of conservatives, liberals, independents, and those who don't identify with any political tribe. ",
-      "website": null,
+      "website": "https://www.readtangle.com/",
       "networks": [
         "Listen First Coalition"
       ],
       "email": "staff@readtangle.com",
-      "latitude": 40.6903213,
-      "longitude": -73.9271644
+      "latitude": 39.930695,
+      "longitude": -75.160074
     },
     {
       "name": "The Democracy Group (TDG)",
@@ -80121,23 +80047,6 @@
       "longitude": -122.4347815
     },
     {
-      "name": "Empatico",
-      "city": "New York",
-      "state": [
-        "NY"
-      ],
-      "category": "Civic Technology",
-      "mission": "Empatico is creating a global movement to spread kindness and empathy around the world. We combine the best of technology with the best of humanity to expand the boundaries of learning.",
-      "website": "https://empatico.org/",
-      "networks": [
-        "Citizen Connect",
-        "Listen First Coalition"
-      ],
-      "email": "ngarciahassell@empatico.org",
-      "latitude": 40.7127753,
-      "longitude": -74.0059728
-    },
-    {
       "name": "Energy Florida",
       "city": "MELBOURNE",
       "state": [
@@ -80945,20 +80854,6 @@
       "email": "info@vop.org",
       "latitude": 38.8853319,
       "longitude": -76.9956255
-    },
-    {
-      "name": "Weshelter Solutions",
-      "city": "Brooklyn",
-      "state": [
-        "NY"
-      ],
-      "category": "Civic Technology",
-      "mission": "WeShelter uses technology to help to end homelessness.",
-      "website": "http://weshelter.org",
-      "networks": [],
-      "email": "email@veeempittsburgh.org",
-      "latitude": 40.6925619,
-      "longitude": -73.9652693
     },
     {
       "name": "Zocalo Public Square",
@@ -82878,24 +82773,6 @@
       "email": "davenport.institute@pepperdine.edu",
       "latitude": 34.0391266,
       "longitude": -118.7056463
-    },
-    {
-      "name": "DaviesContent",
-      "city": "New York",
-      "state": [
-        "NY"
-      ],
-      "category": "Connecting Across Differences",
-      "mission": "We produce and consult on professional, well-edited podcasts in the bridging community.",
-      "website": "http://daviescontent.com/",
-      "networks": [
-        "Bridge Alliance",
-        "Citizen Connect",
-        "Listen First Coalition"
-      ],
-      "email": "daviescontent@gmail.com",
-      "latitude": 40.7127753,
-      "longitude": -74.0059728
     },
     {
       "name": "Days of Dialogue",
@@ -85809,26 +85686,6 @@
       "longitude": -78.8969053
     },
     {
-      "name": "Reconsider Media",
-      "city": "Wawarsing",
-      "state": [
-        "NY"
-      ],
-      "category": "Connecting Across Differences",
-      "mission": "ReConsider’s mission: Fight political polarization and improve the quality of political discourse by providing practical discussion strategies and provocative content that challenges common narratives.",
-      "website": "www.reconsidermedia.com",
-      "networks": [
-        "Bridge Alliance",
-        "Citizen Connect",
-        "FixUS",
-        "Listen First Coalition",
-        "Democracy Bridge-Building Ecosystem Framework"
-      ],
-      "email": null,
-      "latitude": 41.8070439,
-      "longitude": -74.3774129
-    },
-    {
       "name": "Refugee & Immigrant Services Northwest",
       "city": "Everett",
       "state": [
@@ -86290,14 +86147,14 @@
       "longitude": -77.1109416
     },
     {
-      "name": "Starts With Us",
+      "name": "Builders",
       "city": "NEW YORK",
       "state": [
         "NY"
       ],
       "category": "Connecting Across Differences",
-      "mission": "We’re on a mission to foster curiosity, empathy, and courage as daily habits.",
-      "website": "https://www.startswith.us/",
+      "mission": "Our mission is to overcome \"us vs. them\" thinking and solve problems together. We equip people to uncover hidden common ground and build on it - with lasting solutions that reflect the will of the people. (Formerly Starts with Us)",
+      "website": "www.buildersmovement.org",
       "networks": [
         "BMAC",
         "Citizen Connect",
@@ -86306,8 +86163,8 @@
         "Braver Network"
       ],
       "email": null,
-      "latitude": 40.7564515,
-      "longitude": -73.9869356
+      "latitude": 40.7143,
+      "longitude": -74.0067
     },
     {
       "name": "Stories Change Power",
@@ -87589,16 +87446,16 @@
       "longitude": -77.0315286
     },
     {
-      "name": "Carey Institute for Global Good",
+      "name": "Hilltown Commons (f.k.a. Carey Institute for Global Good Inc)",
       "city": "Rensselaerville",
       "state": [
         "NY"
       ],
       "category": "Deliberative/Participatory/Direct Democracy",
-      "mission": "Mission\nThe Carey Institute for Global Good is dedicated to making a better world by contributing to a strong, educated and just society.\n\nValues\nCitizens and civil society should: be educated, healthy and safe; be informed, empowered and engaged; have their rights protected, sufficient representation and the right to fully participate in the democratic process.\nGovernance should be: effective, transparent and accountable; responsive, responsible and representative; inclusive, just and participatory.\n\nDevelopment should be: economically, ecologically and socially ethical, equitable and sustainable.",
-      "website": "https://careyinstitute.org/",
+      "mission": "At Hilltown Commons, curiosity is the common ground: whether through workshops, retreats, community events, or residencies, we welcome a diversity of voices and perspectives that keep our conversations alive. Nearly a century on, we continue the tradition of gathering to learn, imagine, and grow — together.",
+      "website": "https://www.hilltowncommons.org/",
       "networks": [],
-      "email": "SLHIstory@blackfoot.net",
+      "email": "info@hilltowncommons.org",
       "latitude": 42.5225075,
       "longitude": -74.1436771
     },
@@ -92749,22 +92606,6 @@
       "email": "iowapeacenetwork@gmail.com",
       "latitude": 41.9778795,
       "longitude": -91.6656232
-    },
-    {
-      "name": "It's Who You Know! The Podcast",
-      "city": "New York",
-      "state": [
-        "NY"
-      ],
-      "category": "Faith-Based Efforts",
-      "mission": "Bridging the gap between Jewish leaders and those who follow them.\n\nMichelle W. Malkin interviews leaders in the North American Jewish community about their work and professional journies into their leadership position. They discuss opportunities and challenges facing the community along with advice, how they keep their work/life balanced, and more!",
-      "website": "https://itswhoyouknowthepodcast.com/",
-      "networks": [
-        "Jewish Partnership for Democracy"
-      ],
-      "email": "michellewmalkin@gmail.com",
-      "latitude": 40.7917844,
-      "longitude": -73.9735903
     },
     {
       "name": "JBI Library",
@@ -98301,20 +98142,6 @@
       "longitude": -97.5164276
     },
     {
-      "name": "In Our Backyards",
-      "city": "Brooklyn",
-      "state": [
-        "NY"
-      ],
-      "category": "Funder",
-      "mission": "ioby's mission is to mobilize neighbors who have good ideas to become powerful civic leaders who plan, fund, and make positive change in their own neighborhoods.",
-      "website": "https://www.ioby.org/",
-      "networks": [],
-      "email": "hello@ioby.org",
-      "latitude": 40.6961615,
-      "longitude": -73.9679201
-    },
-    {
       "name": "Inatai Foundation",
       "city": "Seattle",
       "state": [
@@ -100461,22 +100288,6 @@
       "email": "mdann@wgf.org",
       "latitude": 38.913891,
       "longitude": -77.0451076
-    },
-    {
-      "name": "Wellspring Philanthropic Fund",
-      "city": "New York",
-      "state": [
-        "NY"
-      ],
-      "category": "Funder",
-      "mission": "Wellspring Philanthropic Fund supports the realization of human rights and social and economic justice for all people.",
-      "website": "https://wpfund.org/",
-      "networks": [
-        "FCCP"
-      ],
-      "email": "WellSpringFound@gmail.com",
-      "latitude": 40.7548995,
-      "longitude": -73.9868891
     },
     {
       "name": "William and Flora Hewlett Foundation",
@@ -104429,20 +104240,6 @@
       "longitude": -87.4617422
     },
     {
-      "name": "Concerned Citizens of Cattaraugus County",
-      "city": "Franklinville",
-      "state": [
-        "NY"
-      ],
-      "category": "Organizing & Advocacy",
-      "mission": "Our goal is to provide the public with timely information not generally distributed by government officials or private corporations.\n",
-      "website": "https://www.facebook.com/CCofCattCo/",
-      "networks": [],
-      "email": null,
-      "latitude": 42.3370091,
-      "longitude": -78.4580761
-    },
-    {
       "name": "Concerned Citizens Watch",
       "city": "Fort Wayne",
       "state": [
@@ -106471,20 +106268,6 @@
       "longitude": -81.5774819
     },
     {
-      "name": "Gallatin Residents Association",
-      "city": "Gallatin",
-      "state": [
-        "NY"
-      ],
-      "category": "Organizing & Advocacy",
-      "mission": null,
-      "website": "https://gallatin.yourtownhub.com/",
-      "networks": [],
-      "email": "info@fusewashington.org",
-      "latitude": 42.0344759,
-      "longitude": -73.6754878
-    },
-    {
       "name": "Garden State Initiative",
       "city": "Morristown",
       "state": [
@@ -106826,7 +106609,7 @@
     },
     {
       "name": "Global Youth Action Network",
-      "city": "BROOKLYN",
+      "city": "Brooklyn",
       "state": [
         "NY"
       ],
@@ -107548,7 +107331,7 @@
       ],
       "category": "Organizing & Advocacy",
       "mission": "Our mission is to ensure that freedom is both preserved and promoted around the world. We focus our work on the founding ideals of the human rights movement, those most purely represented in the 1976 International Covenant on Civil and Political Rights (ICCPR).\n\nWe believe that all human beings are entitled to:\nFreedom of self-determination\nFreedom of speech and expression and association\nThe right to worship in the manner of their choice\nThe right to acquire and dispose of property\nThe right to leave and enter their countries\nThe right to equal treatment and due process under law\nThe right to be able to participate in the government of their countries\nFreedom from arbitrary detainment or exile\nFreedom from slavery and torture\nFreedom from interference and coercion in matters of conscience",
-      "website": null,
+      "website": "https://hrf.org/ ",
       "networks": [],
       "email": "contact@hrf.org",
       "latitude": 40.7484404,
@@ -109957,12 +109740,12 @@
     },
     {
       "name": "March for Our Lives Foundation",
-      "city": "NEW YORK",
+      "city": "Washington",
       "state": [
-        "NY"
+        "DC"
       ],
       "category": "Organizing & Advocacy",
-      "mission": "THE MISSION OF MARCH FOR OUR LIVES FOUNDATION IS TO MOBILIZE YOUNG\nPEOPLE ACROSS THE COUNTRY TO EDUCATE THE PUBLIC ABOUT GUN VIOLENCE\nPREVENTION POLICIES AND ENCOURAGE CIVIC ENGAGEMENT IN AMERICA’S YOUTH.",
+      "mission": "THE MISSION OF MARCH FOR OUR LIVES FOUNDATION IS TO MOBILIZE YOUNG PEOPLE ACROSS THE COUNTRY TO EDUCATE THE PUBLIC ABOUT GUN VIOLENCE PREVENTION POLICIES AND ENCOURAGE CIVIC ENGAGEMENT IN AMERICA’S YOUTH.",
       "website": "https://marchforourlives.org/",
       "networks": [
         "Declaration for American Democracy",
@@ -111600,7 +111383,7 @@
       ],
       "category": "Organizing & Advocacy",
       "mission": "The New York Immigration Coalition, a state-wide member-led coalition of immigrant and refugee organizations, works to transform the lives of all New Yorkers by strengthening and building our members’ power, organizing and educating our communities and the public, and using our collective voice to advocate for opportunity and justice.",
-      "website": null,
+      "website": "https://www.nyic.org/",
       "networks": [],
       "email": "info@nyic.org",
       "latitude": 40.7500642,
@@ -111618,7 +111401,7 @@
       "networks": [
         "iCivics/CivxNow Coalition"
       ],
-      "email": "nypl.org/get-help/contact-us",
+      "email": "gethelp@nypl.org",
       "latitude": 40.7534832,
       "longitude": -73.9808891
     },
@@ -111635,20 +111418,6 @@
       "email": "admin@nymhca.org",
       "latitude": 40.7869457,
       "longitude": -73.0507442
-    },
-    {
-      "name": "New Yorkers for Independent Work",
-      "city": "New York",
-      "state": [
-        "NY"
-      ],
-      "category": "Organizing & Advocacy",
-      "mission": "Educate the public, legislators, and regulatory entities about existing and proposed laws and policies in New York that impact the business climate and economic opportunities of independent drivers to earn income in the transportation network and delivery network industries in a manner that is consistent with the antitrust laws;",
-      "website": "https://ny4independentwork.com/",
-      "networks": [],
-      "email": "info@ny4independentwork.com",
-      "latitude": 40.7537599,
-      "longitude": -73.9962841
     },
     {
       "name": "Newcomers Club of Civic Activities Association",
@@ -112314,22 +112083,6 @@
       "email": null,
       "latitude": 27.5877496,
       "longitude": -82.4254998
-    },
-    {
-      "name": "Participatory Politics Foundation",
-      "city": "Brooklyn",
-      "state": [
-        "NY"
-      ],
-      "category": "Organizing & Advocacy",
-      "mission": "TO ENCOURAGE AND ENABLE GREATER CITIZEN ENGAGEMENT IN THE WORKINGS OF GOVERNMENT. TO CREATE FREE WEB TOOLS AVALABLE TO EVERYONE. TO HELP MAKE INFORMATION ABOUT LEGISLATION MORE TRANSPARENT/ACCESSIBLE.",
-      "website": "https://participatorypolitics.org/",
-      "networks": [
-        "Declaration for American Democracy"
-      ],
-      "email": "david@readsludge.com",
-      "latitude": 40.701882,
-      "longitude": -73.9213552
     },
     {
       "name": "Partnership for Southern Equity ",
@@ -113179,20 +112932,6 @@
       "longitude": -73.9871248
     },
     {
-      "name": "RE-Think Health",
-      "city": "New York",
-      "state": [
-        "NY"
-      ],
-      "category": "Organizing & Advocacy",
-      "mission": "The RE-Think Health initiative, spearheaded by the Rippel Foundation, aims to create a new health system that fosters healthier, more resilient individuals, families, and communities by 2040. Its mission is to bridge health and care, ensuring access to quality care, enhancing equity and productivity, and promoting community vitality. This involves developing new tools and approaches, working with communities of leaders, and bringing together different stakeholders to redefine solutions. \n",
-      "website": "https://www.rethinkbehavioralhealth.com/",
-      "networks": [],
-      "email": "info@rethink.org",
-      "latitude": 40.7453144,
-      "longitude": -73.9902255
-    },
-    {
       "name": "RE:POWER",
       "city": "SAINT PAUL",
       "state": [
@@ -113344,20 +113083,6 @@
       "email": "info@representwomen.org",
       "latitude": 38.994228,
       "longitude": -77.0272102
-    },
-    {
-      "name": "Res Publica Us",
-      "city": "New York",
-      "state": [
-        "NY"
-      ],
-      "category": "Organizing & Advocacy",
-      "mission": "RES PUBLICA PROMOTES GOOD GOVERNANCE AND CIVIC ENGAGEMENT THROUGH FISCAL ADMINISTRATIVE AND STRATEGIC SUPPORT TO OUTSTANDING GLOBAL NATIONAL AND LOCAL ADVOCACY AND ORGANIZING EFFORTS",
-      "website": "https://respublicagroup.com/",
-      "networks": [],
-      "email": "info@respublicagroup.com",
-      "latitude": 40.7364274,
-      "longitude": -73.991071
     },
     {
       "name": "Resolution Project",
@@ -113622,9 +113347,9 @@
       ],
       "category": "Organizing & Advocacy",
       "mission": "Riseup provides online communication tools for people and groups working on liberatory social change. We are a project to create democratic alternatives and practice self-determination by controlling our own secure means of communications.\n",
-      "website": null,
+      "website": "https://www.facebook.com/RiseUpCNY/",
       "networks": [],
-      "email": " riseupcnytraining@gmail.com",
+      "email": "riseupcnytraining@gmail.com",
       "latitude": 43.0458949,
       "longitude": -76.119085
     },
@@ -113785,7 +113510,7 @@
       "mission": "SAFE/Saving Antiquities for Everyone is a non-profit organization\ndedicated to preserving cultural heritage worldwide. Our mission(http://www.savingantiquities.org/aboutusmission.php)  is to raise public awareness about the irreversible damage that results from looting, smuggling and trading illicit antiquities. We promote respect for the laws and treaties that enable nations to protect their cultural property and preserve humanity’s most precious non-renewable resource: the intact evidence of our undiscovered past.",
       "website": "https://www.savingantiquities.org/",
       "networks": [],
-      "email": null,
+      "email": "info@savingantiquities.org",
       "latitude": 40.7354499,
       "longitude": -73.82166
     },
@@ -115915,16 +115640,16 @@
       "longitude": -76.8844101
     },
     {
-      "name": "United 4 Social Change",
-      "city": "HAVERSTRAW",
+      "name": "Academy 4 Social Civics (f.k.a United 4 Social Change Inc.)",
+      "city": "Haverstraw",
       "state": [
         "NY"
       ],
       "category": "Organizing & Advocacy",
-      "mission": "United 4 Social Change is a nonprofit startup that develops effective civic leaders who write persuasively, speak passionately, and actively participate in the creation and dissemination of ideas.\n\nWe do this through a three-pronged approach that corresponds to the three levels of problems outlined above. We enlight them about social issues, ignite the fire within them to care about social problems, and unite them to act towards social change.",
-      "website": "https://united4sc.org/",
+      "mission": "At Academy 4 Social Civics, we empower students through interdisciplinary curricula to become informed, compassionate, and action-oriented civic leaders who are capable of addressing the pressing challenges of today and tomorrow, from ethical AI and climate action to civic discourse and representative governance.",
+      "website": "https://new.academy4sc.org/mission/",
       "networks": [],
-      "email": "team@united4sc.org",
+      "email": "info@academy4sc.org",
       "latitude": 41.1975219,
       "longitude": -73.9756159
     },
@@ -145790,7 +145515,7 @@
       "mission": "The CNY Veterans Recognition Foundation (CNYVRF) is an all-volunteer organization created in 2016 to provide our military members and their families the support, dignity, and respect owed them by our Nation for their commitment, sacrifices, and selfless service in preserving the freedoms we all enjoy.\n\nCNYVRF accomplishes this by generating revenue through various initiatives. Our revenues are used for supporting our programs in safe and respectful environments.\n\n Since our inception in 2016 and subsequent recipient of IRS 501(C) 3 status, CNYVRF, Inc. has evolved to offer Veteran recognition events and guidance to critical life-sustaining services for veterans and their families in Central New York. Now, more than ever, the need is constant and growing in alarming fashion with so many veterans returning home. We are certain that the recent news of delays in getting services through the VA, that these brave and heroic men & women face upon their return, will further impact the need for program services within our organization. ",
       "website": "https://www.cnyvrf.org/",
       "networks": [],
-      "email": null,
+      "email": "cnyvrf@gmail.com",
       "latitude": 42.9471651,
       "longitude": -76.4322206
     },
@@ -146510,7 +146235,7 @@
       "networks": [
         "Citizen Connect"
       ],
-      "email": null,
+      "email": "conversationsnewyork@gmail.com",
       "latitude": 40.7645239,
       "longitude": -73.9624327
     },
@@ -151439,8 +151164,8 @@
         "NY"
       ],
       "category": "Service & Volunteerism",
-      "mission": "Your DOL’s mission is to provide outstanding services to our customers - the workers and businesses that call New York home.\nWe help New Yorkers find the careers they will love by connecting them to employment, training, and up-skilling opportunities.\nWe build and support New York’s businesses, helping them find qualified workers and keeping them informed about tools and incentives to make their businesses thrive.\nWe empower and protect New York’s workers by supporting the unemployed and by ensuring all workers have a safe workplace where they receive a fair wage.",
-      "website": "https://dol.ny.gov/location/worker-justice-center-new-york-inc-rochester-office",
+      "mission": "Your DOL’s mission is to provide outstanding services to our customers - the workers and businesses that call New York home.\nWe help New Yorkers find the careers they will love by connecting them to employment, training, and up-skilling opportunities.\nWe build and support New York’s businesses, helping them find qualified workers and keeping them informed about tools and incentives to make their businesses thrive.\nThe Worker Justice Center of New York pursues justice for those denied human rights with a focus on agricultural and other low wage workers, through legal representation, community empowerment and advocacy for institutional change.\n\n",
+      "website": "https://www.wjcny.org/",
       "networks": [],
       "email": "Creativeidentityanaheim@yahoo.com",
       "latitude": 43.1670078,
@@ -156215,7 +155940,7 @@
     },
     {
       "name": "League of Women Voters of Cortland County",
-      "city": "Homer",
+      "city": "Cortland",
       "state": [
         "NY"
       ],
@@ -156223,7 +155948,7 @@
       "mission": "The League of Women Voters is a nonpartisan, grassroots organization working to protect and expand voting rights and ensure everyone is represented in our democracy. We empower voters and defend democracy through advocacy, education, and litigation, at the local, state, and national levels.",
       "website": "https://www.lwvcortlandcounty.org/",
       "networks": [],
-      "email": null,
+      "email": "lwvcortland@gmail.com",
       "latitude": 42.6370141,
       "longitude": -76.1788174
     },
@@ -163795,7 +163520,7 @@
       "mission": "The League of Women Voters is a nonpartisan, grassroots organization working to protect and expand voting rights and ensure everyone is represented in our democracy. We empower voters and defend democracy through advocacy, education, and litigation, at the local, state, and national levels.",
       "website": "https://www.lwv.org/",
       "networks": [],
-      "email": null,
+      "email": "allenhomestead@gmail.com",
       "latitude": 44.6994873,
       "longitude": -73.4529124
     },
@@ -164740,20 +164465,6 @@
       "email": null,
       "latitude": 38.3498195,
       "longitude": -81.6326234
-    },
-    {
-      "name": "League of Women Voters of Westchester County",
-      "city": "White Plains",
-      "state": [
-        "NY"
-      ],
-      "category": "Voter Engagement",
-      "mission": "The League of Women Voters is a nonpartisan, grassroots organization working to protect and expand voting rights and ensure everyone is represented in our democracy. We empower voters and defend democracy through advocacy, education, and litigation, at the local, state, and national levels.",
-      "website": "www.watpa.org/lwv/",
-      "networks": [],
-      "email": null,
-      "latitude": 41.0339862,
-      "longitude": -73.7629097
     },
     {
       "name": "League of Women Voters of Westford",
@@ -166576,20 +166287,6 @@
       "longitude": -81.3081574
     },
     {
-      "name": "Poder NYC",
-      "city": "New York",
-      "state": [
-        "NY"
-      ],
-      "category": "Voter Engagement",
-      "mission": "PODER Inc. is a non-partisan organization that combats voter suppression by engaging Black and Brown New Yorkers around local, state, and federal elections.",
-      "website": "www.poder.nyc",
-      "networks": [],
-      "email": null,
-      "latitude": 40.7952729,
-      "longitude": -73.9451208
-    },
-    {
       "name": "Polis: Center for Politics",
       "city": "Durham",
       "state": [
@@ -167627,7 +167324,7 @@
     },
     {
       "name": "TurboVote",
-      "city": "New York",
+      "city": "Brooklyn",
       "state": [
         "NY"
       ],
@@ -167637,9 +167334,9 @@
       "networks": [
         "FixUS"
       ],
-      "email": null,
-      "latitude": 40.7127753,
-      "longitude": -74.0059728
+      "email": "info@turbovote.org",
+      "latitude": 40.6937,
+      "longitude": -73.9899
     },
     {
       "name": "U.S. Election Assistance Commission",
@@ -168479,6 +168176,515 @@
       "email": "team@nclcpartners.org",
       "latitude": 38.257367,
       "longitude": -85.761822
+    },
+    {
+      "name": "Leadership Austin",
+      "city": "Austin",
+      "state": [
+        "TX"
+      ],
+      "category": "Civic Education & Leadership",
+      "mission": "Leadership Austin connects and develops courageous leaders across Central Texas. Through transformative experiences, we help leaders turn individual growth into community impact. Our programs provide individuals and organizations with the skills, connections, and confidence to lead with purpose—impacting your workplace, community, and beyond.\n\n",
+      "website": "https://leadershipaustin.org/",
+      "networks": [],
+      "email": "info@leadershipaustin.org",
+      "latitude": 30.281637,
+      "longitude": -97.749898
+    },
+    {
+      "name": "Hendricks County Community Foundation",
+      "city": "Avon",
+      "state": [
+        "IN"
+      ],
+      "category": "Funder",
+      "mission": "The Hendricks County Community Foundation is a trusted community partner in understanding needs, aligning resources, and empowering people to address today’s priorities and create lasting impact together.",
+      "website": "www.hendrickscountycf.org",
+      "networks": [],
+      "email": "info@hendrickscountycf.org",
+      "latitude": 39.76282,
+      "longitude": -86.39972
+    },
+    {
+      "name": "Bellevue Mayor's Youth Council",
+      "city": "Bellevue",
+      "state": [
+        "NE"
+      ],
+      "category": "Civic Education & Leadership",
+      "mission": "The Bellevue Mayor's Youth Council is dedicated to amplifying the voices of young people by providing meaningful input on issues affecting youth and the City of Bellevue. We strive to foster civic engagement by making recommendations to the City Council, increasing youth participation in local government, and improving communication between students and city leaders. Through service projects and community involvement, we are committed to making a positive impact and shaping a more inclusive and vibrant Beilevue for all.ke",
+      "website": "https://www.facebook.com/bellevuemayorsyouthcouncil",
+      "networks": [],
+      "email": "ken.clary@bellevue.net",
+      "latitude": 41.150391,
+      "longitude": -95.909345
+    },
+    {
+      "name": "Civic Futures Institute",
+      "city": "Blacklick",
+      "state": [
+        "OH"
+      ],
+      "category": "Civic Research",
+      "mission": "Civic Futures Institute exists to restore civic imagination by helping people see beyond the present moment to reclaim their agency and build the future of American democratic life.",
+      "website": "civicfutures.us",
+      "networks": [
+        "Listen First Coalition"
+      ],
+      "email": "lisa@civicfutures.us",
+      "latitude": 39.985092,
+      "longitude": -82.820399
+    },
+    {
+      "name": "United Nations Association of Greater Boston",
+      "city": "Boston",
+      "state": [
+        "MA"
+      ],
+      "category": "Connecting Across Differences",
+      "mission": "The United Nations Association of Greater Boston (UNAGB) is dedicated to building a strong multigenerational network of global citizens. We educate, inspire, and engage members of the community with critical global issues central to the work and mission of the United Nations.",
+      "website": "https://unagb.org/",
+      "networks": [],
+      "email": "info@unagb.org",
+      "latitude": 42.364404,
+      "longitude": -71.062057
+    },
+    {
+      "name": "Boston Cares",
+      "city": "Boston",
+      "state": [
+        "MA"
+      ],
+      "category": "Service & Volunteerism",
+      "mission": "Boston Cares partners with nonprofits and schools to expand their impact by mobilizing diverse people to collaboratively address our community’s critical needs. We serve as a volunteering hub for Greater Boston, helping individuals and corporations connect and engage to address community-identified needs. ",
+      "website": "www.bostoncares.org",
+      "networks": [],
+      "email": "volunteers@bostoncares.org",
+      "latitude": 42.382571,
+      "longitude": -71.060101
+    },
+    {
+      "name": "New Jersey Council for the Humanities",
+      "city": "Camden",
+      "state": [
+        "NJ"
+      ],
+      "category": "Connecting Across Differences",
+      "mission": " We explore, cultivate, and champion the public humanities in order to strengthen New Jersey’s diverse community.",
+      "website": "www.njhumanities.org",
+      "networks": [],
+      "email": "cberkowitz@njhumanities.org",
+      "latitude": 39.949001,
+      "longitude": -75.123572
+    },
+    {
+      "name": "American Exchange Project",
+      "city": "Chestnut Hill",
+      "state": [
+        "MA"
+      ],
+      "category": "Connecting Across Differences",
+      "mission": "The American Exchange Project is a national nonprofit working to create a more connected America by making free domestic exchanges a new civic rite of passage for young people. Our mission is to transform how young adults see themselves, their country, and their neighbors by giving them meaningful, community-based experiences across lines of difference.",
+      "website": "https://americanexchangeproject.org",
+      "networks": [
+        "More Perfect"
+      ],
+      "email": "hello@americanexchangeproject.org",
+      "latitude": 42.296319,
+      "longitude": -71.15705
+    },
+    {
+      "name": "EFSC Center for Service-learning & Civic Engagement",
+      "city": "Cocoa",
+      "state": [
+        "FL"
+      ],
+      "category": "Service & Volunteerism",
+      "mission": "The mission of the Center for Service-Learning & Civic Engagement is to empower students, faculty and community partner organizations by creating and supporting partnerships that provide service opportunities to increase learning, improve career readiness, foster civic responsibility, and meet community needs. ",
+      "website": "https://www.easternflorida.edu/service-learning/",
+      "networks": [],
+      "email": "bairde@easternflorida.edu",
+      "latitude": 28.383885,
+      "longitude": -80.759211
+    },
+    {
+      "name": "Hey Neighbor",
+      "city": "Colorado Springs",
+      "state": [
+        "CO"
+      ],
+      "category": "Civic Education & Leadership",
+      "mission": "We envision a future where everyone loves their neighborhood, and we're on a mission to inspire neighbors to create vibrant communities. Our community-building and civic education programs focus on helping neighbors make connections, build relationships, and create change. ",
+      "website": "www.heyneighbors.org",
+      "networks": [],
+      "email": "information@heyneighbors.org",
+      "latitude": 38.839526,
+      "longitude": -104.812625
+    },
+    {
+      "name": "VoterPrime",
+      "city": "Corte Madera",
+      "state": [
+        "CA"
+      ],
+      "category": "Voter Engagement",
+      "mission": "Mission Statement: VoterPrime makes it easy for eligible voters to take confident, values-driven civic actions that strengthen democracy.\n\nVision Statement: To inspire lifelong civic habits among voters of all ages —and build a more representative, responsive, and resilient democracy through greater participation. ",
+      "website": "https://voterprime.org/",
+      "networks": [],
+      "email": "info@voterprime.org",
+      "latitude": 37.923688,
+      "longitude": -122.533511
+    },
+    {
+      "name": "Danbury Collective",
+      "city": "Danbury",
+      "state": [
+        "CT"
+      ],
+      "category": "Civic Education & Leadership",
+      "mission": "The Danbury Collective is a cradle-to-career collective impact, community-led initiative. We work together to ensure all children and families in Danbury have full and equitable access to opportunities to be successful and thrive in life. Led by the community, we work collectively to foster positive, measurable, and sustainable life outcomes for Danbury children. Collective work contributes to building and sustaining the civic infrastructure necessary to improve outcomes and close gaps from cradle to career.  ",
+      "website": "https://www.unitedwaycwc.org/danburycollective",
+      "networks": [],
+      "email": "melissa.hannequin@unitedwaycwc.org",
+      "latitude": 41.39663,
+      "longitude": -73.454254
+    },
+    {
+      "name": "JONAH",
+      "city": "Eau Claire",
+      "state": [
+        "WI"
+      ],
+      "category": "Organizing & Advocacy",
+      "mission": "Value based grassroots organizing to impact social justice at root cause and bringing diverse community groups together to increase power, perspective, and impact. Particularly directly affected voices.",
+      "website": "www.jonahjustice.org",
+      "networks": [],
+      "email": "conor@wisdomwisconsin.org",
+      "latitude": 44.77105,
+      "longitude": -91.469937
+    },
+    {
+      "name": "The Foundation for Northwest Illinois",
+      "city": "Freeport",
+      "state": [
+        "IL"
+      ],
+      "category": "Funder",
+      "mission": "Inspiring Donors and Empowering Community Partners for a Stronger Northwest Illinois.",
+      "website": "www.fornwil.org",
+      "networks": [],
+      "email": "info@fornwil.org",
+      "latitude": 42.282157,
+      "longitude": -89.667119
+    },
+    {
+      "name": "Antiquarian & Landmarks Society, Inc. ",
+      "city": "Hartford",
+      "state": [
+        "CT"
+      ],
+      "category": "Civic Education & Leadership",
+      "mission": "Founded in 1936, Connecticut Landmarks is a statewide educational nonprofit that preserves, interprets, and activates eleven historic properties representing more than 300 years of Connecticut history; nine of these sites operate as public house museums. Through preservation, storytelling, and education, Connecticut Landmarks connects people to the state’s revolutionary contributions and complex past.",
+      "website": "https://ctlandmarks.org/",
+      "networks": [],
+      "email": "robert.brock@ctlandmarks.org",
+      "latitude": 41.760347,
+      "longitude": -72.673747
+    },
+    {
+      "name": "Commission on Women, Children, Seniors, Equity and Opportunity",
+      "city": "Hartford",
+      "state": [
+        "CT"
+      ],
+      "category": "Civic Education & Leadership",
+      "mission": "Mission\n\nTo inform and engage all policy makers about constituent needs for women, children and their families, seniors and the African American, Asian Pacific-American, Latino and Puerto Rican populations in Connecticut. We are a nonpartisan agency with a data driven, cross-cultural approach to policy innovation. We work to eliminate disparities by identifying opportunities, building connections and promoting change.\n\nVision\n\nTo serve the Legislature and the people of the state by:\n\nPromoting best practices and driving sound public policy.\nProviding a source of trusted information.\nBreaking barriers, bridging communities and promoting opportunities.\nHelping to build a more equitable and accessible state for all residents and future generations.",
+      "website": "https://wp.cga.ct.gov/cwcseo/",
+      "networks": [],
+      "email": "melvette.hill@cga.ct.gov",
+      "latitude": 41.762579,
+      "longitude": -72.681526
+    },
+    {
+      "name": "For 250 More",
+      "city": "Herndon",
+      "state": [
+        "VA"
+      ],
+      "category": "Organizing & Advocacy",
+      "mission": "Strengthen the instituions that fight corruption, put a check on the abuse of power, and prevent waste of taxpayer dollars",
+      "website": "for250more.org",
+      "networks": [],
+      "email": "cmc1991@gmail.com",
+      "latitude": 38.98151,
+      "longitude": -77.381318
+    },
+    {
+      "name": "Compass Community Center",
+      "city": "Lake Worth Beach",
+      "state": [
+        "FL"
+      ],
+      "category": "Organizing & Advocacy",
+      "mission": "Compass' mission is to engage, empower and enrich the lives of lesbian, gay, bisexual, transgender and queer (LGBTQ+) people and those impacted by HIV and AIDS. Our vision is to be a collaborative leader in creating a safe, healthy, inclusive, equitable, and affirming community for all LGBTQ people and those impacted by HIV and AIDS. We will engage the individual and collective strengths of our community and its allies to promote and develop leadership, unity and pride. We will connect the community through diverse communications, vibrant programs, essential education and resources, and creating opportunities for our community to be seen and heard.",
+      "website": "www.compasslgbtq.com",
+      "networks": [],
+      "email": "Compass@CompassLGBTQ.com",
+      "latitude": 26.58566,
+      "longitude": -80.051985
+    },
+    {
+      "name": "ECHO Collective",
+      "city": "Lincoln",
+      "state": [
+        "NE"
+      ],
+      "category": "Connecting Across Differences",
+      "mission": "ECHO Collective connects and empowers refugee and immigrant women by providing entrepreneurship opportunities that support personal growth and build cross-cultural relationships in a nurturing environment.",
+      "website": "www.echocollectivene.org",
+      "networks": [],
+      "email": "hello@echocollectivene.org",
+      "latitude": 40.824659,
+      "longitude": -96.690316
+    },
+    {
+      "name": "Initiative Foundation",
+      "city": "Little Falls",
+      "state": [
+        "MN"
+      ],
+      "category": "Funder",
+      "mission": "We invest in the people and places of Central Minnesota to build thriving economies, vibrant communities and a lasting culture of generosity. Our vision is together, Central Minnesota residents imagine bold solutions and shape communities where everyone can prosper, participate and belong. We serve the 14-county and 2 Native nation region of Central Minnesota.",
+      "website": "www.ifound.org",
+      "networks": [],
+      "email": "info@ifound.org",
+      "latitude": 45.973074,
+      "longitude": -94.363332
+    },
+    {
+      "name": "National Community Leadership Collaborative",
+      "city": "Louisville",
+      "state": [
+        "KY"
+      ],
+      "category": "Civic Education & Leadership",
+      "mission": "Our mission is to leverage shared strategy, research, and participation in collaborative ventures among community leadership programs to amplify and elevate our collective impact.",
+      "website": "https://www.nclcpartners.org/",
+      "networks": [],
+      "email": "team@nclcpartners.org",
+      "latitude": 38.257367,
+      "longitude": -85.761822
+    },
+    {
+      "name": "Paths to Understanding",
+      "city": "Lynnwood",
+      "state": [
+        "WA"
+      ],
+      "category": "Faith-Based Efforts",
+      "mission": "Gathering Neighbors, Growing Trust",
+      "website": "www.pathstounderstanding.org",
+      "networks": [
+        "Democracy Group",
+        "New Pluralists"
+      ],
+      "email": "together@pathstounderstanding.org",
+      "latitude": 47.818078,
+      "longitude": -122.31818
+    },
+    {
+      "name": "CT Humanities",
+      "city": "Middletown",
+      "state": [
+        "CT"
+      ],
+      "category": "Connecting Across Differences",
+      "mission": "Our Mission\nTo cultivate, invest in, and advocate for the cultural sector in Connecticut through funding, programs, and collaboration.\n\nOur Vision\nA connected, sustainable cultural community in Connecticut that benefits and reflects all people.",
+      "website": "www.cthumanities.org",
+      "networks": [],
+      "email": "info@cthumanities.org",
+      "latitude": 41.558804,
+      "longitude": -72.6137
+    },
+    {
+      "name": "Plum Valley",
+      "city": "Minot",
+      "state": [
+        "ND"
+      ],
+      "category": "Organizing & Advocacy",
+      "mission": "\nThe League of Women Voters is a nonpartisan, grassroots organization working to protect and expand voting rights and ensure everyone is represented in our democracy. We empower voters and defend democracy through advocacy, education, and litigation, at the local, state, and national levels.",
+      "website": "https://www.lwv.org/",
+      "networks": [],
+      "email": "Brkaleg56@gmail.com",
+      "latitude": 48.2388,
+      "longitude": -101.307058
+    },
+    {
+      "name": "Salonette",
+      "city": "Montclair",
+      "state": null,
+      "category": "Civic Education & Leadership",
+      "mission": "Salonettes are a social way for people to learn about and discuss whatever impacts their day to day lives.  You host friends and neighbors on a monthly basis for a casual conversation about issues that affect your community with the goal of increasing participants’ knowledge of and investment in the community and how it works.  Salonettes invite public officials to join gatherins for a respectful, direct, off-the-record conversation about what they are doing and why.  This allows salonettes to learn about the community and deepen their social connections while doing so. ",
+      "website": "salonette.org",
+      "networks": [],
+      "email": "anjali@salonette.org",
+      "latitude": 40.842022,
+      "longitude": -74.200745
+    },
+    {
+      "name": "Citywide Youth Coalition",
+      "city": "New Haven",
+      "state": [
+        "CT"
+      ],
+      "category": "Civic Education & Leadership",
+      "mission": "CWYC is a youth civic engagement organization, building power with youth to co-govern with adults. Our mission is to build youth power through education, leadership development, and anti-racist community organizing. CWYC envisions a courageous community where youth lead change.",
+      "website": "Cwyc.org",
+      "networks": [],
+      "email": "info@cwyc.org",
+      "latitude": 41.306538,
+      "longitude": -72.927118
+    },
+    {
+      "name": "Discovering Amistad",
+      "city": "New Haven",
+      "state": [
+        "CT"
+      ],
+      "category": "Civic Education & Leadership",
+      "mission": "Discovering Amistad's mission is to connect people of all ages with the Amistad story, motivating them to act and work to change systems that perpetuate racism and to ensure human rights for all.",
+      "website": "https://www.discoveringamistad.org/",
+      "networks": [],
+      "email": "aguernsey@gmail.com",
+      "latitude": 41.295871,
+      "longitude": -72.915619
+    },
+    {
+      "name": "Students for Sustainability",
+      "city": "Omaha",
+      "state": [
+        "NE"
+      ],
+      "category": "Organizing & Advocacy",
+      "mission": "Students for Sustainability (SFS) is a youth-driven organization founded in 2017 by high school students with a commitment to environmental activism in Nebraska. Inspired by figures like Greta Thunberg and movements such as Fridays for Future, SFS aims to combat unsustainable practices locally while advocating for environmentally responsible choices everywhere. Our group’s flagship event is an annual climate strike, drawing youth from across the Omaha metro area to rally around a specific environmental cause each year.",
+      "website": "https://omahastudentsforsustainability.org",
+      "networks": [],
+      "email": "omahasfs@gmail.com",
+      "latitude": 41.258746,
+      "longitude": -95.938376
+    },
+    {
+      "name": "Join Engage Empower",
+      "city": "Pennington",
+      "state": [
+        "NJ"
+      ],
+      "category": null,
+      "mission": "Join Engage Empower's mission at Join Engage Empower is to provide individuals and communities with stories and  ways to do the joining, engaging, and empowering needed to establish the successful connections between freedom, democracy, and community ",
+      "website": "joinengageempower.org",
+      "networks": [],
+      "email": "Free1Dem2Comm3@gmail.com",
+      "latitude": 40.305499,
+      "longitude": -74.765061
+    },
+    {
+      "name": "Ms President US",
+      "city": "Ridgefield",
+      "state": [
+        "CT"
+      ],
+      "category": "Civic Education & Leadership",
+      "mission": "Ms President US (MPUS) motivates and prepares girls to aim for the highest civic leadership positions, instilling the tools and confidence needed for success. Through hands-on civic learning, real-world skill building, and authentic engagement with elected officials, our girls gain the confidence and tools they need to run for office — now and in the future.  \n\nOur strictly nonpartisan program is addressing the persistent gender gap in political representation by demystifying politics and planting a seed early that elected leadership is a viable and attainable career path. For nearly a decade, MPUS has inspired young women to make a difference in their communities and become catalysts for positive change.",
+      "website": "https://mspresidentus.org/",
+      "networks": [],
+      "email": "info@mspresidentus.org",
+      "latitude": 41.299458,
+      "longitude": -73.499282
+    },
+    {
+      "name": "Evolution Institute",
+      "city": "San Antonio",
+      "state": [
+        "FL"
+      ],
+      "category": "Civic Research",
+      "mission": "International science based think tank dedicated to improving quality of life, strengthening democracy to ensure greater equality and social solidarity. Researches and identifies best practices to accomplish its mission.",
+      "website": "Www.evolution-institute.org",
+      "networks": [],
+      "email": "Jlieber1@tampabay.rr.com",
+      "latitude": 28.331729,
+      "longitude": -82.300982
+    },
+    {
+      "name": "Springfield Cultural Partnership",
+      "city": "Springfield",
+      "state": [
+        "MA"
+      ],
+      "category": "Civic Education & Leadership",
+      "mission": "Springfield Cultural Partnership (SCP) is a nonprofit organization dedicated to fostering civic engagement and arts education through cultural activation and community collaboration. As steward of the Springfield Central Cultural District (SCCD), SCP convenes artists, residents, institutions, businesses, and government partners to strengthen civic life, advance equity, and build community trust. Through public art, creative placemaking, civic dialogue, and cross-sector partnerships, SCP creates accessible opportunities for residents to participate in shaping their community. Programs such as The Intersection Civic Pop-Up Space, Trust Transfer Project, and Artists at Work Springfield demonstrate how arts and culture can strengthen democracy, belonging, and community wellbeing.",
+      "website": "https://springfieldculture.org/",
+      "networks": [],
+      "email": "karen@springfieldculture.org",
+      "latitude": 42.10116,
+      "longitude": -72.586233
+    },
+    {
+      "name": "Sunshine State Unity Network 100",
+      "city": "St. Petersburg",
+      "state": [
+        "FL"
+      ],
+      "category": "Connecting Across Differences",
+      "mission": "The Sunshine 100 is for dedicated leaders and community members who want to improve the quality of our democracy and who agree with our three principles:\n1. Committing to truth in our politics\n2. Engaging peacefully with our fellow Americans\n3. Supporting our electoral democracy",
+      "website": "https://sunshine100.org",
+      "networks": [],
+      "email": "Jennifer.webb@cartercenter.org",
+      "latitude": 27.770024,
+      "longitude": -82.638355
+    },
+    {
+      "name": "Doctors of Democracy",
+      "city": "Washington",
+      "state": [
+        "DC"
+      ],
+      "category": "Civic Education & Leadership",
+      "mission": "DODO is a nonpartisan, nonprofit organization that protects and strengthens U.S. democracy.  At Doctors of Democracy (DODO), our team of democracy experts elevates the conversation around democracy reform by injecting humility, humor, and nuanced historical and comparative perspectives into a polarized field, all without pushing a pet reform agenda.  ",
+      "website": "https://www.doctorsofdemocracy.org/",
+      "networks": [],
+      "email": "info@doctorsofdemocracy.org",
+      "latitude": 38.907447,
+      "longitude": -77.039209
+    },
+    {
+      "name": "New England First Amendment Coalition",
+      "city": "Westborough",
+      "state": [
+        "MA"
+      ],
+      "category": "Deliberative/Participatory/Direct Democracy",
+      "mission": "The New England First Amendment Coalition defends, promotes and expands public access to government and the work it does. The coalition is a broad-based organization of people who believe in the power of transparency in a democratic society. Its members include lawyers, journalists, historians, librarians and academicians, as well as private citizens and organizations whose core beliefs include the principles of the First Amendment.\n\nThe coalition aspires to advance and protect the five freedoms of the First Amendment, and the principle of the public’s right to know, in Connecticut, Maine, Massachusetts, New Hampshire, Rhode Island and Vermont. In collaboration with other like-minded advocacy organizations, NEFAC also seeks to advance understanding of the First Amendment across the nation and freedom of speech and press issues around the world.",
+      "website": "nefac.org",
+      "networks": [],
+      "email": "justin@nefac.org",
+      "latitude": 42.273942,
+      "longitude": -71.622854
+    },
+    {
+      "name": "Making Every Vote Count Foundation",
+      "city": "Washington",
+      "state": [
+        "DC"
+      ],
+      "category": "Electoral Reform",
+      "mission": "The Making Every Vote Count Foundation is a 501(c)(3) nonprofit, nonpartisan organization, dedicated to electing the President by a national popular vote. Our goal is to analyze, prepare studies, inform the public, and promote discussion about the weaknesses of our current presidential election system and possible reforms (including a constitutional amendment abolishing the Electoral College and replacing it with a direct popular vote).",
+      "website": "Www.makingeveryvotecount.com",
+      "networks": [],
+      "email": "Info@makingeveryvotecount.com",
+      "latitude": 38.914938,
+      "longitude": -77.018001
     }
   ]
 }
