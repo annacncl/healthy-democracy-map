@@ -1,5 +1,5 @@
 {
-  "total": 9086,
+  "total": 9087,
   "records": [
     {
       "name": "4th Street Food Co-op",
@@ -133970,6 +133970,20 @@
       "email": "operations@commongood.org",
       "latitude": 40.752768,
       "longitude": -73.971727
+    },
+    {
+      "name": "Rutgers Democracy Lab (RDL)",
+      "city": "New Brunswick",
+      "state": [
+        "NJ"
+      ],
+      "category": "Civic Education & Leadership",
+      "mission": "Rutgers Democracy Lab (RDL) creates opportunities for students to build civic skills, talk across differences, and work together to solve real-world problems. We collaborate with faculty, staff, and community partners to combine research on youth civic engagement, technology, and democracy with innovative programs that help students turn ideas into action. Our goal is simple: we mobilize the power of Rutgers to strengthen democracy.",
+      "website": "https://democracylab.rutgers.edu/",
+      "networks": [],
+      "email": "democracy@eagleton.rutgers.edu",
+      "latitude": 40.481842,
+      "longitude": -74.42985
     }
   ]
 }
