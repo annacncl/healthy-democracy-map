@@ -1,5 +1,5 @@
 {
-  "total": 9087,
+  "total": 9067,
   "records": [
     {
       "name": "4th Street Food Co-op",
@@ -4549,20 +4549,6 @@
       "longitude": -77.0411668
     },
     {
-      "name": "Bedford Downtown Alliance",
-      "city": "BEDFORD",
-      "state": [
-        "OH"
-      ],
-      "category": "Civic Associations",
-      "mission": "To preserve and revitalize downtown businesses in Bedford, Ohio and to bring the community together in maintaining the city’s history and improving its future. We will unify both the Downtown businesses and the Bedford community in order to revitalize and preserve our Historic Downtown. We will include the residents and neighboring communities, the arts, improvement of quality of life in Bedford and the Bedford culture and history. When possible, we will work towards doing so through philanthropic and outreach means.",
-      "website": "https://bedforddowntown.org/",
-      "networks": [],
-      "email": null,
-      "latitude": 41.392216,
-      "longitude": -81.535923
-    },
-    {
       "name": "Bekind Salina",
       "city": "Salina",
       "state": [
@@ -4773,20 +4759,6 @@
       "email": null,
       "latitude": 42.3238427,
       "longitude": -122.8675533
-    },
-    {
-      "name": "Black Health Coalition of Wisconsin",
-      "city": "Milwaukee",
-      "state": [
-        "WI"
-      ],
-      "category": "Civic Associations",
-      "mission": " The Black Health Coalition of Wisconsin, Inc. is a group of local organizations and individuals whose collaborative goal is to address the health problems of African Americans. The primary objective of the Coalition is to improve the health status of African Americans in the State of Wisconsin and to ensure equitable and comprehensive healthcare for all people.  ",
-      "website": "https://bhcw.org/",
-      "networks": [],
-      "email": null,
-      "latitude": 43.0489453,
-      "longitude": -87.9518679
     },
     {
       "name": "Black Hills Badges for Hope",
@@ -10702,20 +10674,6 @@
       "longitude": -84.4505922
     },
     {
-      "name": "Gtx Connect",
-      "city": "Georgetown",
-      "state": [
-        "TX"
-      ],
-      "category": "Civic Associations",
-      "mission": "To facilitate community problem solving by bridging the gaps between community members, government officials, and other organizations. We build on people’s strengths and aspirations by providing the support they need to become changemakers and leaders in the community.",
-      "website": "https://gtxconnect.org/",
-      "networks": [],
-      "email": "info@gtxconnect.org",
-      "latitude": 30.6335586,
-      "longitude": -97.6837071
-    },
-    {
       "name": "Gullah Traveling Theater",
       "city": "Beaufort",
       "state": [
@@ -11901,20 +11859,6 @@
       "email": "info@ift-aft.org",
       "latitude": 41.8211283,
       "longitude": -87.9633397
-    },
-    {
-      "name": "Illinois Opportunity Project",
-      "city": "CHICAGO",
-      "state": [
-        "IL"
-      ],
-      "category": "Civic Associations",
-      "mission": "The Illinois Opportunity Project believes that empowering and organizing people around our shared values is the most impactful way to change our State and strengthen our communities.\n\nWe use the neighborhood team model and relational organizing to empower individuals to change their neighborhoods and advance free-market principles into law.",
-      "website": "https://www.illinoisopportunity.org/",
-      "networks": [],
-      "email": null,
-      "latitude": 41.8961909,
-      "longitude": -87.6323553
     },
     {
       "name": "Immigrant & Refugee Outreach Center (IROC)",
@@ -16436,20 +16380,6 @@
       "email": null,
       "latitude": 36.1,
       "longitude": -115.07
-    },
-    {
-      "name": "Nevada County Tea Party Patriots",
-      "city": "Grass Valley",
-      "state": [
-        "CA"
-      ],
-      "category": "Civic Associations",
-      "mission": "The NCTP brings together like-minded citizens who believe in the principles of Constitutionally Limited Government, Fiscal Responsibility, Free Markets, and Individual Liberty that have made the United States of America the greatest country in the history of the world with citizens who are willing to place country above political affiliation.",
-      "website": "https://www.nevadacountyteaparty.org/",
-      "networks": [],
-      "email": "nctpinfo@gmail.com",
-      "latitude": 39.2190608,
-      "longitude": -121.0610606
     },
     {
       "name": "Nevada Indian Commission",
@@ -24305,20 +24235,6 @@
       "longitude": -81.6624213
     },
     {
-      "name": "West Virginia Center for Civic Life",
-      "city": "Charleston",
-      "state": [
-        "WV"
-      ],
-      "category": "Civic Associations",
-      "mission": "The West Virginia Center for Civic Life is a nonpartisan, nonprofit organization that helps engage our citizens in community discussions of important public issues that affect our state and nation.",
-      "website": "http://www.wvciviclife.org/",
-      "networks": [],
-      "email": "info@wvciviclife.org",
-      "latitude": 38.3320971,
-      "longitude": -81.6142153
-    },
-    {
       "name": "West Virginia Municipal League",
       "city": "Charleston",
       "state": [
@@ -25311,7 +25227,7 @@
       ],
       "category": "Civic Education & Leadership",
       "mission": "Action Now Institute [ANI] works for racial, social and economic justice by building leadership capacity of community members, developing cutting-edge policy analysis, and driving data-focused and results-oriented campaigns that promote our community leaders to the decision making tables for their communities.\n\nOur cornerstone priority is educating, expanding and empowering our base of working families in predominantly Black communities",
-      "website": "https://actionnow-institute.org/",
+      "website": null,
       "networks": [],
       "email": "office@actionnow.org",
       "latitude": 41.8875282,
@@ -35360,20 +35276,6 @@
       "longitude": -98.4842465
     },
     {
-      "name": "NAACP Lousiana Chapter",
-      "city": null,
-      "state": [
-        "LA"
-      ],
-      "category": "Civic Education & Leadership",
-      "mission": "The mission of the National Association for the Advancement of Colored People (NAACP) is to achieve equity, political rights, and social inclusion by advancing policies and practices that expand human and civil rights, eliminate discrimination, and accelerate the well-being, education, and economic security of Black people and all persons of color.\n",
-      "website": "https://www.naacplastateconference.org/about-1",
-      "networks": [],
-      "email": null,
-      "latitude": 34.0549076,
-      "longitude": -118.242643
-    },
-    {
       "name": "NAACP Tennessee State Conference",
       "city": "Jackson",
       "state": [
@@ -37230,20 +37132,6 @@
       "email": null,
       "latitude": 40.3348186,
       "longitude": -76.8369814
-    },
-    {
-      "name": "Pennsylvania Now Education Fund",
-      "city": "Philadelphia",
-      "state": [
-        "PA"
-      ],
-      "category": "Civic Education & Leadership",
-      "mission": "The purpose of the Pennsylvania NOW Education Fund is to conduct educational programs to advance the full equality and well being of women and girls in the Commonwealth of Pennsylvania.  The PA NOW Education Fund is a nonprofit, 501(c)3 corporation and, in accordance with Internal Revenue Service regulations, contributions to the Education Fund are tax deductible.",
-      "website": "https://pennsylvanianow.org/pa-now-education-fund/",
-      "networks": [],
-      "email": null,
-      "latitude": 39.9350642,
-      "longitude": -75.1516194
     },
     {
       "name": "Pennsylvania public interest research group",
@@ -48735,25 +48623,6 @@
       "longitude": -80.1540648
     },
     {
-      "name": "Citizen Data",
-      "city": "Washington",
-      "state": [
-        "DC"
-      ],
-      "category": "Civic Technology",
-      "mission": "Citizen Data empowers organizations with the data, insights, and audiences to solve modern challenges.",
-      "website": "https://citizendata.com/",
-      "networks": [
-        "Bridge Alliance",
-        "Citizen Connect",
-        "FixUS",
-        "More Perfect"
-      ],
-      "email": "nicd@arizona.edu",
-      "latitude": 38.9071923,
-      "longitude": -77.0368707
-    },
-    {
       "name": "City Tech Collaborative at UI Labs",
       "city": "Chicago",
       "state": [
@@ -58602,20 +58471,6 @@
       "longitude": -96.7440467
     },
     {
-      "name": "Crystal Mason the Fight Against Voter Suppression",
-      "city": "Fort Worth",
-      "state": [
-        "TX"
-      ],
-      "category": "Electoral Reform",
-      "mission": "Crystal Mason was arrested and thrown in jail for casting a provisional ballot. It’s evident that voter suppression is real and impacting black Americans across the country. Together, we will fight back and protect our right to vote.",
-      "website": "https://www.crystalmasonthefight.org/",
-      "networks": [],
-      "email": "CrystalMasonTheFight@gmail.com",
-      "latitude": 32.631572,
-      "longitude": -97.276076
-    },
-    {
       "name": "CT Voters First",
       "city": "Stonington",
       "state": [
@@ -63978,22 +63833,6 @@
       "longitude": -73.6380886
     },
     {
-      "name": "Sisters of St. Joseph Welcome Center",
-      "city": "Philadelphia",
-      "state": [
-        "PA"
-      ],
-      "category": "Faith-Based Efforts",
-      "mission": "In the just and compassionate spirit of Saint Joseph, the Welcome Center offers opportunities that enable immigrants and others to improve the quality of their lives through access to education, support services and programs leading to self–sufficiency.\n\nThis neighborhood center in urban Philadelphia extends hospitality, linking newcomers and persons with resources for the enrichment of both.",
-      "website": "https://ssjwelcomecenter.org/",
-      "networks": [
-        "PICC"
-      ],
-      "email": "welcomecenter728@gmail.com",
-      "latitude": 39.9967044,
-      "longitude": -75.1166371
-    },
-    {
       "name": "Sixth & I",
       "city": "Washington",
       "state": [
@@ -67011,20 +66850,6 @@
       "longitude": -84.191325
     },
     {
-      "name": "Asian American Organizing Project (AAOP)",
-      "city": "Saint Paul",
-      "state": [
-        "MN"
-      ],
-      "category": "Organizing & Advocacy",
-      "mission": "We are a grassroots nonprofit organization that empowers young Asian Minnesotans (14-35 years old), prioritizing those holding LGBTQA+ and women/femme identities, to create systemic changes towards and equitable, conscious, and just society.",
-      "website": "https://aaopmn.org/",
-      "networks": [],
-      "email": "info@aaopmn.org",
-      "latitude": 44.9566844,
-      "longitude": -93.1763207
-    },
-    {
       "name": "Asian Americans Advancing Justice-Atlanta (AAJC-Atlanta)",
       "city": "Norcross",
       "state": [
@@ -69844,20 +69669,6 @@
       "longitude": -77.0304756
     },
     {
-      "name": "Deeds Not Words",
-      "city": "Austin",
-      "state": [
-        "TX"
-      ],
-      "category": "Organizing & Advocacy",
-      "mission": "At Deeds, we believe in galvanizing the power of young people to become agents of change igniting cultural shifts through leader development, grassroots organizing, and the power of creative expression.",
-      "website": "https://deedsnotwords.com/",
-      "networks": [],
-      "email": null,
-      "latitude": 30.2581261,
-      "longitude": -97.7169328
-    },
-    {
       "name": "Dekalb Family Initiative",
       "city": "Auburn",
       "state": [
@@ -72109,20 +71920,6 @@
       "email": "info@bmigeorgia.org",
       "latitude": 30.3105436,
       "longitude": -97.7420619
-    },
-    {
-      "name": "Group Plan Commission",
-      "city": "Cleveland",
-      "state": [
-        "OH"
-      ],
-      "category": "Organizing & Advocacy",
-      "mission": "Building upon the iconic vision of the Group Plan of 1903, Group Plan Commission transforms and connects Downtown Cleveland’s signature public spaces, reshaping the heart of the city for today’s citizens and future generations through maintaining and programming Cleveland’s iconic Public Square. By developing and linking signature public spaces, the Group Plan Commission is reshaping the heart of Cleveland. ",
-      "website": "https://www.groupplan.org/",
-      "networks": [],
-      "email": "connect@groupplan.org",
-      "latitude": 41.4984174,
-      "longitude": -81.6937287
     },
     {
       "name": "Hamilton County Sheriffs Reserve",
@@ -80293,20 +80090,6 @@
       "email": "info@interfaithallianceco.org",
       "latitude": 39.7379837,
       "longitude": -104.9839605
-    },
-    {
-      "name": "The Jack Kerouac Writers in Residence Project of Orlando",
-      "city": "Orlando",
-      "state": [
-        "FL"
-      ],
-      "category": "Organizing & Advocacy",
-      "mission": "The mission of the Jack Kerouac Writers in Residence Project is to create a living monument that not only safeguards the home’s historical significance but continues to expand Jack Kerouac’s lineage of literary innovation by providing writers worldwide the rare opportunity to live, be inspired, and connect while residing in his former Central Florida home.",
-      "website": "https://www.kerouacproject.org/",
-      "networks": [],
-      "email": null,
-      "latitude": 28.5666858,
-      "longitude": -81.3894247
     },
     {
       "name": "The James Wilson Institute for Natural Rights and the American Fo",
@@ -119724,20 +119507,6 @@
       "longitude": -76.6121893
     },
     {
-      "name": "League of Women Voters of Bartlesville",
-      "city": "Bartlesville",
-      "state": [
-        "OK"
-      ],
-      "category": "Voter Engagement",
-      "mission": "The League of Women Voters is a nonpartisan, grassroots organization working to protect and expand voting rights and ensure everyone is represented in our democracy. We empower voters and defend democracy through advocacy, education, and litigation, at the local, state, and national levels.",
-      "website": "www.lwvbartlesville.org",
-      "networks": [],
-      "email": null,
-      "latitude": 36.7467005,
-      "longitude": -95.9783538
-    },
-    {
       "name": "League of Women Voters of Bay Area",
       "city": "Seabrook",
       "state": [
@@ -120592,20 +120361,6 @@
       "email": null,
       "latitude": 60.460948,
       "longitude": -151.1171139
-    },
-    {
-      "name": "League of Women Voters of Central Nassau",
-      "city": "Garden City",
-      "state": [
-        "NY"
-      ],
-      "category": "Voter Engagement",
-      "mission": "The League of Women Voters is a nonpartisan, grassroots organization working to protect and expand voting rights and ensure everyone is represented in our democracy. We empower voters and defend democracy through advocacy, education, and litigation, at the local, state, and national levels.",
-      "website": "https://www.facebook.com/lwvofcentralnassau/",
-      "networks": [],
-      "email": "lwv.central.nassau1@gmail.com",
-      "latitude": 40.7267682,
-      "longitude": -73.6342954
     },
     {
       "name": "League of Women Voters of Central New Mexico",
@@ -121950,20 +121705,6 @@
       "email": null,
       "latitude": 38.8303905,
       "longitude": -77.1963703
-    },
-    {
-      "name": "League of Women Voters of Fairfield",
-      "city": "Fairfield",
-      "state": [
-        "CT"
-      ],
-      "category": "Voter Engagement",
-      "mission": "The League of Women Voters is a nonpartisan, grassroots organization working to protect and expand voting rights and ensure everyone is represented in our democracy. We empower voters and defend democracy through advocacy, education, and litigation, at the local, state, and national levels.",
-      "website": "lwvfairfield.org",
-      "networks": [],
-      "email": "LWVofFairfield@gmail.com",
-      "latitude": 41.1949559,
-      "longitude": -73.3661918
     },
     {
       "name": "League of Women Voters of Falls Church",
@@ -126646,20 +126387,6 @@
       "email": null,
       "latitude": 31.3271191,
       "longitude": -89.2903392
-    },
-    {
-      "name": "League of Women Voters of Placer County",
-      "city": "Loomis",
-      "state": [
-        "CA"
-      ],
-      "category": "Voter Engagement",
-      "mission": "The League of Women Voters is a nonpartisan, grassroots organization working to protect and expand voting rights and ensure everyone is represented in our democracy. We empower voters and defend democracy through advocacy, education, and litigation, at the local, state, and national levels.",
-      "website": "http://lwvplacercounty.org/index.html",
-      "networks": [],
-      "email": null,
-      "latitude": 38.8212889,
-      "longitude": -121.1930041
     },
     {
       "name": "League of Women Voters of Plainfield",
@@ -131859,20 +131586,6 @@
       "longitude": -81.7620641
     },
     {
-      "name": "Rank the Vote Oklahoma",
-      "city": "Norman",
-      "state": [
-        "OK"
-      ],
-      "category": "Voter Engagement",
-      "mission": "We are Oklahoma citizens working to educate our neighbors and communities on the advantages of instant runoff voting (IRV), aka ranked choice voting.",
-      "website": "https://www.rankthevoteok.org/",
-      "networks": [],
-      "email": "bikewalknampa@gmail.com",
-      "latitude": 35.2125166,
-      "longitude": -97.4952575
-    },
-    {
       "name": "Raymond Voter Information Project",
       "city": "Raymond",
       "state": [
@@ -132045,20 +131758,6 @@
       "email": "info@rockthevote.org",
       "latitude": 38.8977376,
       "longitude": -77.0328781
-    },
-    {
-      "name": "Save Democracy",
-      "city": "Tucson",
-      "state": [
-        "AZ"
-      ],
-      "category": "Voter Engagement",
-      "mission": "This coalition of Arizona citizens intends to educate voters of the challenges facing the state of Arizona brought about by our partisan primary system and explore alternative nonpartisan voting systems that would make elections work better for all citizens.",
-      "website": "https://www.savedemocracyaz.com/",
-      "networks": [],
-      "email": null,
-      "latitude": 32.2539787,
-      "longitude": -110.9741769
     },
     {
       "name": "Secure Democracy USA",
@@ -133984,6 +133683,20 @@
       "email": "democracy@eagleton.rutgers.edu",
       "latitude": 40.481842,
       "longitude": -74.42985
+    },
+    {
+      "name": "Modern Action",
+      "city": "Pittsburgh",
+      "state": [
+        "PA"
+      ],
+      "category": "Civic Technology",
+      "mission": "Modern Action is a Pittsburgh-based, nonpartisan 501(c)(3) civic technology nonprofit serving people across the United States. It connects public issues to federal legislation, helps people compare policy choices, shows sourced records of elected officials’ votes, bill sponsorships and reviewed public positions when available, and helps users prepare an editable message to their U.S. senators and House representative. Its focus is participation between elections: see what officials have done, decide what should happen next, contact the office with a specific request, and follow the outcomes. ",
+      "website": "https://modernaction.io/",
+      "networks": [],
+      "email": "colum@modernaction.io",
+      "latitude": 40.4406,
+      "longitude": -79.9959
     }
   ]
 }
