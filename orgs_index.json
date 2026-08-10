@@ -1,5 +1,5 @@
 {
-  "total": 9067,
+  "total": 9026,
   "records": [
     {
       "name": "4th Street Food Co-op",
@@ -2583,20 +2583,6 @@
       "longitude": -119.0065656
     },
     {
-      "name": "A Hero for Kids Incorporated",
-      "city": "Saint Cloud",
-      "state": [
-        "FL"
-      ],
-      "category": "Civic Associations",
-      "mission": "A Hero For Kids is a Veteran founded ALL VOLUNTEER 501(c)(3). We are focused on helping to make Osceola County a better, happier place for our children, our Veterans, our first responders and our community. We work towards our mission by collecting backpacks, school supplies, books, Holiday gifts and hygiene items...which we then distribute during events or at schools. We offer fellow Veterans an opportunity to join us in these \"days of service\" which gives them that renewed \"sense of mission\" and \"purpose\" which many find missing after leaving the military.\n\nPromoting literacy by distributing books; providing backpacks and school supplies to children/families in need; providing hygiene items to members of the community in need; distributing school uniforms and clothing plus more!",
-      "website": "https://aheroforkids.org/",
-      "networks": [],
-      "email": null,
-      "latitude": 28.1807472,
-      "longitude": -81.2934983
-    },
-    {
       "name": "A Legacy of Equality Leadership and Organizing",
       "city": "Seattle",
       "state": [
@@ -3752,20 +3738,6 @@
       "email": null,
       "latitude": 36.1743735,
       "longitude": -115.1076196
-    },
-    {
-      "name": "Article Four",
-      "city": "Arlington",
-      "state": [
-        "VA"
-      ],
-      "category": "Civic Associations",
-      "mission": "Article Four is a nonpartisan nonprofit with a focus of furthering American Democracy by researching the causes of democratic dysfunction, whilst supporting local and stae-led initiatives that increase healthy competition to give citizens more choice and agency in how their government is run",
-      "website": "https://www.articlefour.org",
-      "networks": [],
-      "email": "info@articlefour.org",
-      "latitude": 38.8922092,
-      "longitude": -77.070837
     },
     {
       "name": "Artists 4 Democracy",
@@ -5153,20 +5125,6 @@
       "email": "bmc@brooklynmovementcenter.org",
       "latitude": 40.6814066,
       "longitude": -73.9315454
-    },
-    {
-      "name": "Broward Coalition of Condos Home Owners Assc & Community Org",
-      "city": "Boca Raton",
-      "state": [
-        "FL"
-      ],
-      "category": "Civic Associations",
-      "mission": "THE BROWARD COALITION PROVIDES OPPORTUNITIES FOR ENABLING THE UNIFICATION INVOLVED IN THE CONDOMINIUM AND HOMEOWNER ASSOCIATION COMMUNITY. OUR OBJECTIVES ARE TO ENSURE A STRONG VOICE IN PROTECTING AND PROMOTING OUR MEMBERS IN FLORIDA'S GOVERNMENTAL AND LEGISLATIVE ACTIVITIES KEEPING THE BROWARD COALITION ABREAST OF EXISTING OR PROPOSED LEGISLATION WHICH COULD AFFECT THE INTERESTS OF THE BROWARD COALITION, AND TO CONTINUE TO BUILD A NETWORK PLACE READY TO BE CALLED, AS ONE VOICE, WHEN ACTION IS REQUIRED.",
-      "website": "browardcoalition.org",
-      "networks": [],
-      "email": " info@browardcoalition.org ",
-      "latitude": 26.3702212,
-      "longitude": -80.1234846
     },
     {
       "name": "Build Institute",
@@ -7958,20 +7916,6 @@
       "longitude": -111.8810945
     },
     {
-      "name": "Cynthia Graham Hurd Foundation for Reading and Civic Engagement",
-      "city": "Charlotte",
-      "state": [
-        "NC"
-      ],
-      "category": "Civic Associations",
-      "mission": "The Cynthia Graham Hurd Foundation for Reading and Civic Engagement was established to continue Cynthia’s work and legacy of engaging the community through her love and appreciation for reading and facilitates stronger relationships among and between community members.",
-      "website": "https://www.cghfoundation.org/",
-      "networks": [],
-      "email": "m.graham.12@aol.com",
-      "latitude": 35.3293586,
-      "longitude": -80.7877157
-    },
-    {
       "name": "Dallas Asian American Historical Society",
       "city": "Dallas",
       "state": [
@@ -10488,20 +10432,6 @@
       "email": "GrassrootsAlhambra@gmail.com",
       "latitude": 34.103045,
       "longitude": -118.1372091
-    },
-    {
-      "name": "Grassroots in Action",
-      "city": "MINNEAPOLIS",
-      "state": [
-        "MN"
-      ],
-      "category": "Civic Associations",
-      "mission": "To educate mobilize and support communities of color in Minnesota on the policies, institutions, and elected representatives that shape their lives.\nprovide neighbors of color with a platform to increase civic engagement, educate the community on the political institutions that shape their lives, and mobilize citizens to make sure their voices are heard in the policy-making process.",
-      "website": "https://www.grassrootsinactionmn.org/",
-      "networks": [],
-      "email": "info@civicnation.org",
-      "latitude": 44.9886327,
-      "longitude": -93.2813742
     },
     {
       "name": "Grassroots Power Project",
@@ -13876,20 +13806,6 @@
       "longitude": -77.0409583
     },
     {
-      "name": "Lee Homecoming Day",
-      "city": "MADISON",
-      "state": [
-        "FL"
-      ],
-      "category": "Civic Associations",
-      "mission": "Organization founded  \"To provide enrichment to it’s community, support to local businesses, and highlight resources within the county\" by hosting an annual event for local and surrounding county members of all ages to enjoy. ",
-      "website": "https://leehomecomingday.com/",
-      "networks": [],
-      "email": "leedaycommittee@gmail.com",
-      "latitude": 30.4074462,
-      "longitude": -83.3353444
-    },
-    {
       "name": "Leechburg Public Library",
       "city": "LEECHBURG",
       "state": [
@@ -14030,20 +13946,6 @@
       "email": null,
       "latitude": 37.7988828,
       "longitude": -122.4493335
-    },
-    {
-      "name": "Lids of Encouragement",
-      "city": "San Diego",
-      "state": [
-        "CA"
-      ],
-      "category": "Civic Associations",
-      "mission": "To uniquely encourage those in need of basic human needs, disaster relief and helping the homeless with long term solutions to permanent affordable housing. ",
-      "website": "https://www.lidsofencouragement.org/",
-      "networks": [],
-      "email": "info@lidsofencouragement.org",
-      "latitude": 32.7141941,
-      "longitude": -117.1597926
     },
     {
       "name": "Lincoln Theatre Center Foundation",
@@ -14999,20 +14901,6 @@
       "email": null,
       "latitude": 42.732535,
       "longitude": -84.5555347
-    },
-    {
-      "name": "Michigan Prosperity Project Foundation",
-      "city": "Lansing",
-      "state": [
-        "MI"
-      ],
-      "category": "Civic Associations",
-      "mission": "The purpose of the organization is to educate citizens about economic liberty and limited government and how economic liberty and limited government will achieve a freer and more and more prosperous society and increased individual freedom and prosperity for everyone.",
-      "website": "https://miprosperity.com/",
-      "networks": [],
-      "email": null,
-      "latitude": 42.7387545,
-      "longitude": -84.5549085
     },
     {
       "name": "Michigan Stormwater-Floodplain Association",
@@ -23389,20 +23277,6 @@
       "longitude": -111.8925217
     },
     {
-      "name": "Utahns for Better Transportation (UBET) (UBET)",
-      "city": "Salt Lake City",
-      "state": [
-        "UT"
-      ],
-      "category": "Civic Associations",
-      "mission": "Utahns for Better Transportation (UBET) is an organization dedicated to promoting balanced transportation choices that serve and respect our neighborhoods, our environment, and our future quality of life along the Wasatch Front.\n\nSince 1995, UBET has worked to educate decision-makers and the Utah community to the benefits of a balanced transportation system and the wisdom of a transit-first investment strategy. UBET has led the effort to challenge the status quo philosophy and practice of a business-as-usual decision-making model that attempts to accommodate predicted increases in vehicle-miles-traveled instead of one that provides incentives to reduce those numbers. Reducing vehicle-miles-traveled improves air quality, decreases automobile congestion (especially at the peak hours), reduces fuel consumption, and ensures healthier Utah communities.\n\nUBET works in collaboration with other public interest groups to promote development of reliable, convenient, and affordable transit choices; safe and extensive bicycle pathways; and walkable, mixed-use communities. UBET is a 501(c)(3) tax dedutctable organization.\n\n",
-      "website": "https://utahnsforbettertransportation.org/",
-      "networks": [],
-      "email": "utahnsforbettertransportation@gmail.com",
-      "latitude": 40.758141,
-      "longitude": -111.8846655
-    },
-    {
       "name": "Valley Interfaith Project",
       "city": "Phoenix",
       "state": [
@@ -25218,20 +25092,6 @@
       "email": "info@accessopportunity.org ",
       "latitude": 40.0217598,
       "longitude": -105.2407641
-    },
-    {
-      "name": "Action Now Institute (ANI)",
-      "city": "Chicago",
-      "state": [
-        "IL"
-      ],
-      "category": "Civic Education & Leadership",
-      "mission": "Action Now Institute [ANI] works for racial, social and economic justice by building leadership capacity of community members, developing cutting-edge policy analysis, and driving data-focused and results-oriented campaigns that promote our community leaders to the decision making tables for their communities.\n\nOur cornerstone priority is educating, expanding and empowering our base of working families in predominantly Black communities",
-      "website": null,
-      "networks": [],
-      "email": "office@actionnow.org",
-      "latitude": 41.8875282,
-      "longitude": -87.6754329
     },
     {
       "name": "ACUI: Advancing Campus Community",
@@ -29364,20 +29224,6 @@
       "longitude": -118.3031342
     },
     {
-      "name": "Conway Ecofest",
-      "city": "Conway",
-      "state": [
-        "AR"
-      ],
-      "category": "Civic Education & Leadership",
-      "mission": "The mission of Conway EcoFest is to grow a healthier environment and community through environmental education through conservation,sustainability, and innovation.",
-      "website": "https://www.conwayecofest.com/?fbclid=IwY2xjawEfQUBleHRuA2FlbQIxMAABHYHUbIg7LEpW7MzCngWixIAmVPV0kpWz3R75Krf7ojbpTPiQmCEuU3gKkw_aem_tzSeQCSK5rt69uPOezNPfg",
-      "networks": [],
-      "email": "hello@conwayecofest.com",
-      "latitude": 35.0989177,
-      "longitude": -92.4899417
-    },
-    {
       "name": "Corona Heritage Foundation",
       "city": "Corona",
       "state": [
@@ -32547,20 +32393,6 @@
       "longitude": -77.0368707
     },
     {
-      "name": "Institute for Change",
-      "city": "San Francisco",
-      "state": [
-        "CA"
-      ],
-      "category": "Civic Education & Leadership",
-      "mission": "THE INSTITUTE FOR CHANGE PROVIDES LEADERSHIP DEVELOPMENT, ORGANIZATIONAL CHANGE TRAINING, AND ADVICE TO NON-PROFIT ORGANIZATIONS TO ENABLE THEM TO BE MORE EFFECTIVE IN ACHIEVING THE GOALS OF THEIR MISSIONS.",
-      "website": "https://instituteforchange.net/",
-      "networks": [],
-      "email": null,
-      "latitude": 37.7887249,
-      "longitude": -122.4517721
-    },
-    {
       "name": "Institute for Community Empowerment",
       "city": "Chicago",
       "state": [
@@ -32648,20 +32480,6 @@
       "email": "info@iftf.org",
       "latitude": 37.4442105,
       "longitude": -122.1615662
-    },
-    {
-      "name": "Institute for the Renewal of the California Dream",
-      "city": "Santa Barbara",
-      "state": [
-        "CA"
-      ],
-      "category": "Civic Education & Leadership",
-      "mission": "The mission of Renew California (formerly the Institute for the Renewal of the California Dream) is to build a powerful statewide change-based movement through research, education and message development to restore California’s role of leading the nation and inventing the future.",
-      "website": "https://renewca.org/",
-      "networks": [],
-      "email": "info@renewca.org",
-      "latitude": 34.4208305,
-      "longitude": -119.6981901
     },
     {
       "name": "Institute for Youth in Policy",
@@ -33186,20 +33004,6 @@
       "email": null,
       "latitude": 27.3362744,
       "longitude": -82.5216068
-    },
-    {
-      "name": "Kansas Coalition for Open Government",
-      "city": "TOPEKA",
-      "state": [
-        "KS"
-      ],
-      "category": "Civic Education & Leadership",
-      "mission": "To promote educational programs and publications to explain the importance of open government, engaging in efforts to strengthen existing open meetings and open records laws, monitoring legislative attempts to weaken citizen access to government and establishing a hotline for members and citizens to access when they encounter violations of these laws.",
-      "website": "https://kcog.us/",
-      "networks": [],
-      "email": null,
-      "latitude": 39.0521467,
-      "longitude": -95.6725233
     },
     {
       "name": "Kansas Council for the Social Studies ",
@@ -39474,20 +39278,6 @@
       "longitude": -76.9897776
     },
     {
-      "name": "The HUB SD",
-      "city": "Sioux Falls",
-      "state": [
-        "SD"
-      ],
-      "category": "Civic Education & Leadership",
-      "mission": "The HUB (South Dakota) provides committed, visionary leadership and advocacy in the realization of economic empowerment. Through the creation of resources and initiatives, we support BIPOC, refugees, Immigrants, and business organizations in their work developing and growing BIPOC, Refugee and Immigrant enterprises.",
-      "website": "https://thehubsd.org/who-we-are",
-      "networks": [],
-      "email": null,
-      "latitude": 43.4997018,
-      "longitude": -96.7728009
-    },
-    {
       "name": "The Jefferson Legacy Foundation",
       "city": "North Chittenden",
       "state": [
@@ -40785,22 +40575,6 @@
       "email": "illinois@commoncause.org",
       "latitude": 40.7463846,
       "longitude": -111.9308859
-    },
-    {
-      "name": "Utah Civic Learning Collaborative",
-      "city": "Salt Lake City",
-      "state": [
-        "UT"
-      ],
-      "category": "Civic Education & Leadership",
-      "mission": "The UCLC has three purposes:\n\n1. Build on the partnerships and innovations occurring in K-12 classrooms.\n\n2. Help Utah educators leverage research on best practices in civics and character education and curriculum content. \n\n3. Connect organizations and community nonprofits with K-12 classrooms in ways that facilitate young peoples’ lifelong engagement in civic life. \n​\nIn the face of competing demands on educators, preparing students to be part of an upright citizenry is no small task.  The UCLC brings experts and stakeholders together to find the best ways to prepare young people for civic life. ",
-      "website": "https://www.placeforallutah.org/uclc",
-      "networks": [
-        "iCivics/CivxNow Coalition"
-      ],
-      "email": "admin@placeforallutah.org",
-      "latitude": 40.7607793,
-      "longitude": -111.8910474
     },
     {
       "name": "Utah Debate Commission",
@@ -43251,20 +43025,6 @@
       "email": "news@columbiamissourian.com",
       "latitude": 38.9487809,
       "longitude": -92.3291518
-    },
-    {
-      "name": "Common Ground with Jane Whitney (COG)",
-      "city": "Washington",
-      "state": [
-        "CT"
-      ],
-      "category": "Civic Media",
-      "mission": "Conversations on the Green (COG) is a 501(c)3 civic education organization dedicated to\nthe principle that fact-based, civil conversation is the keystone of a healthy democracy.\nCOG produces the PBS public affairs TV program “Common Ground with Jane Whitney,”\n(CGJW) which is designed to reinforce democracy’s guardrails by building bridges across the\npolitical chasm. By showcasing a multiplicity of voices that span the ideological spectrum,\nwe seek to perpetuate the democratic principle that out of many, we are one",
-      "website": "cgjw.com",
-      "networks": [],
-      "email": "lauraneminski@cgjw.org",
-      "latitude": 41.6302875,
-      "longitude": -73.3108115
     },
     {
       "name": "Conecta Arizona",
@@ -49419,20 +49179,6 @@
       "longitude": -73.9746705
     },
     {
-      "name": "Snowball Project",
-      "city": "Chicago",
-      "state": [
-        "IL"
-      ],
-      "category": "Civic Technology",
-      "mission": "Snowball uses technology to put the power of personal connection and peer influence to work inspiring engagement.",
-      "website": "https://snowballproject.org/",
-      "networks": [],
-      "email": "feedback@snowballproject.org",
-      "latitude": 41.8772942,
-      "longitude": -87.624614
-    },
-    {
       "name": "Software Freedom International (aka: Digital Freedom Foundation)",
       "city": "Hudson",
       "state": [
@@ -51929,23 +51675,6 @@
       "email": "hello@equitabledinners.com",
       "latitude": 33.7471546,
       "longitude": -84.3625146
-    },
-    {
-      "name": "Erase Meanness",
-      "city": "South Bend",
-      "state": [
-        "IN"
-      ],
-      "category": "Connecting Across Differences",
-      "mission": "\"Since 2012, Erasing Meanness' purpose has been to give students tools and insights to Erase Meanness in their lives.  ​The adaptable lesson helps students make the connection between the choices they make and the world they leave behind by asking  \"\"How do you want to be remembered?\"\"  Choose kindness.\"",
-      "website": "http://www.erasemeanness.org/",
-      "networks": [
-        "Citizen Connect",
-        "Listen First Coalition"
-      ],
-      "email": "erasemeanness@outlook.com",
-      "latitude": 41.6713378,
-      "longitude": -86.2501727
     },
     {
       "name": "Essential Partners",
@@ -55184,24 +54913,6 @@
       "longitude": -118.705653
     },
     {
-      "name": "The Art of Group Conversation",
-      "city": "Detroit",
-      "state": [
-        "MI"
-      ],
-      "category": "Connecting Across Differences",
-      "mission": "The Art of Group Conversation is a project dedicated to providing unique and effective facilitated group dialogues. It is based on the work of Dr. Rachel Davis DuBois who pioneered this process in the late 1930s. \n\nIt has positive outcomes whether the group is made up of people who are newly acquainted or those divided by differences in culture or beliefs. \n\nTrained facilitators customize each dialogue session to meet the interest and needs of the group. They create an environment that promotes safety and acceptance. Then facilitators guide participants through a series of questions designed to create connections.  Through spontaneous sharing, group members discover what they have in common and develop rapport, The ability to feel empathy and appreciation for each other follows, along with a sense of empathy and appreciation for each other.\n\n\nThe Art of Group Conversation's greatest value is when it is used as a prelude or preparation for other group work. The relaxed state and increased trust among group members allows them to move forward together better.",
-      "website": "https://artofgroupconversation.org/",
-      "networks": [
-        "Bridge Alliance",
-        "Citizen Connect",
-        "Listen First Coalition"
-      ],
-      "email": "artofgroupconversation@gmail.com",
-      "latitude": 42.3297182,
-      "longitude": -83.0424533
-    },
-    {
       "name": "The Center for Conflict Resolution (CCR)",
       "city": "Chicago",
       "state": [
@@ -58251,20 +57962,6 @@
       "longitude": -84.3876845
     },
     {
-      "name": "Better Ballot Indiana",
-      "city": "Granger",
-      "state": [
-        "IN"
-      ],
-      "category": "Electoral Reform",
-      "mission": "Better Ballot Indiana is a non-partisan Indiana non-profit corporation 501(c)(3) formed to educate and empower Hoosiers to strengthen our democracy in Indiana through Ranked Choice Voting (RCV).\nWe neither endorse nor support any candidates nor political parties. Any endorsements listed are by third parties of our mission, not by our organization of third parties.",
-      "website": "https://www.betterballotin.org/",
-      "networks": [],
-      "email": null,
-      "latitude": 41.7283248,
-      "longitude": -86.1607232
-    },
-    {
       "name": "Better Ballot North Carolina",
       "city": "Cary",
       "state": [
@@ -59564,22 +59261,6 @@
       "email": "Contributions@adasisrael.org\t",
       "latitude": 38.9370886,
       "longitude": -77.0575462
-    },
-    {
-      "name": "Alliance for Congregational Transformation Influencing Others (ACTION)",
-      "city": "Youngstown",
-      "state": [
-        "OH"
-      ],
-      "category": "Faith-Based Efforts",
-      "mission": "Guided by our faith traditions, shared values, and multi-cultural collaboration, we strive to develop a community of diverse leaders committed to raising awareness and seeking solutions to overcome poverty, racism, and social injustice.\n",
-      "website": "https://actionoh.com/",
-      "networks": [
-        "Gamaliel Network"
-      ],
-      "email": "pastorjstanfordofaction@gmail.com",
-      "latitude": 41.0949558,
-      "longitude": -80.6732922
     },
     {
       "name": "Alpha Epsilon Phi",
@@ -63342,22 +63023,6 @@
       "email": "office@piinpa.org",
       "latitude": 40.4367167,
       "longitude": -79.9230461
-    },
-    {
-      "name": "Philadelphia Jewish Labor Committee",
-      "city": "Philadelphia",
-      "state": [
-        "PA"
-      ],
-      "category": "Faith-Based Efforts",
-      "mission": "The Philadelphia Jewish Labor Committee is dedicated to upholding and renewing the long term commitment of the Philadelphia Jewish community to social justice and economic fairness. We advocate for fair wages and decent working conditions through our partnership with the American Labor Movement, with the working men and women in Union ranks, and by collaborating with other local grassroots organizations and initiatives striving to ensure the same.",
-      "website": "https://phillyjlc.org/",
-      "networks": [
-        "Jewish Partnership for Democracy"
-      ],
-      "email": "MHersch@comcast.net",
-      "latitude": 39.9556178,
-      "longitude": -75.1752001
     },
     {
       "name": "Pilsen Neighbors Community Council",
@@ -68878,20 +68543,6 @@
       "longitude": -104.999772
     },
     {
-      "name": "Comite Civico Ecuatoriano-Central Florida",
-      "city": "Casselberry",
-      "state": [
-        "FL"
-      ],
-      "category": "Organizing & Advocacy",
-      "mission": "CULTURAL AWARENESS AND CHARITABLE ACTIV",
-      "website": "http://comitecivicoecuatorianocfl.org/",
-      "networks": [],
-      "email": "ComiteCivicoEcuatorianoCFL@gmail.com",
-      "latitude": 28.6892544,
-      "longitude": -81.3278652
-    },
-    {
       "name": "Committee Of 100",
       "city": "NEW YORK",
       "state": [
@@ -70731,22 +70382,6 @@
       "email": null,
       "latitude": 28.600283,
       "longitude": -81.2027761
-    },
-    {
-      "name": "Florida Fair and Open Primaries",
-      "city": "Panama City",
-      "state": [
-        "FL"
-      ],
-      "category": "Organizing & Advocacy",
-      "mission": null,
-      "website": "https://www.floridafairandopenprimaries.org/",
-      "networks": [
-        "Respect Voters Coalition"
-      ],
-      "email": null,
-      "latitude": 30.3256188,
-      "longitude": -85.6007062
     },
     {
       "name": "Florida Fair Elections Coalition",
@@ -76610,22 +76245,6 @@
       "longitude": -96.79
     },
     {
-      "name": "Northeast Sustainable Agriculture Working Group (NESAWG)",
-      "city": "Providence",
-      "state": [
-        "RI"
-      ],
-      "category": "Organizing & Advocacy",
-      "mission": "Northeast Sustainable Agriculture Working Group is the Northeast Region's Food and Farm Network.",
-      "website": "https://nesawg.org/",
-      "networks": [
-        "New Economy Coalition"
-      ],
-      "email": "info@nesawg.org",
-      "latitude": 41.8167148,
-      "longitude": -71.4461149
-    },
-    {
       "name": "Northern Plains Resource Council",
       "city": "Billings",
       "state": [
@@ -79457,20 +79076,6 @@
       "longitude": -93.1981098
     },
     {
-      "name": "Take Back Our Republic",
-      "city": "Auburn",
-      "state": [
-        "AL"
-      ],
-      "category": "Organizing & Advocacy",
-      "mission": "We believe that a government “of the people, by the people, and for the people\" is not one beholden to big business and union influence. We believe that once individuals better understand these issues, and understand that there are many more like them who share their disdain for the status quo, the natural outgrowth of this understanding will be a better engaged and more involved citizenry. And then the people – not us, nor any corporation or special interest – with eyes wide open will realize their power to Take Back Our Republic.",
-      "website": "https://takeback.org/",
-      "networks": [],
-      "email": "Info@TakeBackAction.org",
-      "latitude": 32.6067632,
-      "longitude": -85.4802158
-    },
-    {
       "name": "Takeaction Minnesota Education Fund",
       "city": "Saint Paul",
       "state": [
@@ -80859,20 +80464,6 @@
       "email": "info@reaganfoundation.org",
       "latitude": 40.6584392,
       "longitude": -111.9045034
-    },
-    {
-      "name": "Utah Tech Leads PAC",
-      "city": "Draper",
-      "state": [
-        "UT"
-      ],
-      "category": "Organizing & Advocacy",
-      "mission": "Representing the Utah Tech Industry with advocacy, policy and education",
-      "website": "https://www.utahtechleads.com/",
-      "networks": [],
-      "email": "info@RAZE.org",
-      "latitude": 40.5246711,
-      "longitude": -111.8638226
     },
     {
       "name": "Utah Women Run",
@@ -116330,22 +115921,6 @@
       "longitude": -122.8547872
     },
     {
-      "name": "Activate Gen Z",
-      "city": "New Castle",
-      "state": [
-        "IN"
-      ],
-      "category": "Voter Engagement",
-      "mission": "The ActivateGenZ Project aims to shake up the status quo by first educating GenZ on critical issues in a nonpartisan manner and then providing resources like voter registration tools and contact banks to get American youth engaged.",
-      "website": "https://activategenz.org/",
-      "networks": [
-        "New Voters Collaborative"
-      ],
-      "email": "samunderhill@activategenz.org",
-      "latitude": 39.928935,
-      "longitude": -85.3702476
-    },
-    {
       "name": "Albany Voters Coalition",
       "city": "Albany",
       "state": [
@@ -118112,20 +117687,6 @@
       "longitude": -80.3344378
     },
     {
-      "name": "Florida Conservation Voters Education Fund",
-      "city": "Tallahassee",
-      "state": [
-        "FL"
-      ],
-      "category": "Voter Engagement",
-      "mission": "FLORIDA CONSERVATION VOTERS EDUCATION FUND PROTECTS FLORIDA'S ENVIRONMENT AND PUBLIC HEALTH BY ENHANCING THE CAPACITY OF THE CONSERVATION COMMUNITY AND EDUCATING CITIZENS AND POLICYMAKERS. THIS IS ACHIEVED BY ENGAGING CITIZENS AND THE CONSERVATION COMMUNITY TO ADDRESS OUR STATE'S MOST CRITICAL ENVIRONMENTAL ISSUES AND BY CONNECTING CONSERVATION-MINDED CITIZENS WITH THE POLICY-MAKING PROCESS THROUGH EDUCATION, PUBLIC OPINION RESEARCH, AND THE IMPLEMENTATION OF VOTER PARTICIPATION STRATEGIES.",
-      "website": "https://fcvoters.org/",
-      "networks": [],
-      "email": null,
-      "latitude": 30.4634256,
-      "longitude": -84.2840298
-    },
-    {
       "name": "Florida Voters League",
       "city": "Clermont",
       "state": [
@@ -119017,20 +118578,6 @@
       "longitude": -91.4098726
     },
     {
-      "name": "League of Women Voters of Adams County",
-      "city": "Thornton",
-      "state": [
-        "CO"
-      ],
-      "category": "Voter Engagement",
-      "mission": "The League of Women Voters is a nonpartisan, grassroots organization working to protect and expand voting rights and ensure everyone is represented in our democracy. We empower voters and defend democracy through advocacy, education, and litigation, at the local, state, and national levels.",
-      "website": "http://www.lwvadamscounty.org/",
-      "networks": [],
-      "email": null,
-      "latitude": 39.8680412,
-      "longitude": -104.9719243
-    },
-    {
       "name": "League of Women Voters of Akron",
       "city": "Akron",
       "state": [
@@ -119703,20 +119250,6 @@
       "longitude": -122.273042
     },
     {
-      "name": "League of Women Voters of Berkeley Heights, New Providence and Summit",
-      "city": "New Providence",
-      "state": [
-        "NJ"
-      ],
-      "category": "Voter Engagement",
-      "mission": "The League of Women Voters is a nonpartisan, grassroots organization working to protect and expand voting rights and ensure everyone is represented in our democracy. We empower voters and defend democracy through advocacy, education, and litigation, at the local, state, and national levels.",
-      "website": "www.LWVBHNPS.org",
-      "networks": [],
-      "email": null,
-      "latitude": 40.6984348,
-      "longitude": -74.4015405
-    },
-    {
       "name": "League of Women Voters of Berks County",
       "city": "Reading",
       "state": [
@@ -119771,20 +119304,6 @@
       "email": null,
       "latitude": 46.8041643,
       "longitude": -100.7877616
-    },
-    {
-      "name": "League of Women Voters of Black Hawk-Bremer",
-      "city": "Waterloo",
-      "state": [
-        "IA"
-      ],
-      "category": "Voter Engagement",
-      "mission": "The League of Women Voters is a nonpartisan, grassroots organization working to protect and expand voting rights and ensure everyone is represented in our democracy. We empower voters and defend democracy through advocacy, education, and litigation, at the local, state, and national levels.",
-      "website": "http://www.lwvbhb.org/",
-      "networks": [],
-      "email": null,
-      "latitude": 42.492786,
-      "longitude": -92.3425775
     },
     {
       "name": "League of Women Voters of Black Hills Area",
@@ -124859,20 +124378,6 @@
       "longitude": -121.8946761
     },
     {
-      "name": "League of Women Voters of Montezuma County",
-      "city": "Cortez",
-      "state": [
-        "CO"
-      ],
-      "category": "Voter Engagement",
-      "mission": "The League of Women Voters is a nonpartisan, grassroots organization working to protect and expand voting rights and ensure everyone is represented in our democracy. We empower voters and defend democracy through advocacy, education, and litigation, at the local, state, and national levels.",
-      "website": "http://www.lwvmontezuma.org/",
-      "networks": [],
-      "email": null,
-      "latitude": 37.3488827,
-      "longitude": -108.5859265
-    },
-    {
       "name": "League of Women Voters of Montgomery",
       "city": "Montgomery",
       "state": [
@@ -125591,20 +125096,6 @@
       "longitude": -72.6998119
     },
     {
-      "name": "League of Women Voters of Northampton County",
-      "city": "Bethlehem",
-      "state": [
-        "PA"
-      ],
-      "category": "Voter Engagement",
-      "mission": "The League of Women Voters is a nonpartisan, grassroots organization working to protect and expand voting rights and ensure everyone is represented in our democracy. We empower voters and defend democracy through advocacy, education, and litigation, at the local, state, and national levels.",
-      "website": "http://lwvnorthco.org/contact.html",
-      "networks": [],
-      "email": null,
-      "latitude": 40.6259316,
-      "longitude": -75.3704579
-    },
-    {
       "name": "League of Women Voters of Northeast Michigan",
       "city": "Lansing",
       "state": [
@@ -125715,20 +125206,6 @@
       "email": null,
       "latitude": 45.3733428,
       "longitude": -84.9553296
-    },
-    {
-      "name": "League of Women Voters of Northern Nevada",
-      "city": "Carson City",
-      "state": [
-        "NV"
-      ],
-      "category": "Voter Engagement",
-      "mission": "The League of Women Voters is a nonpartisan, grassroots organization working to protect and expand voting rights and ensure everyone is represented in our democracy. We empower voters and defend democracy through advocacy, education, and litigation, at the local, state, and national levels.",
-      "website": "www.lwvnn.org",
-      "networks": [],
-      "email": null,
-      "latitude": 39.1637984,
-      "longitude": -119.7674034
     },
     {
       "name": "League of Women Voters of Northern Portage",
@@ -126991,20 +126468,6 @@
       "longitude": -121.4943996
     },
     {
-      "name": "League of Women Voters of Saginaw County",
-      "city": "Saginaw",
-      "state": [
-        "MI"
-      ],
-      "category": "Voter Engagement",
-      "mission": "The League of Women Voters is a nonpartisan, grassroots organization working to protect and expand voting rights and ensure everyone is represented in our democracy. We empower voters and defend democracy through advocacy, education, and litigation, at the local, state, and national levels.",
-      "website": "http://lwvsaginaw.org",
-      "networks": [],
-      "email": null,
-      "latitude": 43.4194699,
-      "longitude": -83.9508068
-    },
-    {
       "name": "League of Women Voters of Salem",
       "city": "Salem",
       "state": [
@@ -127535,20 +126998,6 @@
       "email": null,
       "latitude": 29.4438528,
       "longitude": -96.9410929
-    },
-    {
-      "name": "League of Women Voters of South Coast",
-      "city": "Marion",
-      "state": [
-        "MA"
-      ],
-      "category": "Voter Engagement",
-      "mission": "The League of Women Voters is a nonpartisan, grassroots organization working to protect and expand voting rights and ensure everyone is represented in our democracy. We empower voters and defend democracy through advocacy, education, and litigation, at the local, state, and national levels.",
-      "website": "lwvmmr.org",
-      "networks": [],
-      "email": null,
-      "latitude": 41.697719,
-      "longitude": -70.7525299
     },
     {
       "name": "League of Women Voters of South County",
@@ -128123,20 +127572,6 @@
       "email": "lwvsyr@gmail.com",
       "latitude": 43.0481221,
       "longitude": -76.1474244
-    },
-    {
-      "name": "League of Women Voters of Tacoma-Pierce County",
-      "city": "Tacoma",
-      "state": [
-        "WA"
-      ],
-      "category": "Voter Engagement",
-      "mission": "The League of Women Voters is a nonpartisan, grassroots organization working to protect and expand voting rights and ensure everyone is represented in our democracy. We empower voters and defend democracy through advocacy, education, and litigation, at the local, state, and national levels.",
-      "website": "www.tacomapiercelwv.org",
-      "networks": [],
-      "email": null,
-      "latitude": 47.2528768,
-      "longitude": -122.4442906
     },
     {
       "name": "League of Women Voters of Tallahassee",
@@ -129785,20 +129220,6 @@
       "email": null,
       "latitude": 44.0553908,
       "longitude": -91.6663523
-    },
-    {
-      "name": "League of Women Voters of Wisconsin",
-      "city": "Madison",
-      "state": [
-        "WI"
-      ],
-      "category": "Voter Engagement",
-      "mission": "The League of Women Voters is a nonpartisan, grassroots organization working to protect and expand voting rights and ensure everyone is represented in our democracy. We empower voters and defend democracy through advocacy, education, and litigation, at the local, state, and national levels.",
-      "website": "www.lwvwi.org",
-      "networks": [],
-      "email": null,
-      "latitude": 43.0721661,
-      "longitude": -89.4007501
     },
     {
       "name": "League of Women Voters of Wisconsin Rapids",
@@ -132070,20 +131491,6 @@
       "email": "claguardia@californiacenter.org",
       "latitude": 38.5473242,
       "longitude": -121.4652696
-    },
-    {
-      "name": "The California Grassroots Democracy Coalition",
-      "city": null,
-      "state": [
-        "CA"
-      ],
-      "category": "Voter Engagement",
-      "mission": "The California Grassroots Democracy Coalition comprises 140+ grassroots organizations dedicated to helping California’s most disinvested communities become empowered through pro-democracy reforms. The organizations include a wide range of backgrounds including, but not limited to: criminal justice reform, immigrant rights, language access, low-income communities, environmental justice, religious, labor unions, and more.\n\nMany of our members organize year-round and run integrated voter engagement campaigns across California to build power for our communities and fight to make sure that working class communities of color have a voice in our government. \n\nOur coalition has joined together to advance a new vision for California’s democracy and dismantle racist barriers to civic participation that marginalize Black, Indigenous, people of color, naturalized citizens, young, low-income, and low English proficiency voters.",
-      "website": "https://cademocracy.org/",
-      "networks": [],
-      "email": null,
-      "latitude": 36.778261,
-      "longitude": -119.4179324
     },
     {
       "name": "The California Native Vote Project",
