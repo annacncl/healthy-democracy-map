@@ -42,3 +42,7 @@ jobs:
           git add orgs_index.json
           git diff --cached --quiet || git commit -m "Weekly map update"
           git push
+
+      - name: Purge jsDelivr cache
+        run: |
+          curl -s "https://purge.jsdelivr.net/gh/${{ github.repository }}@main/orgs_index.json"

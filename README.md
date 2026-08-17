@@ -30,10 +30,12 @@ The workflow runs automatically **every Monday at 6:00 AM UTC** and can also be 
 Once the workflow has run at least once, the index file is available at:
 
 ```
-https://raw.githubusercontent.com/[YOUR_GITHUB_USERNAME]/healthy-democracy-map/main/orgs_index.json
+https://cdn.jsdelivr.net/gh/[YOUR_GITHUB_USERNAME]/healthy-democracy-map@main/orgs_index.json
 ```
 
 Replace `[YOUR_GITHUB_USERNAME]` with your actual GitHub username. Fetch this URL from your WordPress map embed to power search and filtering.
+
+Use the jsDelivr URL, not `raw.githubusercontent.com` — GitHub's raw-content host isn't meant for production website traffic and will intermittently 429/503 under real visitor load, especially as the file has grown past several MB. jsDelivr is a CDN built for exactly this and won't fall over the same way. The workflow's "Purge jsDelivr cache" step keeps it in sync — jsDelivr otherwise caches for up to ~24h.
 
 ---
 
