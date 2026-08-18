@@ -10,6 +10,7 @@ Automated pipeline that pulls organization data from Airtable, uploads it to a M
 2. **Converts** those records to GeoJSON-LD and uploads them to the Mapbox tileset source `annacorn/healthy-democracy-orgs`.
 3. **Publishes** the Mapbox tileset `annacorn.healthy-democracy-orgs` so the live map reflects the latest data.
 4. **Writes** `orgs_index.json` — a flat JSON array used by the WordPress map embed for client-side search and filtering — and commits it back to this repo.
+5. **Writes** `networks_meta.json` — Geography/Website/Description for every network referenced by an org, pulled fresh from the Airtable Networks table (`AIRTABLE_NETWORKS_TABLE_ID`) each run — and commits it back to this repo. This drives the map's National/Local network filter dropdowns.
 
 The workflow runs automatically **every Monday at 6:00 AM UTC** and can also be triggered manually at any time.
 
@@ -39,11 +40,21 @@ Use the jsDelivr URL, not `raw.githubusercontent.com` — GitHub's raw-content h
 
 ---
 
+## networks_meta.json — URL for WordPress
+
+Same pattern as above, generated fresh from the Airtable Networks table every run:
+
+```
+https://cdn.jsdelivr.net/gh/[YOUR_GITHUB_USERNAME]/healthy-democracy-map@main/networks_meta.json
+```
+
+This replaces the old hand-maintained `networks_meta_from_csv.json` that lived on WordPress — that file had to be manually kept in sync with Airtable and had drifted out of date (missing networks that existed in Airtable but never got added to the file, so they were invisible in the map's filter dropdowns despite showing correctly on individual org popups). Now any network added or edited in the Airtable Networks table (`AIRTABLE_NETWORKS_TABLE_ID`) shows up automatically on the next run — no manual file maintenance needed.
+
+To control what shows in the filter dropdown / tooltips for a network, edit its `Geography`, `Website`, and `Description` fields directly in the Airtable Networks table.
+
+---
+
 ## What is NOT managed by this repo
-
-### networks_meta_from_csv.json
-
-This file contains static metadata about networks (names, descriptions, logos, etc.). It is **not** generated or updated by this pipeline. It lives on WordPress and is fetched separately by the map embed. To update it, edit and re-upload the file on WordPress directly.
 
 ### Pin colors and map styling
 

@@ -18,6 +18,7 @@ MAPBOX_TILESET_SOURCE_ID = "healthy-democracy-orgs"
 MAPBOX_TILESET_ID = "annacorn.healthy-democracy-orgs"
 
 INDEX_FILE = "orgs_index.json"
+NETWORKS_META_FILE = "networks_meta.json"
 
 
 # ---------------------------------------------------------------------------
@@ -46,24 +47,40 @@ def fetch_all_records(table_id, view_name=None):
     return records
 
 
-def build_network_lookup():
+def build_network_lookup_and_meta():
     """
-    Return a dict mapping Airtable record ID -> network name.
-    Falls back to an empty dict if AIRTABLE_NETWORKS_TABLE_ID is not set.
+    Fetch the Networks table once and return two structures:
+      - lookup: dict mapping Airtable record ID -> network name
+                (used to resolve the "Network Membership" linked field on orgs)
+      - meta:   dict mapping network name -> {Geography, Website, Description}
+                (used by the map's dropdown filter for categorization + tooltips,
+                replacing the separately-maintained networks_meta_from_csv.json
+                that was going stale on WordPress)
+    Falls back to empty dicts if AIRTABLE_NETWORKS_TABLE_ID is not set.
     """
     if not AIRTABLE_NETWORKS_TABLE_ID:
         print("AIRTABLE_NETWORKS_TABLE_ID not set — network names will be omitted.")
-        return {}
+        return {}, {}
 
     print(f"Fetching network records from table '{AIRTABLE_NETWORKS_TABLE_ID}'...")
     records = fetch_all_records(AIRTABLE_NETWORKS_TABLE_ID)
+
     lookup = {}
+    meta = {}
     for rec in records:
-        name = rec.get("fields", {}).get("Network/Coalition", "").strip()
-        if name:
-            lookup[rec["id"]] = name
+        fields = rec.get("fields", {})
+        name = fields.get("Network/Coalition", "").strip()
+        if not name:
+            continue
+        lookup[rec["id"]] = name
+        meta[name] = {
+            "Geography": fields.get("Geography", ""),
+            "Website": fields.get("Website", ""),
+            "Description": fields.get("Description", ""),
+        }
+
     print(f"  Loaded {len(lookup)} network names.")
-    return lookup
+    return lookup, meta
 
 
 def build_category_lookup():
@@ -222,7 +239,7 @@ def publish_tileset():
 
 def main():
     # 1. Resolve linked field lookups before processing orgs
-    network_lookup = build_network_lookup()
+    network_lookup, network_meta = build_network_lookup_and_meta()
     category_lookup = build_category_lookup()
 
     # 2. Fetch org records filtered by the live view
@@ -258,6 +275,12 @@ def main():
     with open(INDEX_FILE, "w", encoding="utf-8") as f:
         json.dump(index_payload, f, indent=2, ensure_ascii=False)
     print(f"Wrote {INDEX_FILE} with {len(index_entries)} entries.")
+
+    # 6. Write networks_meta.json (Geography/Website/Description per network,
+    #    generated fresh from Airtable every run — see build_network_lookup_and_meta)
+    with open(NETWORKS_META_FILE, "w", encoding="utf-8") as f:
+        json.dump(network_meta, f, indent=2, ensure_ascii=False)
+    print(f"Wrote {NETWORKS_META_FILE} with {len(network_meta)} network entries.")
 
 
 if __name__ == "__main__":
