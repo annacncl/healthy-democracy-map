@@ -189,6 +189,9 @@ fetch("https://cdn.jsdelivr.net/gh/annacncl/healthy-democracy-map@main/orgs_inde
 if (typeof rebuildNetworkOptionsDynamic === "function") {
   rebuildNetworkOptionsDynamic();
 }
+if (typeof populateDropdownsOnce === "function") {
+  populateDropdownsOnce(); // (re)build Category/State options now that the index has data
+}
   // Top stat (total orgs)
   const el = document.getElementById("orgTotalCount");
   if (el && data && typeof data.total === "number") {
@@ -540,22 +543,33 @@ function getAllSourceFeatures() {
   return feats;
 }
 
+  // Builds the Category and State filter option lists from window.ORG_INDEX
+  // (orgs_index.json) instead of live map tile features. Mapbox enforces a
+  // per-tile size limit and silently drops properties/features that don't
+  // fit, especially at low zoom where thousands of points share one tile —
+  // that intermittently wiped out State (and could do the same to any
+  // other field) depending on zoom/viewport. orgs_index.json has no such
+  // limit, so it's the reliable source here — same reasoning already
+  // applied to the network dropdowns via rebuildNetworkOptionsDynamic().
   function populateDropdownsOnce() {
-    var feats = getAllSourceFeatures();
-    if (!feats.length) return;
+    var idx = window.ORG_INDEX;
+    if (!idx || !Array.isArray(idx.records)) return;
 
     if (categorySelect && categorySelect.options.length <= 1) {
       var catSet = new Set();
-      feats.forEach(function (f) {
-        var v = safeText((f.properties || {})[FIELD_CATEGORY]).trim();
-        if (v) catSet.add(v);
+      idx.records.forEach(function (rec) {
+        var raw = safeText(rec.category).trim();
+        if (!raw) return;
+        raw.split(",").map(function (s) { return s.trim(); }).filter(Boolean).forEach(function (v) {
+          catSet.add(v);
+        });
       });
       Array.from(catSet).sort().forEach(function (v) {
         var opt = document.createElement("option");
         opt.value = v;
-  opt.textContent = v;
-  categorySelect.appendChild(opt);
-});
+        opt.textContent = v;
+        categorySelect.appendChild(opt);
+      });
     }
 
     if (stateSelect && stateSelect.options.length <= 1) {
@@ -579,12 +593,13 @@ function getAllSourceFeatures() {
 
   var stSet = new Set();
 
-  feats.forEach(function (f) {
-    var raw = safeText((f.properties || {})[FIELD_STATE]).trim();
+  idx.records.forEach(function (rec) {
+    var raw = safeText(rec.state).trim();
     if (!raw) return;
 
     // Normalize some known phrases
     if (NAME_TO_CODE[raw]) raw = NAME_TO_CODE[raw];
+    if (!raw) return; // e.g. "United States" maps to null above — nothing usable left
 
     // Split multi-state strings like "CA, NV" / "CA;NV" / "CA & NV" / "CA / NV"
     var parts = raw
@@ -602,7 +617,7 @@ function getAllSourceFeatures() {
       // Map known full names (if any)
       if (NAME_TO_CODE[v]) v = NAME_TO_CODE[v];
 
-      if (ALLOWED.has(v)) stSet.add(v);
+      if (v && ALLOWED.has(v)) stSet.add(v);
     });
   });
 
