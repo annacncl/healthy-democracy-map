@@ -78,6 +78,34 @@ var CATEGORY_COLORS = {
 };
 window.CATEGORY_COLORS = CATEGORY_COLORS;
 
+/* ---------- Apply CATEGORY_COLORS to the actual map pins ----------
+   Pin colors used to be a separate manual rule in the Mapbox Studio style,
+   independent of this list (used only for the filter dropdown dots/legend).
+   That meant two places to update whenever a category changed. This builds
+   a Mapbox "match" expression from CATEGORY_COLORS and applies it directly
+   to the point layer(s), so this object is the single source of truth for
+   both. Orgs with multiple categories (comma-joined string) won't match a
+   single key and fall back to the default color, same as before. ---------- */
+function applyCategoryColorsToPins(map, layerIds) {
+  var expr = ["match", ["get", FIELD_CATEGORY]];
+  Object.keys(CATEGORY_COLORS).forEach(function (cat) {
+    expr.push(cat, CATEGORY_COLORS[cat]);
+  });
+  expr.push("#111111"); // fallback for unmatched/unknown categories
+
+  (layerIds || []).forEach(function (id) {
+    if (!map.getLayer(id)) return;
+    var type = map.getLayer(id).type;
+    if (type === "circle") {
+      map.setPaintProperty(id, "circle-color", expr);
+    } else if (type === "symbol") {
+      map.setPaintProperty(id, "icon-color", expr);
+    } else {
+      console.warn("applyCategoryColorsToPins: unsupported layer type '" + type + "' for layer '" + id + "'");
+    }
+  });
+}
+
 /* ---------- Category descriptions (shared by UI tooltips) ---------- */
 var CATEGORY_META = {
   "Civic Associations": {
@@ -2595,6 +2623,9 @@ window.initNetworkHoverDescriptionOnce = initNetworkHoverDescriptionOnce;
 		
 		populateDropdownsOnce();
 		rebuildNetworkOptionsDynamic();
+
+		if (!__hdeClusterLayerIds) __hdeClusterLayerIds = findClusterAndPointLayers();
+		applyCategoryColorsToPins(map, (__hdeClusterLayerIds.pointLayers && __hdeClusterLayerIds.pointLayers.length) ? __hdeClusterLayerIds.pointLayers : [LAYER_ID]);
 
 // // Build the custom dropdown UIs (these create the -options containers)
 	initSearchableMultiSelect({
