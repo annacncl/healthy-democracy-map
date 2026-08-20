@@ -129,6 +129,18 @@ def resolve_networks(field_value, network_lookup):
     return resolve_linked_field(field_value, network_lookup)
 
 
+def scalar(value):
+    """
+    Convert an Airtable field value to a plain string.
+    Airtable returns a list for linked/multi-value fields — "State" turned out to be
+    one of these even though it looks like plain text. A raw list as a Mapbox tileset
+    property isn't a valid scalar type, so Mapbox silently drops it from the tile.
+    """
+    if isinstance(value, list):
+        return ", ".join(str(v) for v in value) if value else None
+    return value
+
+
 # ---------------------------------------------------------------------------
 # Conversion helpers
 # ---------------------------------------------------------------------------
@@ -159,12 +171,12 @@ def record_to_feature(record, network_lookup, category_lookup):
     # (the old behavior) bloated individual map tiles past Mapbox's size limit,
     # which made Mapbox silently drop whole organizations from low-zoom tiles.
     properties = {
-        "Name": fields.get("Name"),
-        "City": fields.get("City"),
-        "State": fields.get("State"),
-        "Website": fields.get("Website"),
-        "Mission/Description": fields.get("Mission/Description"),
-        "General Contact Email": fields.get("General Contact Email"),
+        "Name": scalar(fields.get("Name")),
+        "City": scalar(fields.get("City")),
+        "State": scalar(fields.get("State")),
+        "Website": scalar(fields.get("Website")),
+        "Mission/Description": scalar(fields.get("Mission/Description")),
+        "General Contact Email": scalar(fields.get("General Contact Email")),
         "Network Membership": ", ".join(networks) if networks else None,
         "Category of Work": ", ".join(categories) if categories else None,
     }
@@ -187,14 +199,14 @@ def record_to_index_entry(record, network_lookup, category_lookup):
     categories = resolve_linked_field(fields.get("Category of Work"), category_lookup)
 
     return {
-        "name": fields.get("Name"),
-        "city": fields.get("City"),
-        "state": fields.get("State"),
+        "name": scalar(fields.get("Name")),
+        "city": scalar(fields.get("City")),
+        "state": scalar(fields.get("State")),
         "category": ", ".join(categories) if categories else None,
-        "mission": fields.get("Mission/Description"),
-        "website": fields.get("Website"),
+        "mission": scalar(fields.get("Mission/Description")),
+        "website": scalar(fields.get("Website")),
         "networks": networks,          # Array<string> — what the JS expects
-        "email": fields.get("General Contact Email"),
+        "email": scalar(fields.get("General Contact Email")),
         "latitude": lat,
         "longitude": lng,
     }
