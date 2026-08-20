@@ -87,23 +87,32 @@ window.CATEGORY_COLORS = CATEGORY_COLORS;
    both. Orgs with multiple categories (comma-joined string) won't match a
    single key and fall back to the default color, same as before. ---------- */
 function applyCategoryColorsToPins(map, layerIds) {
-  var expr = ["match", ["get", FIELD_CATEGORY]];
-  Object.keys(CATEGORY_COLORS).forEach(function (cat) {
-    expr.push(cat, CATEGORY_COLORS[cat]);
-  });
-  expr.push("#111111"); // fallback for unmatched/unknown categories
+  // Never let this (cosmetic) step throw and block whatever init code runs after it.
+  try {
+    var expr = ["match", ["get", FIELD_CATEGORY]];
+    Object.keys(CATEGORY_COLORS).forEach(function (cat) {
+      expr.push(cat, CATEGORY_COLORS[cat]);
+    });
+    expr.push("#111111"); // fallback for unmatched/unknown categories
 
-  (layerIds || []).forEach(function (id) {
-    if (!map.getLayer(id)) return;
-    var type = map.getLayer(id).type;
-    if (type === "circle") {
-      map.setPaintProperty(id, "circle-color", expr);
-    } else if (type === "symbol") {
-      map.setPaintProperty(id, "icon-color", expr);
-    } else {
-      console.warn("applyCategoryColorsToPins: unsupported layer type '" + type + "' for layer '" + id + "'");
-    }
-  });
+    (layerIds || []).forEach(function (id) {
+      try {
+        if (!map.getLayer(id)) return;
+        var type = map.getLayer(id).type;
+        if (type === "circle") {
+          map.setPaintProperty(id, "circle-color", expr);
+        } else if (type === "symbol") {
+          map.setPaintProperty(id, "icon-color", expr);
+        } else {
+          console.warn("applyCategoryColorsToPins: unsupported layer type '" + type + "' for layer '" + id + "'");
+        }
+      } catch (layerErr) {
+        console.warn("applyCategoryColorsToPins: failed for layer '" + id + "'", layerErr);
+      }
+    });
+  } catch (err) {
+    console.warn("applyCategoryColorsToPins failed", err);
+  }
 }
 
 /* ---------- Category descriptions (shared by UI tooltips) ---------- */
