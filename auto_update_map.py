@@ -155,18 +155,19 @@ def record_to_feature(record, network_lookup, category_lookup):
     networks = resolve_networks(fields.get("Network Membership"), network_lookup)
     categories = resolve_linked_field(fields.get("Category of Work"), category_lookup)
 
-    # Start with ALL Airtable fields so nothing is accidentally dropped from the tileset.
-    # Skip linked fields that we'll overwrite with resolved names below.
-    SKIP_FIELDS = {"Latitude", "Longitude", "Network Membership", "Category of Work"}
+    # Only the fields map.js actually reads. Passing every Airtable column through
+    # (the old behavior) bloated individual map tiles past Mapbox's size limit,
+    # which made Mapbox silently drop whole organizations from low-zoom tiles.
     properties = {
-        k: (v if not isinstance(v, list) else ", ".join(str(i) for i in v))
-        for k, v in fields.items()
-        if k not in SKIP_FIELDS
+        "Name": fields.get("Name"),
+        "City": fields.get("City"),
+        "State": fields.get("State"),
+        "Website": fields.get("Website"),
+        "Mission/Description": fields.get("Mission/Description"),
+        "General Contact Email": fields.get("General Contact Email"),
+        "Network Membership": ", ".join(networks) if networks else None,
+        "Category of Work": ", ".join(categories) if categories else None,
     }
-
-    # Write resolved human-readable values
-    properties["Network Membership"] = ", ".join(networks) if networks else None
-    properties["Category of Work"] = ", ".join(categories) if categories else None
 
     return {
         "type": "Feature",
