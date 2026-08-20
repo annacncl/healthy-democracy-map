@@ -1,0 +1,14 @@
+name: Purge map.js jsDelivr cache
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "map.js"
+
+jobs:
+  purge:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Purge jsDelivr cache for map.js
+        run: curl -s "https://purge.jsdelivr.net/gh/${{ github.repository }}@main/map.js"
