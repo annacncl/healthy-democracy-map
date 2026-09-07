@@ -1,5 +1,5 @@
 {
-  "total": 11235,
+  "total": 11250,
   "records": [
     {
       "name": "AmeriCorps State and National - Alianza Municipal de Servicios Integrados",
@@ -145537,6 +145537,190 @@
       "email": "info@newcanaancf.org",
       "latitude": 41.1468293,
       "longitude": -73.4904554
+    },
+    {
+      "name": "The Meeting Place",
+      "city": "Boone",
+      "state": "NC",
+      "category": "Connecting Across Differences",
+      "mission": "The Meeting Place grew from a simple vision: a space where immigrants find not only resources, but belonging, dignity, and hope. Built through years of partnership across Western North Carolina, it brings legal, language, and community support together under one welcoming roof.\n\nToday, it stands as a reflection of that dream: a place where all people, no matter where they come from, can find support, build relationships, and feel at home.",
+      "website": "www.holaboone.org",
+      "networks": [],
+      "email": "info@holaboone.org",
+      "latitude": 36.2008874,
+      "longitude": -81.65735
+    },
+    {
+      "name": "Kansas Spanish Speakers (KSS) (KSS)",
+      "city": "Emporia",
+      "state": "KS",
+      "category": "Connecting Across Differences",
+      "mission": "Our mission is to increase equity and bridge language and cultural barriers by providing essential resources, education, and advocacy.",
+      "website": "https://ksspanishspeakers.org/",
+      "networks": [],
+      "email": "hola@ksspanishspeakers.org",
+      "latitude": 38.4049149,
+      "longitude": -96.1829754
+    },
+    {
+      "name": "Syrian Community Network  (SCN) (SCN)",
+      "city": "Chicago",
+      "state": "IL",
+      "category": "Organizing & Advocacy",
+      "mission": "Syrian Community Network works alongside immigrants and refugees, with care, through needs-based Case Management, Education, and Immigration services.",
+      "website": "https://www.syriancommunitynetwork.org/",
+      "networks": [],
+      "email": "info@syriancommunitynetwork.org",
+      "latitude": 42.064598,
+      "longitude": -87.698097
+    },
+    {
+      "name": "Risheh Institute ",
+      "city": "Chicago",
+      "state": "IL",
+      "category": "Civic Education & Leadership",
+      "mission": "Our mission is to empower refugee, immigrant, and other marginalized communities through transformative education, cultural expression, storytelling, and systems change. We create inclusive platforms where displaced voices are elevated, heritage is celebrated, and knowledge is shared. Through policy advocacy, participatory research, and impact reporting, we work to dismantle systemic barriers and advance equity, belonging, and justice.",
+      "website": "Rishehinstitute.org",
+      "networks": [],
+      "email": "alitarokh@gmail.com",
+      "latitude": 41.993157,
+      "longitude": -87.683324
+    },
+    {
+      "name": "Immigrant Welcome Network of Johnson County (IWNJC) (IWNJC)",
+      "city": "Iowa City",
+      "state": "IA",
+      "category": "Connecting Across Differences",
+      "mission": "The Immigrant Welcome Network of Johnson County (IWNJC) prevents homelessness and creates pathways to stability, belonging, and civic participation for immigrants, refugees, and newly arrived families. Through transitional housing, navigation services, leadership development, language access, community education, and advocacy, we help newcomers build successful lives while strengthening an inclusive and welcoming community for everyone.",
+      "website": "https://iwnjc.org",
+      "networks": [],
+      "email": "info@iwnjc.org",
+      "latitude": 41.641647,
+      "longitude": -91.525294
+    },
+    {
+      "name": "New Neighbors Coalition (NNC) at St. Luke's Episcopal Church",
+      "city": "Jamestown",
+      "state": "NY",
+      "category": "Organizing & Advocacy",
+      "mission": "The Coalition fosters community through cultural celebration, education, and advocacy in collaboration with immigrant new neighbors.",
+      "website": "https://www.facebook.com/NewNeighborsCoalition",
+      "networks": [],
+      "email": "luke.fodor@stlukesjamestown.org",
+      "latitude": 42.0974188,
+      "longitude": -79.24152
+    },
+    {
+      "name": "America's Pulse",
+      "city": "Camas",
+      "state": "WA",
+      "category": "Civic Technology",
+      "mission": "America's Pulse is America's next great institution, introducing direct-input democracy to fulfill the promise of We the People. Built on 54 measures across all 50 states, the system empowers citizens to prioritize the measures they expect those they elect to improve, collectively creating a common-good agenda that aggregates for each state and federal lawmaker they elect. Citizens and lawmakers enroll in the platform for free, enabling direct two-way communication about the issues and closed-loop accountability.",
+      "website": "www/americaspulse.org",
+      "networks": [],
+      "email": "jasonh@americaspulse.org",
+      "latitude": 45.6340296,
+      "longitude": -122.452369
+    },
+    {
+      "name": "Office of Immigrant & Refugee Affairs (OIRA) (OIRA)",
+      "city": "Pittsburgh",
+      "state": "PA",
+      "category": "Organizing & Advocacy",
+      "mission": "Connect immigrant and refugee communities with city government to help ensure all residents can access resources, services and opportunities equally. Build partnerships and lead initiatives that make Pittsburgh a more welcoming and inclusive city for all.  ",
+      "website": "https://www.pittsburghpa.gov/City-Government/The-Mayor/Office-of-Immigrant-and-Refugee-Affairs",
+      "networks": [],
+      "email": "welcomingpgh@pittsburghpa.gov",
+      "latitude": 40.4387866,
+      "longitude": -79.9968239
+    },
+    {
+      "name": "Modern Action",
+      "city": "Pittsburgh",
+      "state": "PA",
+      "category": "Civic Technology",
+      "mission": "Modern Action is a nonpartisan civic technology nonprofit that helps people understand public issues, compare policy approaches, connect their views to current federal legislation, and contact their own members of Congress in their own words. The platform also surfaces sourced votes, bill sponsorships, committee activity, and reviewed public positions so people can follow what elected officials do after constituent outreach. The core action flow is free and does not require an account.Modern Action is a nonpartisan civic technology nonprofit that helps people understand public issues, compare policy approaches, connect their views to current federal legislation, and contact their own members of Congress in their own words. The platform also surfaces sourced votes, bill sponsorships, committee activity, and reviewed public positions so people can follow what elected officials do after constituent outreach. The core action flow is free and does not require an account.",
+      "website": "https://modernaction.io",
+      "networks": [],
+      "email": "colum@modernaction.io",
+      "latitude": 40.436712,
+      "longitude": -79.9231588
+    },
+    {
+      "name": "Civics Corps",
+      "city": "Escanaba",
+      "state": "MI",
+      "category": "Connecting Across Differences",
+      "mission": "The Civics Corps is specifically designed to help community college students develop job-ready civic skills tied to dialogue, personal empowerment, and mindset development.  The Civics Corps’ work combines methods from history and psychology and builds non-partisan skill sets through intergenerational service and conversations that promote effective understanding of differences.  In the fall semesters, the Civics Corps partners with the American Legion, American Merchant Marine Veterans, and Veterans for All Voters to host Veterans Speak, an intergenerational conversation between veterans.  The winter semester program focuses on Civic Diplomacy through a micro-credentialing program that helps students broaden their skill sets and adds to their resumes.",
+      "website": "https://wagingdialogue.org/products/",
+      "networks": [
+        "Listen First Coalition"
+      ],
+      "email": "matt@wagingdialogue.org",
+      "latitude": 45.7718682,
+      "longitude": -87.0845911
+    },
+    {
+      "name": "Delta Chats",
+      "city": "Escanaba",
+      "state": "MI",
+      "category": "Connecting Across Differences",
+      "mission": "Delta Chats’ mission is to bring representatives of non-profit/non-partisan groups together to learn information and skills that build common ground, foster connection, and encourage respectful exchanges of ideas. Through regular meetings, shared resources, and community outreach, we seek to work together to live better together.\nHosted by Bay College, Delta Chats serves the residents of Delta County encourages the promotion, coordination, and practice of inclusive, non-partisan listening/dialogue events and the distribution of related resources.",
+      "website": "deltachats.org",
+      "networks": [
+        "Listen First Coalition"
+      ],
+      "email": "kleesj@baycollege.edu",
+      "latitude": 45.7718682,
+      "longitude": -87.0845911
+    },
+    {
+      "name": "Charitable Foundation of the Islands  (CFI) (CFI)",
+      "city": "Sanibel",
+      "state": "FL",
+      "category": "Funder",
+      "mission": "The Charitable Foundation of the Islands (CFI) inspires philanthropy, leadership and collaboration for the vitality of the Island community.",
+      "website": "https://www.charitablefoundationoftheislands.org/",
+      "networks": [],
+      "email": "info@sancapcfi.org",
+      "latitude": 26.4420921,
+      "longitude": -82.0568691
+    },
+    {
+      "name": "Wayne County Community Foundation",
+      "city": "Honesdale",
+      "state": "PA",
+      "category": "Funder",
+      "mission": "To connect people with financial and non-financial resources to improve the quality of life for all people in Wayne County.",
+      "website": "waynefoundation.org",
+      "networks": [],
+      "email": "info@waynefoundation.org",
+      "latitude": 41.572227,
+      "longitude": -75.254364
+    },
+    {
+      "name": "The Cooperage Project",
+      "city": "Honesdale",
+      "state": "PA",
+      "category": "Connecting Across Differences",
+      "mission": "The mission of The Cooperage Project is to invite people of all ages to embrace diversity and shared experiences to create a deeper sense of community. Since 2012, we have served our rural community through programming in the areas of Youth, Seniors, Food + Markets, and Arts + Culture. From monthly acoustic bluegrass jams and the winter farmers market to film screenings, performances, and community conversations; from after school clubs for middle schoolers to biweekly Senior Gatherings; from drag bingo to DIY workshops, we seek to educate, enlighten, entertain, and ultimately weave our community together. ",
+      "website": "thecooperageproject.org",
+      "networks": [],
+      "email": "Amanda Masters",
+      "latitude": 41.576047,
+      "longitude": -75.257694
+    },
+    {
+      "name": "Unity Alliance of Southern Idaho (UASI) (UASI)",
+      "city": "Twin Falls",
+      "state": "ID",
+      "category": "Connecting Across Differences",
+      "mission": "Unity Alliance of Southern Idaho supports understanding of how all immigrants contribute to our region’s economy, way of life, and values. The board and staff act in ways that bring people together to support immigrants. Through leadership, advocacy, and educational programs, we aim to create a regional identity based on unity, diversity, and mutual respect.",
+      "website": "https://unityalliancesi.org/",
+      "networks": [],
+      "email": "mirby@unityalliancesi.org",
+      "latitude": 42.597655,
+      "longitude": -114.47793
     }
   ]
 }
