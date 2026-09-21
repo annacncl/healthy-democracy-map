@@ -1,5 +1,5 @@
 {
-  "total": 11250,
+  "total": 11243,
   "records": [
     {
       "name": "AmeriCorps State and National - Alianza Municipal de Servicios Integrados",
@@ -13905,18 +13905,6 @@
       "email": "info@alluvialcollective.org",
       "latitude": 32.3503996,
       "longitude": -90.1529468
-    },
-    {
-      "name": "League of Women Voters of Tyler/Smith County",
-      "city": "Tyler",
-      "state": "TX",
-      "category": "Voter Engagement",
-      "mission": "The League of Women Voters is a nonpartisan, grassroots organization working to protect and expand voting rights and ensure everyone is represented in our democracy. We empower voters and defend democracy through advocacy, education, and litigation, at the local, state, and national levels.",
-      "website": "http://www.lwvtyler.org/",
-      "networks": [],
-      "email": null,
-      "latitude": 32.3512601,
-      "longitude": -95.3010624
     },
     {
       "name": "Haven House Family Shelter,",
@@ -68974,18 +68962,6 @@
       "longitude": -76.5710753
     },
     {
-      "name": "Shirley's Kitchen Cabinet",
-      "city": "KANSAS CITY",
-      "state": "MO",
-      "category": "Civic Education & Leadership",
-      "mission": "Shirley's Kitchen Cabinet is a nonpartisan, nonprofit organization dedicated to amplifying the voices and power of Black women through education and advocacy, so they can be effective advocates for the issues that matter to them and the communities they serve.",
-      "website": "https://www.shirleyskitchencabinet.org/",
-      "networks": [],
-      "email": "Hey@ShirleysKitchenCabinet.org",
-      "latitude": 39.1075127,
-      "longitude": -94.5842789
-    },
-    {
       "name": "AmeriCorps VISTA - aSTEAM Village Inc.",
       "city": "Kansas City",
       "state": "MO",
@@ -82012,18 +81988,6 @@
       "longitude": -74.1181234
     },
     {
-      "name": "Pennsylvania Community Rights Network",
-      "city": "East Pittsburgh",
-      "state": "PA",
-      "category": "Civic Associations",
-      "mission": "The Pennsylvania Community Rights Network (PACRN) is a 501(c)(3) nonprofit whose mission is to assist Pennsylvania communities to establish Community Rights for democratic local self-governance, social justice, and environmental sustainability.",
-      "website": "http://www.pacommunityrights.org/",
-      "networks": [],
-      "email": null,
-      "latitude": 40.3963151,
-      "longitude": -79.8447393
-    },
-    {
       "name": "GlobalPittsburgh",
       "city": "Pittsburgh",
       "state": "PA",
@@ -83871,18 +83835,6 @@
       "email": "wtfcstoremanagers@gmail.com",
       "latitude": 40.6481396,
       "longitude": -73.9722819
-    },
-    {
-      "name": "Trippinz Care",
-      "city": "Brooklyn",
-      "state": "NY",
-      "category": "Organizing & Advocacy",
-      "mission": "Our mission is to empower the voices of silent women, advocate for those that\nlost their lives to domestic violence, survivors and victims that are afraid to speak\nfor themselves, \nEncouraging and promoting innovation among youths\nEstablish to accelerate progress on meeting the needs of the youths where they can contribute\nto policy discussion through their collective ideas.",
-      "website": "https://trippinzcareinc.org/",
-      "networks": [],
-      "email": "info@trippinzcareinc.org",
-      "latitude": 40.6511538,
-      "longitude": -73.9396331
     },
     {
       "name": "The E Pluribus Unum Project",
@@ -103888,18 +103840,6 @@
       "email": null,
       "latitude": 41.8962971,
       "longitude": -87.6375267
-    },
-    {
-      "name": "Pawtucket Central Falls Health Equity Zone",
-      "city": "Central Falls",
-      "state": "RI",
-      "category": "Civic Associations",
-      "mission": "The Health Equity Zone (HEZ) project is a four-year place based initiative funded by the Rhode Island Department of Health and Centers for Disease Control. Our health is determined in part by access to social and economic opportunities; the safety of our neighborhoods and housing; our ability to access healthy food and equitable healthcare. The goal of the HEZ is to reduce health disparities for the residents of Central Falls and Pawtucket",
-      "website": "https://decideri.org/processes/pcf?locale=en",
-      "networks": [],
-      "email": "rbmarcus2@lisc.org",
-      "latitude": 41.8967157,
-      "longitude": -71.3861021
     },
     {
       "name": "AmeriCorps Seniors - Foster Grandparent Program",
@@ -127507,18 +127447,6 @@
       "longitude": -116.2173488
     },
     {
-      "name": "Idahoans for Open Primaries",
-      "city": "Boise",
-      "state": "ID",
-      "category": "Voter Engagement",
-      "mission": "Proposition 1 will give Idahoans the freedom to vote in all elections without having to align with a political party. By restoring Idaho’s tradition of Open Primaries, Prop 1 will give the power back to people, not political party elites, so we can elect leaders who focus on solving real problems—not distractions and controversies that turn us against each other.",
-      "website": "https://yesforopenprimaries.com/open-primaries-initiative",
-      "networks": [],
-      "email": "info@openprimariesid.org",
-      "latitude": 43.6136643,
-      "longitude": -116.2173488
-    },
-    {
       "name": "Mackinac Center for Public Policy",
       "city": "Midland",
       "state": "MI",
@@ -127675,18 +127603,6 @@
       "email": null,
       "latitude": 43.6150186,
       "longitude": -116.2023137
-    },
-    {
-      "name": "League of Women Voters of Midland Area",
-      "city": "Midland",
-      "state": "MI",
-      "category": "Voter Engagement",
-      "mission": "The League of Women Voters is a nonpartisan, grassroots organization working to protect and expand voting rights and ensure everyone is represented in our democracy. We empower voters and defend democracy through advocacy, education, and litigation, at the local, state, and national levels.",
-      "website": "http://www.lwv-midland.org/",
-      "networks": [],
-      "email": null,
-      "latitude": 43.6155825,
-      "longitude": -84.2472116
     },
     {
       "name": "Idaho Freedom Foundation",
