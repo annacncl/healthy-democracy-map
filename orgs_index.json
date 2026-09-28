@@ -1,5 +1,5 @@
 {
-  "total": 11243,
+  "total": 11229,
   "records": [
     {
       "name": "AmeriCorps State and National - Alianza Municipal de Servicios Integrados",
@@ -5039,20 +5039,6 @@
       "longitude": -81.389435
     },
     {
-      "name": "Unitarian Universalist Justice Florida",
-      "city": "MINNEOLA",
-      "state": "FL",
-      "category": "Civic Education & Leadership",
-      "mission": "Our Vision is a just and compassionate society, an improved global economy, and a sustainable earth, starting in Florida. \nOur Mission is to promote justice, equity and compassion in public policy, guided by our faith tradition and working with public interest groups and interfaith partners who work for the common good.\n\nThe work of UU Justice Florida, our 501(c)(3), provides many topics for study, education and discussion in congregations and concerned organizations. That educational work may inspire individuals to build relationships legislators and advocate for passage of bills consistent with UU values.",
-      "website": "https://uujusticefl.org/",
-      "networks": [
-        "Faithful Democracy"
-      ],
-      "email": "info@uujusticefl.org",
-      "latitude": 28.5755808,
-      "longitude": -81.7485118
-    },
-    {
       "name": "Florida Coalition On Black Civic Participation",
       "city": "Titusville",
       "state": "FL",
@@ -6525,18 +6511,6 @@
       "longitude": -95.4362856
     },
     {
-      "name": "Volunteer Houston",
-      "city": "Houston",
-      "state": "TX",
-      "category": "Service & Volunteerism",
-      "mission": "Connect individuals, groups, and companies with nonprofit agencies to transform the greater Houston community for good through volunteerism.",
-      "website": "https://volunteerhouston.org/",
-      "networks": [],
-      "email": "info@volunteerhouston.org",
-      "latitude": 29.7343987,
-      "longitude": -95.3950196
-    },
-    {
       "name": "American Heritage Education Foundation",
       "city": "Houston",
       "state": "TX",
@@ -7376,18 +7350,6 @@
       "email": "contact@togetherla.org",
       "latitude": 29.9514967,
       "longitude": -90.1000225
-    },
-    {
-      "name": "Lower Ninth Ward Center for Sustainable Engagement and Development",
-      "city": "New Orleans",
-      "state": "LA",
-      "category": "Civic Associations",
-      "mission": "Rehabilitating coastal wetlands and greening the built environment have been the primary organizational goals since our founding in 2006. Additionally, we cultivate CSED Coastal Champions, a young adult and senior citizen cohort, to advance equity and inclusion within the ecological restoration, water management, and renewable energy sectors.\nOur purpose is to reinforce community-driven goals and inter-generational voices as a pathway to achieve more equitable outcomes within resilience policies and climate protection projects; especially those from the Upper Nine, Lower Nine & New Orleans East.\n",
-      "website": "https://sustainthenine.org/",
-      "networks": [],
-      "email": "Info@sustainthenine.org",
-      "latitude": 29.9570198,
-      "longitude": -90.0224105
     },
     {
       "name": "Moving Erath Forward",
@@ -14906,20 +14868,6 @@
       "email": "info@hhcga.org",
       "latitude": 32.6408045,
       "longitude": -117.0838585
-    },
-    {
-      "name": "Justice Overcoming Boundaries",
-      "city": "Chula Vista",
-      "state": "CA",
-      "category": "Faith-Based Efforts",
-      "mission": "Justice Overcoming Boundaries is building a powerful network of Faith, Community, Educational, Business and Labor partners that work to advance social justice in the San Diego region. We aim to foster leaders who can develop solutions and identify opportunities, and we are intentional about developing grass-roots leaders who have the knowledge and skill to help their communities be heard and to take action in the public arena.\n\nOur Mission is to nurture and develop grass roots community leaders, empowering them with the tools, skills and support they need to shape public policies that affect them, their families and their communities.\n\n",
-      "website": "https://www.justicesandiego.org/",
-      "networks": [
-        "Gamaliel Network"
-      ],
-      "email": "christina@justicesandiego.org",
-      "latitude": 32.6409471,
-      "longitude": -117.0786124
     },
     {
       "name": "AmeriCorps VISTA - Lee County Literacy Coalition",
@@ -43089,18 +43037,6 @@
       "longitude": -97.3628835
     },
     {
-      "name": "Policy Pathways",
-      "city": "Henrico",
-      "state": "VA",
-      "category": "Civic Education & Leadership",
-      "mission": "Our mission is to train and educate youth and young adults who want to become leaders in public policy, public administration, and international affairs, and want to serve in policy-related fields in the public and private sectors. Policy Pathways aims to provide equitable access to high quality policy education and developmental experiences.",
-      "website": "https://policypathways.org/",
-      "networks": [],
-      "email": "info@policypathways.org",
-      "latitude": 37.6307265,
-      "longitude": -77.5439961
-    },
-    {
       "name": "Pacifica Progressive Alliance",
       "city": "Pacifica",
       "state": "CA",
@@ -47084,18 +47020,6 @@
       "email": "office@singersmarin.org",
       "latitude": 37.9099999,
       "longitude": -122.54
-    },
-    {
-      "name": "Global Community Monitor",
-      "city": "El Cerrito",
-      "state": "CA",
-      "category": "Civic Associations",
-      "mission": "Global Community Monitor, founded in 2001, trains and supports communities in the use of environmental monitoring tools to understand the impact of fossil fuel industry pollution on their health, water, trees and the environment.\n\nGCM’s work focuses on disempowered “fenceline” communities harmed by serious air pollution from industrial sources and whose concerns agencies and responsible corporations are ignoring.",
-      "website": "https://gcmonitor.org/",
-      "networks": [],
-      "email": "info@gcmonitor.org",
-      "latitude": 37.9161326,
-      "longitude": -122.310765
     },
     {
       "name": "League of Women Voters of West Contra Costa County",
@@ -53486,18 +53410,6 @@
       "longitude": -121.4159075
     },
     {
-      "name": "Committee To Save Caltrain Yes On Measure RR",
-      "city": "Sacramento",
-      "state": "CA",
-      "category": "Civic Associations",
-      "mission": "Measure RR saves Caltrain from shutdown, and improves the system, providing faster and more frequent trains, better connections to local transportation networks, thousands of good-paying jobs and cleaner, quieter trains to reduce noise and air pollution.",
-      "website": "https://rescuecaltrain.org/",
-      "networks": [],
-      "email": null,
-      "latitude": 38.5975155,
-      "longitude": -121.4474615
-    },
-    {
       "name": "California Retired Teachers Association",
       "city": "Sacramento",
       "state": "CA",
@@ -59727,18 +59639,6 @@
       "email": "info@whistleblower.org",
       "latitude": 38.9021709,
       "longitude": -77.0374804
-    },
-    {
-      "name": "Sikh American Legal Defense and Education Fund (SALDEF)",
-      "city": "Washington, D.C. ",
-      "state": "DC",
-      "category": "Service & Volunteerism",
-      "mission": "We envision a United States where Sikh Americans are respected and recognized as an integral part of this nation. We are grounded in our values of optimism (chardi kala), humility (nimrata) and service (seva), inspired by the community (sangat) for the benefit of all (sarbat da bhalla).",
-      "website": "https://saldef.org/",
-      "networks": [],
-      "email": null,
-      "latitude": 38.9021709,
-      "longitude": -77.0374803
     },
     {
       "name": "The Character Education Partnership",
@@ -78859,23 +78759,6 @@
       "longitude": -74.4056612
     },
     {
-      "name": "Intentional Insights",
-      "city": "Columbus",
-      "state": "OH",
-      "category": "Connecting Across Differences",
-      "mission": "Intentional Insights is an educational nonpartisan 501(c)(3) nonprofit devoted to promoting science-based truth-seeking, rational thinking, and wise decision-making.",
-      "website": "https://intentionalinsights.org/",
-      "networks": [
-        "Citizen Connect",
-        "FixUS",
-        "Listen First Coalition",
-        "Democracy Bridge-Building Ecosystem Framework"
-      ],
-      "email": "info@intentionalinsights.org",
-      "latitude": 40.0584152,
-      "longitude": -83.0074569
-    },
-    {
       "name": "JUST Listening",
       "city": "Philadelphia",
       "state": "PA",
@@ -82491,20 +82374,6 @@
       "email": "info@ncpirg.org",
       "latitude": 40.4554603,
       "longitude": -79.999901
-    },
-    {
-      "name": "1Hood Power",
-      "city": "Pittsburgh",
-      "state": "PA",
-      "category": "Civic Education & Leadership",
-      "mission": "Building political power, holding politicians accountable, and developing political leadership through electoral organizing, issue advocacy, and civic education efforts.",
-      "website": "https://1hoodpower.org/",
-      "networks": [
-        "MVP"
-      ],
-      "email": "info@1hoodpower.org",
-      "latitude": 40.4557373,
-      "longitude": -79.9526516
     },
     {
       "name": "1Hood Media (1Hood)",
@@ -87136,18 +87005,6 @@
       "longitude": -73.996478
     },
     {
-      "name": "Public Wise",
-      "city": "New York",
-      "state": "NY",
-      "category": "Organizing & Advocacy",
-      "mission": "TO SECURE A GOVERNMENT THAT REFLECTS THE WILL AND PROTECTS THE RIGHTS OF THE PEOPLE.",
-      "website": "https://ny4independentwork.com/",
-      "networks": [],
-      "email": "info@publicwise.org",
-      "latitude": 40.7239832,
-      "longitude": -73.996478
-    },
-    {
       "name": "Fund for the City of New York",
       "city": "New York",
       "state": "NY",
@@ -91746,20 +91603,6 @@
       "email": null,
       "latitude": 40.8298235,
       "longitude": -74.1952938
-    },
-    {
-      "name": "Alliance for Shared Values",
-      "city": "Clifton",
-      "state": "NJ",
-      "category": "Civic Associations",
-      "mission": "The Alliance for Shared Values (AfSV) is a non-profit umbrella organization that serves as a voice for civic and service organizations associated with the Hizmet social initiative in the U.S. We support the principles of democracy, equal opportunity and emphatic acceptance of religious and cultural diversity.",
-      "website": "https://afsv.org/",
-      "networks": [
-        "Braver Network"
-      ],
-      "email": "info@afsv.org",
-      "latitude": 40.8311246,
-      "longitude": -74.1428657
     },
     {
       "name": "Northern New Jersey Sanctuary Coalition",
@@ -104558,20 +104401,6 @@
       "email": "info@fornwil.org",
       "latitude": 42.28,
       "longitude": -89.67
-    },
-    {
-      "name": "Justice Overcoming Borders ",
-      "city": "Beloit",
-      "state": "WI",
-      "category": "Faith-Based Efforts",
-      "mission": "JOB’s (Justice Overcoming Borders) primary purpose is to create strong coalitions of ordinary people to powerfully engage and impact public decisions.\n\n",
-      "website": "http://justiceovercomingborders.org/",
-      "networks": [
-        "Gamaliel Network"
-      ],
-      "email": "justiceovercomingborders@charter.net",
-      "latitude": 42.51,
-      "longitude": -89.03
     },
     {
       "name": "Rank MI Vote",
@@ -136641,18 +136470,6 @@
       "email": "info@friendsofthechildren.org",
       "latitude": 45.5444078,
       "longitude": -122.6652972
-    },
-    {
-      "name": "Friends of Trees",
-      "city": "Portland",
-      "state": "OR",
-      "category": "Civic Associations",
-      "mission": "Friends of Trees inspires people to improve the natural world around them through a simple solution: Planting trees. Together.\n\nWe need trees more than ever. Heatwaves, flooding, and all of the increasingly catastrophic effects of climate change make it clear that every day needs to be the day for climate action.\n\nSince 1989 Friends of Trees has planted 950,000+ trees and native shrubs in neighborhoods and natural areas in six counties across two states. We’ve done this through engaging tens of thousands of community members, and while implementing and growing programming that aims to do this work inclusively and equitably. We plant trees, and so much more; learn more about The Friends of Trees Way – what makes Friends of Trees so uniquely effective – here.\n\nIt is widely acknowledged that planting trees is a key part of a comprehensive climate strategy. It is our experience at Friends of Trees that planting trees with community members is also key to fighting climate change. Planting and caring for trees increases community members’ engagement with the environment and overall participation in civic life, including engaging around climate action. There is a ripple effect from volunteering to plant trees that also fights climate change, beyond the actual trees.",
-      "website": "https://friendsoftrees.org/",
-      "networks": [],
-      "email": "fot@friendsoftrees.org",
-      "latitude": 45.5455235,
-      "longitude": -122.6618065
     },
     {
       "name": "Western States Center",
