@@ -1,5 +1,5 @@
 {
-  "total": 11207,
+  "total": 11201,
   "records": [
     {
       "name": "AmeriCorps State and National - Alianza Municipal de Servicios Integrados",
@@ -2860,18 +2860,6 @@
       "longitude": -80.0878965
     },
     {
-      "name": "Wisdom Warrior Challenge",
-      "city": "N PALM BEACH",
-      "state": "FL",
-      "category": "Organizing & Advocacy",
-      "mission": "Wisdom Warrior Challenge is a 501(c)3 nonprofit organization with a mission to inspire seniors to live an active, healthy lifestyle.",
-      "website": "https://www.wisdomwarriorchallenge.org/",
-      "networks": [],
-      "email": "wisdomwarriorchallenge@gmail.com",
-      "latitude": 26.8553246,
-      "longitude": -80.0628914
-    },
-    {
       "name": "Punta Gorda Isles Civic Association",
       "city": "Punta Gorda",
       "state": "FL",
@@ -5316,18 +5304,6 @@
       "email": null,
       "latitude": 28.8354507,
       "longitude": -82.3313955
-    },
-    {
-      "name": "League of Women Voters of Citrus County",
-      "city": "Lecanto",
-      "state": "FL",
-      "category": "Voter Engagement",
-      "mission": "The League of Women Voters is a nonpartisan, grassroots organization working to protect and expand voting rights and ensure everyone is represented in our democracy. We empower voters and defend democracy through advocacy, education, and litigation, at the local, state, and national levels.",
-      "website": "www.lwvcitrus.org",
-      "networks": [],
-      "email": null,
-      "latitude": 28.8516486,
-      "longitude": -82.4875981
     },
     {
       "name": "Hispanic Chamber of Commerce of Central Florida",
@@ -16825,18 +16801,6 @@
       "longitude": -96.6662085
     },
     {
-      "name": "The Spirit of Liberty Foundation",
-      "city": "Rancho Santa Fe",
-      "state": "CA",
-      "category": "Civic Associations",
-      "mission": "The Spirit of Liberty of Foundation is committed to raising awareness and support for America's Real Heroes ... our Armed Forces, Active Duty, Veterans, First Responders and their families.  We also provide support and aid to victims of disasters  (fires, hurricanes, floods, etc).  We develop and manage National Programs that  \"Make a Difference!\"",
-      "website": "https://spiritoflibertyfoundation.org/",
-      "networks": [],
-      "email": "info@spiritoflibertyfoundation.org",
-      "latitude": 33.0176773,
-      "longitude": -117.226457
-    },
-    {
       "name": "Freedom Frontline",
       "city": "Rancho Santa Fe",
       "state": "CA",
@@ -24095,18 +24059,6 @@
       "email": "duran_bowie@yahoo.com",
       "latitude": 33.9740709,
       "longitude": -118.3538668
-    },
-    {
-      "name": "Rotary Club of Greater Eastvale",
-      "city": "Eastvale",
-      "state": "CA",
-      "category": "Service & Volunteerism",
-      "mission": "Our club is a great example of the heterogeneous mix of members from the Inland Empire. We strive to be progressive and think out of the box to help our community. We truly believe in the Rotary International motto of “Service Above Self”. That’s why we are so involved with many community activities and events.",
-      "website": "https://www.rotary-ev.org/",
-      "networks": [],
-      "email": null,
-      "latitude": 33.9741911,
-      "longitude": -117.5610036
     },
     {
       "name": "Citizens Police Academy Alumni Association of Gwinnett",
@@ -89908,18 +89860,6 @@
       "longitude": -73.9832953
     },
     {
-      "name": "Utah Muslim Civic League",
-      "city": "Salt Lake City",
-      "state": "UT",
-      "category": "Civic Associations",
-      "mission": "To educate and empower citizens to be civically engaged in political and non political action.",
-      "website": "https://www.utahmcl.com/",
-      "networks": [],
-      "email": "Info@ReconnectRochester.org",
-      "latitude": 40.7630237,
-      "longitude": -111.8923191
-    },
-    {
       "name": "Congress for New Urbanism Utah",
       "city": "Salt Lake City",
       "state": "UT",
@@ -122836,18 +122776,6 @@
       "website": "https://wisdomwisconsin.org/",
       "networks": [],
       "email": "office@wisdomwisconsin.org",
-      "latitude": 43.069618,
-      "longitude": -87.9164724
-    },
-    {
-      "name": "Wisdom Action Network",
-      "city": "MILWAUKEE",
-      "state": "WI",
-      "category": "Faith-Based Efforts",
-      "mission": "The WISDOM Action Network works to unite communities and faith congregations throughout Wisconsin",
-      "website": "https://www.facebook.com/WISDOMactionnetwork/",
-      "networks": [],
-      "email": "wisdomforjustice@gmail.com",
       "latitude": 43.069618,
       "longitude": -87.9164724
     },
