@@ -1,5 +1,5 @@
 {
-  "total": 11201,
+  "total": 11200,
   "records": [
     {
       "name": "AmeriCorps State and National - Alianza Municipal de Servicios Integrados",
@@ -121408,21 +121408,6 @@
       "email": null,
       "latitude": 42.8781345,
       "longitude": -73.1967741
-    },
-    {
-      "name": "Showing Up for Racial Justice (SURJ)",
-      "city": "Buffalo",
-      "state": "NY",
-      "category": "Civic Education & Leadership",
-      "mission": "SURJ mobilizes white people for justice across the country. Through campaigns, education, and action opportunities, we move our people to reject racism and complicity– and to join movements for change.",
-      "website": "https://surj.org/",
-      "networks": [
-        "America Votes",
-        "Hold the Line Unite"
-      ],
-      "email": "info@surjaction.org",
-      "latitude": 42.8840931,
-      "longitude": -78.8724715
     },
     {
       "name": "AmeriCorps Seniors - Buffalo Federation of Neighborhood Centers",
