@@ -58,15 +58,23 @@ To control what shows in the filter dropdown / tooltips for a network, edit its 
 
 ## map.js — the map's front-end script
 
-The entire map application (Mapbox init, filters, search, popups, legend, category colors) lives in [`map.js`](map.js) and is served from:
+The entire map application (Mapbox init, filters, search, popups, legend, category colors) lives in [`map.js`](map.js) and is served from a **pinned commit**, not from `@main`:
 
 ```
-https://cdn.jsdelivr.net/gh/[YOUR_GITHUB_USERNAME]/healthy-democracy-map@main/map.js
+https://cdn.jsdelivr.net/gh/[YOUR_GITHUB_USERNAME]/healthy-democracy-map@[COMMIT_SHA]/map.js
 ```
 
 WordPress no longer holds this code — it just loads it. This replaces the old approach of pasting the entire script into a WPCode PHP snippet as a giant inline block, which was fragile (a stray character could break the whole `wp_add_inline_script` heredoc, and there was no diff/rollback history).
 
-**To edit the map's behavior:** edit `map.js` in this repo, commit, and push to `main`. A workflow (`purge-map-js-cache.yml`) automatically purges the jsDelivr cache for `map.js` on every push, so changes go live within roughly a minute — no manual cache-purge step needed.
+**Why pinned:** `map.js` runs on nationalcivicleague.org with full access to the page. Loaded from `@main`, anything pushed to this repo — including by someone who gets into the GitHub account — goes live on the League's site within a minute. Pinned to a commit, a push changes nothing on the site until someone also updates the WordPress loader, and that URL's contents can't change.
+
+**To edit the map's behavior:**
+
+1. Edit `map.js` in this repo, commit, and push to `main`.
+2. Copy the full commit SHA (`git rev-parse HEAD`, or the commit's page on GitHub).
+3. In WPCode, replace the SHA in the `hd-map` URL below with the new one and save. The change is live once the page cache clears.
+
+To roll back, put the previous SHA back in WPCode. The data files (`orgs_index.json`, `networks_meta.json`) stay on `@main` because the weekly workflow updates them; they hold only data, and `map.js` escapes every field from them before display.
 
 **The WordPress snippet is now just a loader.** In WPCode, the entire map PHP function should be:
 
@@ -93,7 +101,7 @@ add_action('wp_enqueue_scripts', function () {
 
     wp_enqueue_script(
         'hd-map',
-        'https://cdn.jsdelivr.net/gh/[YOUR_GITHUB_USERNAME]/healthy-democracy-map@main/map.js',
+        'https://cdn.jsdelivr.net/gh/[YOUR_GITHUB_USERNAME]/healthy-democracy-map@[COMMIT_SHA]/map.js',
         ['mapbox-gl'],
         null,
         true
@@ -101,9 +109,9 @@ add_action('wp_enqueue_scripts', function () {
 });
 ```
 
-Replace `[YOUR_GITHUB_USERNAME]` with your actual GitHub username/org, and confirm `healthy-democracy-map` is the real slug of the map page (check the Page's URL slug in the WordPress editor) before saving.
+Replace `[YOUR_GITHUB_USERNAME]` with your actual GitHub username/org and `[COMMIT_SHA]` with the full 40-character SHA of the `map.js` version to serve, and confirm `healthy-democracy-map` is the real slug of the map page (check the Page's URL slug in the WordPress editor) before saving.
 
-Passing `null` as the version argument tells WordPress not to append its own `?ver=` query string — jsDelivr serves `map.js` at a single URL, and the purge workflow above keeps that URL's cache fresh after every push, so a version query string isn't needed here (unlike normal WP-hosted assets).
+Passing `null` as the version argument tells WordPress not to append its own `?ver=` query string — the SHA in the URL already makes each version a distinct, permanently cached URL. The `purge-map-js-cache.yml` workflow only refreshes the `@main` copy, which the live site no longer loads.
 
 ---
 

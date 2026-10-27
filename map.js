@@ -232,6 +232,22 @@ function updateCategorySelectColor() {
   function safeText(v) {
     return v == null ? "" : String(v);
   }
+
+  // Org, network and category text comes from public form submissions, so it is
+  // escaped before it goes into any HTML string.
+  function escapeHtml(v) {
+    return safeText(v).replace(/[&<>"']/g, function (c) {
+      return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c];
+    });
+  }
+
+  // Only plain http(s) links reach an href; anything else renders without a link.
+  function safeUrl(v) {
+    var s = safeText(v).trim();
+    if (!s) return "";
+    if (!/^https?:\/\//i.test(s)) s = "https://" + s;
+    return /^https?:\/\/[^\s"'<>]+$/i.test(s) ? s : "";
+  }
   
 // Mapbox built-in US state bounding boxes (approximate, fast, no API call)
   var STATE_BOUNDS = {
@@ -355,16 +371,14 @@ function zoomToStates(stateCodes) {
   var category = safeText(p["Category of Work"]);
   var networks = safeText(p["Network Membership"]);
 
-  var url = website
-    ? (website.indexOf("http") === 0 ? website : "https://" + website)
-    : "";
+  var url = escapeHtml(safeUrl(website));
 
 var titleLine = url
   ? '<a class="popup-org-link" href="' + url + '" target="_blank" rel="noopener noreferrer">' +
-      '<span class="popup-org-name-text">' + name + '</span>' +
+      '<span class="popup-org-name-text">' + escapeHtml(name) + '</span>' +
       '<span class="popup-org-link-icon" aria-hidden="true">↗</span>' +
     '</a>'
-  : '<div class="popup-org-name">' + name + '</div>';
+  : '<div class="popup-org-name">' + escapeHtml(name) + '</div>';
 
   // Build details content (only include sections that exist)
   var detailsContent = "";
@@ -373,7 +387,7 @@ if (mission) {
   detailsContent +=
     '<div class="popup-section popup-mission">' +
       '<strong>Mission</strong>' +
-      '<div class="popup-mission__text" data-collapsed="1">' + mission + '</div>' +
+      '<div class="popup-mission__text" data-collapsed="1">' + escapeHtml(mission) + '</div>' +
       '<button class="popup-mission__toggle" type="button" hidden>Expand</button>' +
     '</div>';
 }
@@ -384,14 +398,14 @@ if (contactEmail && contactEmail.indexOf("@") !== -1) {
   detailsContent +=
     '<div class="popup-section popup-contact">' +
       '<strong>Contact</strong>' +
-      '<a class="popup-contact__email" href="' + mailto + '">' + contactEmail + '</a>' +
+      '<a class="popup-contact__email" href="' + mailto + '">' + escapeHtml(contactEmail) + '</a>' +
     '</div>';
 }
 
   if (category) {
     detailsContent +=
       '<div class="popup-section">' +
-        '<strong>Category of Work</strong>' + category +
+        '<strong>Category of Work</strong>' + escapeHtml(category) +
       '</div>';
   }
 
@@ -404,17 +418,13 @@ if (networks) {
   if (netsArr.length) {
     var netsHtml = netsArr.map(function (n) {
       var meta = window.NETWORK_META && window.NETWORK_META[n];
-      var site = meta && meta.website ? String(meta.website).trim() : "";
+      var href = escapeHtml(safeUrl(meta && meta.website));
 
-      if (site) {
-        var href = (site.indexOf("http://") === 0 || site.indexOf("https://") === 0)
-          ? site
-          : ("https://" + site);
-
-        return '<a href="' + href + '" target="_blank" rel="noopener noreferrer">' + n + '</a>';
+      if (href) {
+        return '<a href="' + href + '" target="_blank" rel="noopener noreferrer">' + escapeHtml(n) + '</a>';
       }
 
-      return '<span>' + n + '</span>';
+      return '<span>' + escapeHtml(n) + '</span>';
     }).join(", ");
 
     detailsContent +=
@@ -435,7 +445,7 @@ if (networks) {
     '<div class="hde-popup">' +
       titleLine +
       '<div class="popup-org-meta">' +
-        [city, state].filter(Boolean).join(", ") +
+        escapeHtml([city, state].filter(Boolean).join(", ")) +
       '</div>' +
       detailsBlock +
     '</div>'
@@ -924,12 +934,12 @@ if (window.ORG_INDEX && Array.isArray(window.ORG_INDEX.records) && hasAnyFilterA
     
     return (
       '<div class="org-card" ' +
-        'data-key="' + key + '" ' +
+        'data-key="' + escapeHtml(key) + '" ' +
         'data-lng="' + f.geometry.coordinates[0] + '" ' +
         'data-lat="' + f.geometry.coordinates[1] + '">' +
-        '<div class="org-title">' + name + '</div>' +
-        (city || st ? '<div class="org-meta">' + [city, st].filter(Boolean).join(", ") + '</div>' : "") +
-        (cat ? '<div class="org-meta"><strong>Category:</strong> ' + cat + '</div>' : "") +
+        '<div class="org-title">' + escapeHtml(name) + '</div>' +
+        (city || st ? '<div class="org-meta">' + escapeHtml([city, st].filter(Boolean).join(", ")) + '</div>' : "") +
+        (cat ? '<div class="org-meta"><strong>Category:</strong> ' + escapeHtml(cat) + '</div>' : "") +
       '</div>'
     );
   }).join("");
@@ -1023,13 +1033,13 @@ function renderListFromIndexInView() {
 
     return (
       '<div class="org-card org-card--index" ' +
-        'data-key="' + key + '" ' +
-        'data-name="' + name + '" ' +
+        'data-key="' + escapeHtml(key) + '" ' +
+        'data-name="' + escapeHtml(name) + '" ' +
         'data-lat="' + (rec.latitude != null ? rec.latitude : "") + '" ' +
         'data-lng="' + (rec.longitude != null ? rec.longitude : "") + '">' +
-        '<div class="org-title">' + name + '</div>' +
-        (city || st ? '<div class="org-meta">' + [city, st].filter(Boolean).join(", ") + '</div>' : "") +
-        (cat ? '<div class="org-meta"><strong>Category:</strong> ' + cat + '</div>' : "") +
+        '<div class="org-title">' + escapeHtml(name) + '</div>' +
+        (city || st ? '<div class="org-meta">' + escapeHtml([city, st].filter(Boolean).join(", ")) + '</div>' : "") +
+        (cat ? '<div class="org-meta"><strong>Category:</strong> ' + escapeHtml(cat) + '</div>' : "") +
       '</div>'
     );
   }).join("");
@@ -1121,13 +1131,13 @@ function renderListFromIndex() {
 
     return (
       '<div class="org-card org-card--index" ' +
-        'data-key="' + key + '" ' +
-        'data-name="' + name + '" ' +
+        'data-key="' + escapeHtml(key) + '" ' +
+        'data-name="' + escapeHtml(name) + '" ' +
         'data-lat="' + (rec.latitude != null ? rec.latitude : "") + '" ' +
         'data-lng="' + (rec.longitude != null ? rec.longitude : "") + '">' +
-        '<div class="org-title">' + name + '</div>' +
-        (city || st ? '<div class="org-meta">' + [city, st].filter(Boolean).join(", ") + '</div>' : "") +
-        (cat ? '<div class="org-meta"><strong>Category:</strong> ' + cat + '</div>' : "") +
+        '<div class="org-title">' + escapeHtml(name) + '</div>' +
+        (city || st ? '<div class="org-meta">' + escapeHtml([city, st].filter(Boolean).join(", ")) + '</div>' : "") +
+        (cat ? '<div class="org-meta"><strong>Category:</strong> ' + escapeHtml(cat) + '</div>' : "") +
       '</div>'
     );
   }).join("");
@@ -1632,7 +1642,7 @@ function initCategoryHoverDescriptionsOnce() {
   function showAt(text, x, y) {
     if (!text) return hide();
 
-    wrap.innerHTML = `<div class="hde-network-desc__text">${text}</div>`;
+    wrap.innerHTML = `<div class="hde-network-desc__text">${escapeHtml(text)}</div>`;
     wrap.style.display = "block";
     wrap.style.left = (x + 14) + "px";
     wrap.style.top = (y + 14) + "px";
@@ -1800,7 +1810,7 @@ function renderButtonChips() {
         const dot = getCatColor(opt.value);
         item.innerHTML = `
           <span class="hde-cat-ui__dot" style="background:${dot}"></span>
-          <span>${opt.text}</span>
+          <span>${escapeHtml(opt.text)}</span>
           <span style="margin-left:auto;opacity:${opt.selected ? "1" : "0"}">✓</span>
         `;
 
@@ -1933,7 +1943,7 @@ function initStateUIOnce() {
       item.className = "hde-cat-ui__item";
       item.innerHTML =
         '<span style="display:inline-block;width:18px;">' + (selected.has(opt.value) ? "✓" : "") + '</span>' +
-        '<span>' + opt.value + '</span>';
+        '<span>' + escapeHtml(opt.value) + '</span>';
 
       item.addEventListener("click", function () {
         // toggle this value
@@ -2055,7 +2065,7 @@ if (maxChips === 0) {
     chip.setAttribute("aria-label", `Remove ${opt.text}`);
 
     chip.innerHTML = `
-      <span class="hde-chip__text" title="${opt.text}">${opt.text}</span>
+      <span class="hde-chip__text" title="${escapeHtml(opt.text)}">${escapeHtml(opt.text)}</span>
       <span class="hde-chip__x" aria-hidden="true">×</span>
     `;
     wrap.appendChild(chip);
@@ -2104,7 +2114,7 @@ item.dataset.value = opt.value; // ✅ THIS is the key
 item.setAttribute("aria-pressed", opt.selected ? "true" : "false");
 		  
 item.innerHTML = `
-  <span>${opt.text}</span>
+  <span>${escapeHtml(opt.text)}</span>
   <span class="hde-ms__check">✓</span>
 `;
 
@@ -2520,8 +2530,8 @@ function showAt(name, x, y) {
 
   box.innerHTML = `
     <div class="hde-network-desc__item">
-      <strong>${name}</strong>
-      <div class="hde-network-desc__text">${desc}</div>
+      <strong>${escapeHtml(name)}</strong>
+      <div class="hde-network-desc__text">${escapeHtml(desc)}</div>
     </div>
   `;
 
