@@ -1,5 +1,5 @@
 {
-  "total": 11200,
+  "total": 11202,
   "records": [
     {
       "name": "AmeriCorps State and National - Alianza Municipal de Servicios Integrados",
@@ -145103,6 +145103,30 @@
       "email": "mirby@unityalliancesi.org",
       "latitude": 42.597655,
       "longitude": -114.47793
+    },
+    {
+      "name": "Center for Democracy & Civic Empowerment",
+      "city": "Ann Arbor",
+      "state": "MI",
+      "category": "Civic Education & Leadership",
+      "mission": "In June 2024, the Year of Democracy, Civic Empowerment, and Global Engagement theme year was launched as a pillar of Vision 2034. As a university-wide effort, this initiative guided us through a year dedicated to programming, opportunities, and exploration that embodies the spirit of deep listening and learning—hallmarks of the U-M experience that are vital to active participation in a democratic society.\n\nWe know that democracy is inherently complex and sometimes messy. It involves navigating diverse perspectives and grappling with difficult conversations. Yet, it is precisely this complexity that made our commitment to this theme year both necessary and timely. The Year of Democracy reflected our dedication to leveraging Michigan’s expertise to inspire minds, shape futures, and spark meaningful dialogue as we confront the pressing national and global challenges of the 21st century.\n\nWhile the Year of Democracy theme year has concluded, democracy is constant endeavor and our commitment has not ended. Our team will continue our work embodying and uplifting the spirit of democracy as the Initiative for Democracy & Civic Empowerment through 2026.",
+      "website": "https://democracy.umich.edu/",
+      "networks": [],
+      "email": "MDemocracy@umich.edu",
+      "latitude": 42.272211,
+      "longitude": -83.740275
+    },
+    {
+      "name": "Center for American Dialogue",
+      "city": "Ann Arbor",
+      "state": "MI",
+      "category": "Connecting Across Differences",
+      "mission": "The Center for American Dialogue is a service-focused hub enabling students, faculty, staff and the public to directly challenge issues faced by society in an era dominated by polarization and eroding civic trust.",
+      "website": "https://dialoguecenter.umich.edu/",
+      "networks": [],
+      "email": "dialoguecenter@umich.edu",
+      "latitude": 42.2776,
+      "longitude": -83.73414
     }
   ]
 }
