@@ -1,5 +1,5 @@
 {
-  "total": 11202,
+  "total": 11198,
   "records": [
     {
       "name": "AmeriCorps State and National - Alianza Municipal de Servicios Integrados",
@@ -18316,18 +18316,6 @@
       "email": "olcv@olcv.org",
       "latitude": 33.3746375,
       "longitude": -104.5198073
-    },
-    {
-      "name": "Turning Point USA",
-      "city": "Phoenix",
-      "state": "AZ",
-      "category": null,
-      "mission": "Turning Point USA is a 501(c)3 non-profit organization founded in 2012 by Charlie Kirk. The organization’s mission is to identify, educate, train, and organize students to promote the principles of freedom, free markets, and limited government. Turning Point USA believes that every young person can be enlightened to true free market values.",
-      "website": "https://www.tpusa.com/",
-      "networks": [],
-      "email": null,
-      "latitude": 33.3750169,
-      "longitude": -111.9756252
     },
     {
       "name": "Promise Arizona",
@@ -72979,18 +72967,6 @@
       "longitude": -105.0008823
     },
     {
-      "name": "Community Resilience and Environmental Action Training and Education ",
-      "city": "Denver",
-      "state": "CO",
-      "category": null,
-      "mission": "Project Description: The CREATE program will activate the critical nexus of climate change, democracy, youth education, and rural communities by empowering young people to become catalysts for democratically-informed, sustainable change in their hometowns. Through a comprehensive approach that integrates teacher training, hyper-local educational content, experiential learning opportunities, and deep community engagement led by youth, the CREATE program seeks to cultivate a new generation of civically engaged leaders. By partnering with local schools, communities, industry leaders, and higher education institutions, the program will co-create tailored teacher workshops, facilitate community projects, and provide leadership development opportunities for young people, fostering a culture of innovation, collaboration, and resilience in rural areas. Through a multi-phase process, the CREATE program aims to inspire and support youth-led initiatives that contribute to the sustainable development of rural communities while fostering local collaboration and civic engagement capacity.\n\n",
-      "website": "https://civicsparkfellowship.org/2024-25-colorado-projects/entry/climate-democracy-initiative-create/",
-      "networks": [],
-      "email": "info@climatedemocracyinitiative.org",
-      "latitude": 39.7511817,
-      "longitude": -105.0011828
-    },
-    {
       "name": "Progressnow Colorado Education",
       "city": "Denver",
       "state": "CO",
@@ -80904,18 +80880,6 @@
       "email": null,
       "latitude": 40.2599864,
       "longitude": -74.7909125
-    },
-    {
-      "name": "10000 Friends of Pennsylvania",
-      "city": "Harrisburg",
-      "state": "PA",
-      "category": null,
-      "mission": "10,000 Friends of Pennsylvania is the statewide bipartisan advocate for responsible and efficient land use and partner for great places to live and work. We work with citizens, organizations, and public officials to create land use, infrastructure, development, and governance policies and projects that strengthen our economy, protect our resources, save money, and build healthy, vibrant, and resilient communities for all.",
-      "website": "http://10000friends.org/",
-      "networks": [],
-      "email": "sreidenbaugh@10000friends.org",
-      "latitude": 40.2627248,
-      "longitude": -76.8838975
     },
     {
       "name": "Commonwealth Foundation for Public Policy Alternatives",
@@ -102935,20 +102899,6 @@
       "email": "info@kiwanis.org",
       "latitude": 41.8796431,
       "longitude": -90.2620042
-    },
-    {
-      "name": "MacArthur Foundation",
-      "city": "Chicago",
-      "state": "IL",
-      "category": null,
-      "mission": "We are committed to building a more just, verdant, and peaceful world.\n\nThe world is more just when actions are inclusive, and fair, where past and present barriers are removed to provide equitable access, treatment, consideration, and opportunity.\n\nThe world is more verdant and abundant when the planet and its people flourish.\n\nThe world is more peaceful when people are free from fear, conflict, violence, and war.",
-      "website": "https://www.macfound.org/",
-      "networks": [
-        "CF Leads"
-      ],
-      "email": "4answers@macfound.org",
-      "latitude": 41.8797033,
-      "longitude": -87.6295612
     },
     {
       "name": "John D. and Catherine T. MacArthur Foundation",
