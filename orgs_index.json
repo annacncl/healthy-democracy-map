@@ -1,5 +1,5 @@
 {
-  "total": 11198,
+  "total": 11200,
   "records": [
     {
       "name": "AmeriCorps State and National - Alianza Municipal de Servicios Integrados",
@@ -989,7 +989,7 @@
       "state": "FL",
       "category": "Voter Engagement",
       "mission": "Goal is to help people 16 years old and up register to vote every year, all year long, at school, in after-school clubs, and at public events.",
-      "website": "https://bluewavecoalitionmiamidade.com/ ,  https://16plusvote.org/about/",
+      "website": "https://16plusvote.org/",
       "networks": [],
       "email": null,
       "latitude": 25.854146,
@@ -11962,18 +11962,6 @@
       "longitude": -80.0255449
     },
     {
-      "name": "Luz Y Vida Para La Familia (Luz Y Vida)",
-      "city": "Tucson",
-      "state": "AZ",
-      "category": "Faith-Based Efforts",
-      "mission": "Help out the community, by passing out Bibles, holding events for free for everyone and anyone, bringing people to Christ.",
-      "website": "Help out the community, passing out Bibles, and Food, holding events for everyone and anyone.",
-      "networks": [],
-      "email": "info@fmcusa.org",
-      "latitude": 32.177819,
-      "longitude": -110.972673
-    },
-    {
       "name": "League of Women Voters of Hilton Head Island/Bluffton Area",
       "city": "Hilton Head",
       "state": "SC",
@@ -12690,7 +12678,7 @@
       "state": "CA",
       "category": "Civic Media",
       "mission": "The Fulcrum is a platform where insiders and outsiders to politics are informed, meet, talk, and act to repair our democracy and make it live and work in our everyday lives.",
-      "website": "https://bridgealliance.us | https://thefulcrum.us/your-take-fox-news-defamation-case",
+      "website": "https://thefulcrum.us/",
       "networks": [
         "Bridge Alliance",
         "Citizen Connect",
@@ -29030,7 +29018,7 @@
       "state": "MS",
       "category": null,
       "mission": "The Chickasaw Inkana Foundation preserves, protects and interprets Chickasaw history and culture in the historic Chickasaw Homeland, which constitutes not only its heart of present day Tupelo, but greater northern Mississippi, western Tennessee, northwestern Alabama, and southwestern Kentucky.",
-      "website": "Chickasaw Inkana Foundation",
+      "website": "https://www.inkana.org/",
       "networks": [
         "Mississippi Alliance of Nonprofits and Philanthropy"
       ],
@@ -36511,7 +36499,7 @@
       "state": "OK",
       "category": "Service & Volunteerism",
       "mission": "CDSA works with others to identify needs, secure resources, and provide services that improve lives.",
-      "website": "Community Development Support Association Inc ",
+      "website": "https://cdsaok.org/",
       "networks": [],
       "email": "info@cdsaok.org",
       "latitude": 36.396247,
@@ -56629,7 +56617,7 @@
       "state": "DC",
       "category": "Service & Volunteerism",
       "mission": "For decades, we have worked to make service to others an indispensable part of the American experience. Through our nation’s most trying times, AmeriCorps has come together to help those in need.",
-      "website": "https://americorps.gov/ | https://www.grants.gov/learn-grants/grant-making-agencies/corporation-for-national-community-service.html",
+      "website": "https://americorps.gov/",
       "networks": [],
       "email": "questions@americorps.gov",
       "latitude": 38.8828972,
@@ -59622,7 +59610,7 @@
       "state": "DC",
       "category": "Voter Engagement",
       "mission": "We empower students with the information they need to register and vote.\nIn 2012, Fair Elections Center launched Campus Vote Project (CVP) to focus and expand its work around student voting issues.  \n\nSince then, Campus Vote Project has been working to normalize and institutionalize student voting by working directly with colleges and universities across the country.   \n\nThis includes the creation of the state student voter guides, answering questions specific to college students such as, “Will registering to vote with my campus address affect my driver’s license or car registration?”",
-      "website": "https://www.campusvoteproject.org | https://slsvcoalition.org",
+      "website": "https://www.campusvoteproject.org",
       "networks": [
         "FixUS",
         "SLSV"
@@ -61658,7 +61646,7 @@
       "state": "DC",
       "category": "Civic Research",
       "mission": "The Center for Strategic and International Studies (CSIS) is a bipartisan, nonprofit policy research organization dedicated to advancing practical ideas to address the world’s greatest challenges.",
-      "website": "Center for Strategic and International Studies",
+      "website": "https://www.csis.org/",
       "networks": [],
       "email": "press@niacouncil.org",
       "latitude": 38.9064936,
@@ -76792,18 +76780,6 @@
       "email": "nfo@cwsglobal.org",
       "latitude": 40.03834,
       "longitude": -76.2988203
-    },
-    {
-      "name": "Modern Action",
-      "city": "Pittsburgh",
-      "state": "PA",
-      "category": "Civic Technology",
-      "mission": "Modern Action is a Pittsburgh-based, nonpartisan 501(c)(3) civic technology nonprofit serving people across the United States. It connects public issues to federal legislation, helps people compare policy choices, shows sourced records of elected officials’ votes, bill sponsorships and reviewed public positions when available, and helps users prepare an editable message to their U.S. senators and House representative. Its focus is participation between elections: see what officials have done, decide what should happen next, contact the office with a specific request, and follow the outcomes. ",
-      "website": "https://modernaction.io/",
-      "networks": [],
-      "email": "colum@modernaction.io",
-      "latitude": 40.4406,
-      "longitude": -79.9959
     },
     {
       "name": "Center for Ethics and Human Values",
@@ -97481,7 +97457,7 @@
       "state": "OH",
       "category": "Civic Associations",
       "mission": "Neighborhood Leadership Institute exists to develop grassroots leaders who help rebuild the bonds of community and improve the quality of life for neighborhood residents throughout Greater Cleveland.\n\nGreater Cleveland's revitalization efforts require multiple types of capital: economic capital, physical capital, intellectual capital, and especially social capital and human capital. While development banks, housing and community development corporations, and university-based urban studies and public policy programs have been established to provide some types of the capital required to reinvigorate Greater Cleveland's neighborhoods, the development of the area's social and human capital has been more difficult to conceptualize and organize. The Neighborhood Leadership Institute is a response to this need.",
-      "website": "Neighborhood Leadership Institute",
+      "website": "https://www.neighborhoodleadership.org/",
       "networks": [],
       "email": null,
       "latitude": 41.4690829,
@@ -99979,7 +99955,7 @@
       "state": "MA",
       "category": null,
       "mission": "Source Hub is a 501(c)(3) non-profit organization created with the needs of the immigrant in mind. With the mission to educate and connect the public to information and resources in all areas of basic needs, empowering the independence and self-sufficiency of each.",
-      "website": "https://www.sourcehub.us/\tSource Hub is a 501(c)(3) non-profit organization created with the needs of the immigrant in mind. With the mission to educate and connect the public to information and resources in all areas of basic needs, empowering the independence and self-sufficiency of each.\t\tFall River\t02721",
+      "website": "https://www.sourcehub.us/",
       "networks": [
         "MIRA Coalition"
       ],
@@ -110253,7 +110229,7 @@
       "state": "MA",
       "category": null,
       "mission": "FamilyAid empowers parents and caregivers facing homelessness to secure and sustain housing and build strong foundations for their children’s futures.",
-      "website": "https://familyaidboston.org/\tFamilyAid empowers parents and caregivers facing homelessness to secure and sustain housing and build strong foundations for their children’s futures. https://gbls.org/\tOur mission is to provide free legal assistance to as many low-income families as possible to help them secure the most basic necessities of life. GBLS plays a unique role in the social service delivery system. It is the agency to which other providers refer clients when no one else can help and legal assistance is needed. http://www.greenrootschelsea.org/\t\"GreenRoots is a community-based organization dedicated to improving and enhancing the urban environment and public health in Chelsea and surrounding communities. We do so through deep community engagement and empowerment, youth leadership and implementation of innovative projects and campaigns. \"",
+      "website": "https://familyaidboston.org/",
       "networks": [
         "MIRA Coalition"
       ],
@@ -112729,7 +112705,7 @@
       "state": "MI",
       "category": null,
       "mission": "Petty Propolis is a Black women-led artist incubator, primarily focused on cultivating visionary resistance through poetry, literacy and literary workshops, anti-racism facilitation, and social justice initiatives. Our work advances visionary resistance towards a more livable, humane society, through organizing, art and education.",
-      "website": "Petty Propolis",
+      "website": "https://pettypropolis.org/",
       "networks": [
         "New Economy Coalition"
       ],
@@ -136725,7 +136701,7 @@
       "state": "MI",
       "category": "Connecting Across Differences",
       "mission": "Delta Chats’ mission is to bring representatives of non-profit/non-partisan groups together to learn information and skills that build common ground, foster connection, and encourage respectful exchanges of ideas. Through regular meetings, shared resources, and community outreach, we seek to work together to live better together.  Hosted by Bay College, Delta Chats serves the residents of Delta County encourages the promotion, coordination, and practice of inclusive, non-partisan listening/dialogue events and the distribution of related resources.\n",
-      "website": "https://www.deltachats.org/p/about.html",
+      "website": "deltachats.org",
       "networks": [
         "Listen First Coalition",
         "Citizen Connect"
@@ -144979,34 +144955,6 @@
       "longitude": -79.9231588
     },
     {
-      "name": "Civics Corps",
-      "city": "Escanaba",
-      "state": "MI",
-      "category": "Connecting Across Differences",
-      "mission": "The Civics Corps is specifically designed to help community college students develop job-ready civic skills tied to dialogue, personal empowerment, and mindset development.  The Civics Corps’ work combines methods from history and psychology and builds non-partisan skill sets through intergenerational service and conversations that promote effective understanding of differences.  In the fall semesters, the Civics Corps partners with the American Legion, American Merchant Marine Veterans, and Veterans for All Voters to host Veterans Speak, an intergenerational conversation between veterans.  The winter semester program focuses on Civic Diplomacy through a micro-credentialing program that helps students broaden their skill sets and adds to their resumes.",
-      "website": "https://wagingdialogue.org/products/",
-      "networks": [
-        "Listen First Coalition"
-      ],
-      "email": "matt@wagingdialogue.org",
-      "latitude": 45.7718682,
-      "longitude": -87.0845911
-    },
-    {
-      "name": "Delta Chats",
-      "city": "Escanaba",
-      "state": "MI",
-      "category": "Connecting Across Differences",
-      "mission": "Delta Chats’ mission is to bring representatives of non-profit/non-partisan groups together to learn information and skills that build common ground, foster connection, and encourage respectful exchanges of ideas. Through regular meetings, shared resources, and community outreach, we seek to work together to live better together.\nHosted by Bay College, Delta Chats serves the residents of Delta County encourages the promotion, coordination, and practice of inclusive, non-partisan listening/dialogue events and the distribution of related resources.",
-      "website": "deltachats.org",
-      "networks": [
-        "Listen First Coalition"
-      ],
-      "email": "kleesj@baycollege.edu",
-      "latitude": 45.7718682,
-      "longitude": -87.0845911
-    },
-    {
       "name": "Charitable Foundation of the Islands  (CFI) (CFI)",
       "city": "Sanibel",
       "state": "FL",
@@ -145038,7 +144986,7 @@
       "mission": "The mission of The Cooperage Project is to invite people of all ages to embrace diversity and shared experiences to create a deeper sense of community. Since 2012, we have served our rural community through programming in the areas of Youth, Seniors, Food + Markets, and Arts + Culture. From monthly acoustic bluegrass jams and the winter farmers market to film screenings, performances, and community conversations; from after school clubs for middle schoolers to biweekly Senior Gatherings; from drag bingo to DIY workshops, we seek to educate, enlighten, entertain, and ultimately weave our community together. ",
       "website": "thecooperageproject.org",
       "networks": [],
-      "email": "Amanda Masters",
+      "email": "amanda@thecooperageproject.org",
       "latitude": 41.576047,
       "longitude": -75.257694
     },
@@ -145077,6 +145025,78 @@
       "email": "dialoguecenter@umich.edu",
       "latitude": 42.2776,
       "longitude": -83.73414
+    },
+    {
+      "name": "The Center for Free, Fair and Accountable Democracy",
+      "city": "Arlington",
+      "state": "VA",
+      "category": "Civic Education & Leadership",
+      "mission": "Our republic and its promises of accountability, freedom, justice, and equality under the law are at risk.\n\nToo many Americans come out of the U.S. school system neither understanding nor trusting how our system of government can work to their benefit.\n\nInstead of insisting on a free and fair competition of ideas, and instead of insisting on accountability, too many look the other way when their politicians use polarizing fear-mongering or bend the rules to win.  \n\nScores for the quality of US democracy have slipped several times since 2011, and the corruption rating slipped in 2019, for the first time ever.\n\nIn response, we provide materials for civic education, ages 18 and up that are:​​ Relevant, Nonpartisan, Practical and Competent.",
+      "website": "https://cffad.org/",
+      "networks": [],
+      "email": "team@cffad.org",
+      "latitude": 38.88371,
+      "longitude": -77.11805
+    },
+    {
+      "name": "Unity Alliance of Southern Idaho (UASI)",
+      "city": "Twin Falls",
+      "state": "ID",
+      "category": "Connecting Across Differences",
+      "mission": "Unity Alliance of Southern Idaho supports understanding of how all immigrants contribute to our region’s economy, way of life, and values. The board and staff act in ways that bring people together to support immigrants. Through leadership, advocacy, and educational programs, we aim to create a regional identity based on unity, diversity, and mutual respect.",
+      "website": "https://unityalliancesi.org/",
+      "networks": [],
+      "email": "mirby@unityalliancesi.org",
+      "latitude": 42.597655,
+      "longitude": -114.47793
+    },
+    {
+      "name": "A Healthier Democracy dba Vot-ER",
+      "city": "Boston",
+      "state": "MA",
+      "category": "Voter Engagement",
+      "mission": "Vot-ER is a national, nonpartisan, nonprofit that integrates civic engagement into healthcare so patients can make their voices heard in the decisions that shape their health and communities. Founded in 2019 by an emergency physician, Vot-ER equips healthcare professionals, institutions, and students with simple, nonpartisan tools to make civic participation a routine part of healthcare. By empowering healthcare professionals as trusted messengers and meeting patients where they already receive care, Vot-ER reaches voters often missed by traditional civic engagement efforts and helps build healthier communities through a more inclusive democracy.",
+      "website": "https://vot-er.org/",
+      "networks": [],
+      "email": "emily.polak@vot-er.org",
+      "latitude": 42.3506279,
+      "longitude": -71.06154632
+    },
+    {
+      "name": "Danger Boat Productions",
+      "city": "Minneapolis",
+      "state": "MN",
+      "category": "Connecting Across Differences",
+      "mission": "Our mission is to engage, educate and entertain audiences about complex topics and issues, while also building more connected and creative communities and individuals.",
+      "website": "www.dangerboat.net",
+      "networks": [],
+      "email": "brandon@dangerboat.net",
+      "latitude": 44.95334625,
+      "longitude": -93.28807068
+    },
+    {
+      "name": "With Love - Minnesota (With Love)",
+      "city": "St. Paul",
+      "state": "MN",
+      "category": "Connecting Across Differences",
+      "mission": "With Love is a nonpartisan civic gathering space in downtown St. Paul, Minnesota, where people and ideas meet to shape a stronger, more connected democracy. Grounded in care and belonging, our 11,000-square-foot space combines a café, meeting and event space, and signature programming, all built to bring people together across difference. It’s a place to gather, create, learn, and take action: where we move forward together.",
+      "website": "mnwithlove.org",
+      "networks": [],
+      "email": "info@mnwithlove.org",
+      "latitude": 44.9487266,
+      "longitude": -93.0937442
+    },
+    {
+      "name": "UC Berkeley Possibility Lab",
+      "city": "Berkeley",
+      "state": "CA",
+      "category": "Deliberative/Participatory/Direct Democracy",
+      "mission": "The Possibility Lab bridges the gap between government and community for policy impact. Our team  of researchers and practitioners works with state and local  partners to design, pilot, and scale new models of community participation for public-sector problem solving.",
+      "website": "possibilitylab.berkeley.edu",
+      "networks": [],
+      "email": "alerman@berkeley.edu",
+      "latitude": 37.8770867,
+      "longitude": -122.2613809
     }
   ]
 }
