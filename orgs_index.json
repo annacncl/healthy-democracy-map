@@ -1,5 +1,5 @@
 {
-  "total": 11200,
+  "total": 11206,
   "records": [
     {
       "name": "AmeriCorps State and National - Alianza Municipal de Servicios Integrados",
@@ -145097,6 +145097,78 @@
       "email": "alerman@berkeley.edu",
       "latitude": 37.8770867,
       "longitude": -122.2613809
+    },
+    {
+      "name": "Bram Public Policy Lab",
+      "city": "Waterville",
+      "state": "ME",
+      "category": "Civic Research",
+      "mission": "Established in 2024 through a generous gift to the College, Colby’s Bram Public Policy Lab connects students to the people, places, and institutions where public policy takes shape. Through research, internships, and applied courses, students work alongside public officials, nonprofit leaders, and community partners on real problems facing communities.",
+      "website": "https://www.colby.edu/people/offices-directory/bram-public-policy-lab/",
+      "networks": [],
+      "email": "nicholas.jacobs@colby.edu",
+      "latitude": 44.56387,
+      "longitude": -69.66264
+    },
+    {
+      "name": "Freeport Forward",
+      "city": "Freeport",
+      "state": "ME",
+      "category": "Organizing & Advocacy",
+      "mission": "Freeport Forward is a grassroots, volunteer-led community organization that seeks to inform, inspire, and unite people to take action for the common good of all Freeport residents. We also hold community-building opportunities. We are not affiliated with any local or national organization.",
+      "website": "https://www.freeportforward.org/",
+      "networks": [],
+      "email": "progressivefreeport@gmail.com",
+      "latitude": 43.857,
+      "longitude": -70.1031
+    },
+    {
+      "name": "Frances Perkins Center",
+      "city": "Newcastle",
+      "state": "ME",
+      "category": "Civic Education & Leadership",
+      "mission": "Established in 2009, the Frances Perkins Center is a nonprofit organization dedicated to preserving and upholding the legacy of Frances Perkins, the woman behind the New Deal.\n\nLocated at the Frances Perkins National Monument, The Frances Perkins Center is a nonprofit organization that inspires current and future generations to understand and uphold the government’s role in providing social justice and economic security for all. Our work is guided by Frances Perkins’ effective leadership style and one woman’s power to change the world.",
+      "website": "https://francesperkinscenter.org/",
+      "networks": [],
+      "email": "ecrane@francesperkinscenter.org",
+      "latitude": 44.0112,
+      "longitude": -69.5537
+    },
+    {
+      "name": "Maine Justice Foundation",
+      "city": "Augusta",
+      "state": "ME",
+      "category": "Funder",
+      "mission": "The mission of the Maine Justice Foundation is to sustain, promote, and partner with legal aid providers and social justice organizations to inspire and support fairness and justice in Maine.\n\nWe believe that access to justice is a basic human right, one that should be extended to all people. We provide funding to programs around the state that help those most in need of legal aid—the most needy of Maine residents. Because fairness matters...",
+      "website": "https://justicemaine.org/",
+      "networks": [],
+      "email": "info@justicemaine.org",
+      "latitude": 44.313424,
+      "longitude": -69.77844
+    },
+    {
+      "name": "Maine Education Initiative",
+      "city": "Yarmouth",
+      "state": "ME",
+      "category": "Responsive Governance",
+      "mission": "The Maine Education Initiative, a project of Maine Policy Institute, works to restore public trust and academic excellence in Maine public schools by empowering parental involvement in K-12 education and encouraging school boards to adopt our model policies to increase transparency, fiscal responsibility, and accountability at the local level.  ",
+      "website": "https://fixmaineschools.com/",
+      "networks": [],
+      "email": "heidi@mainepolicy.org",
+      "latitude": 43.8061,
+      "longitude": -70.186
+    },
+    {
+      "name": "The Can We? Project",
+      "city": "Portland",
+      "state": "ME",
+      "category": "Connecting Across Differences",
+      "mission": "The Can We? Project envisions generations of young adults entering the world equipped with the skills to engage in constructive dialogue on the most pressing issues of the day.",
+      "website": "https://canweproject.org/",
+      "networks": [],
+      "email": "jcasey@waynflete.org",
+      "latitude": 43.6461938,
+      "longitude": -70.2694734
     }
   ]
 }
